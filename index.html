@@ -15,24 +15,22 @@
         <div id="source_number"></div>
         <div id="source_issn"></div>
 
-        <div id="test_tree">
-            <ul>
-                <li>Root node 1</li>
-                <li>Root node 2
-                <ul>
-                    <li>Root node 3</li>
-                    <li>Root node 4</li>
-                </ul>
-                    </li>
-            </ul>
-        </div>
+        <div id="test_tree"></div>
 
 
     <script>
-            jQuery(function($){
+            var data = [
+                { "id" : "root", "parent" : "#", "text" : "Izdevums" }]
+
+        jQuery(function($){
                 $('#test_tree').jstree({
+                    "core": {
+                        "data": data
+                    },
                     "plugins" : ["checkbox"]});
             })
+
+            var tree_html = ""
 
             $.ajax({
                 type: "GET",
@@ -41,6 +39,9 @@
 	            success: function(xml) {
                     $(xml).find("mods\\:identifier").each(function(){
                         document.getElementById("source_issn").innerHTML = "ISSN: " + $(this).text()
+                        })
+                    $(xml).find("mods\\:dateIssued").each(function(){
+                        document.getElementById("source_date").innerHTML = "Datums: " + $(this).text()
                         })
                     $(xml).find("mods\\:partNumber").each(function(){
                         if ($(this).parent().attr("type") == "issue")
@@ -51,13 +52,26 @@
                     $(xml).find("mods\\:title").each(function(){
                         if ($(this).parent().parent().attr("type") == "host")
                             document.getElementById("source_title").innerHTML = "Avots: " + $(this).text()
+                        })
 
 
                     //////////////////////
                     /// BUILD THE TREE ///
                     //////////////////////
 
-                    })
+
+                    $(xml).find("mets\\:div").each(function(){
+                        if ($(this).get(0).hasAttribute("DMDID")) {
+                            if ($(this).attr("DMDID").substr(0,11) == "modssection"){
+                                //alert($(this).attr("DMDID"))
+                                //alert($(this).attr("LABEL"))
+                                $('#test_tree').jstree().create_node('root', {"id": "abc", "text":"def"}, "last")
+                                }
+                            }
+                        }
+                    )
+                    $('#test_tree').jstree().redraw()
+
 
                 } //end of success
             })

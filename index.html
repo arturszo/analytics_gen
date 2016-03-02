@@ -1,0 +1,66 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+
+        <link rel="stylesheet" href="themes/default/style.min.css" />
+
+        <script src="https://code.jquery.com/jquery-1.12.1.min.js"></script>
+        <script src="jstree.min.js"></script>
+    </head>
+
+    <body>
+        <div id="source_title"></div>
+        <div id="source_date"></div>
+        <div id="source_pages"></div>
+        <div id="source_number"></div>
+        <div id="source_issn"></div>
+
+        <div id="test_tree">
+            <ul>
+                <li>Root node 1</li>
+                <li>Root node 2
+                <ul>
+                    <li>Root node 3</li>
+                    <li>Root node 4</li>
+                </ul>
+                    </li>
+            </ul>
+        </div>
+
+
+    <script>
+            jQuery(function($){
+                $('#test_tree').jstree({
+                    "plugins" : ["checkbox"]});
+            })
+
+            $.ajax({
+                type: "GET",
+	            url: "data/diea2016n042_mets.xml",
+	            dataType: "xml",
+	            success: function(xml) {
+                    $(xml).find("mods\\:identifier").each(function(){
+                        document.getElementById("source_issn").innerHTML = "ISSN: " + $(this).text()
+                        })
+                    $(xml).find("mods\\:partNumber").each(function(){
+                        if ($(this).parent().attr("type") == "issue")
+                            document.getElementById("source_number").innerHTML = "Nr: " + $(this).text()
+                        if ($(this).parent().attr("type") == "pages")
+                            document.getElementById("source_pages").innerHTML = "Lpp: " + $(this).text()
+                        })
+                    $(xml).find("mods\\:title").each(function(){
+                        if ($(this).parent().parent().attr("type") == "host")
+                            document.getElementById("source_title").innerHTML = "Avots: " + $(this).text()
+
+
+                    //////////////////////
+                    /// BUILD THE TREE ///
+                    //////////////////////
+
+                    })
+
+                } //end of success
+            })
+    </script>
+    </body>
+</html>

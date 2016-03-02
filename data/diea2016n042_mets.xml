@@ -1,0 +1,4594 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mets:mets xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mets="http://www.loc.gov/METS/" xsi:schemaLocation="http://www.loc.gov/METS/ http://www.loc.gov/standards/mets/mets.xsd" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:mix="http://www.loc.gov/mix/" xmlns:xlink="http://www.w3.org/1999/xlink" TYPE="Newspaper" LABEL="Diena no. 42 01032016">
+	<mets:metsHdr CREATEDATE="2016-03-01T17:13:11" LASTMODDATE="2016-03-01T17:13:11">
+		<mets:agent ROLE="CREATOR" TYPE="OTHER" OTHERTYPE="SOFTWARE">
+			<mets:name>CCS docWorks/METAe Version 6.8-1</mets:name>
+			<mets:note>docWorks-ID: 4787</mets:note>
+		</mets:agent>
+	</mets:metsHdr>
+	<mets:dmdSec ID="modsissue">
+		<mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS" LABEL="Bibliographic meta-data of Issue">
+			<mets:xmlData>
+				<mods:mods>
+					<mods:recordInfo>
+						<mods:recordContentSource>organisation LETA</mods:recordContentSource>
+					</mods:recordInfo>
+					<mods:recordInfo>
+						<mods:recordCreationDate encoding="iso8601">20160301</mods:recordCreationDate>
+					</mods:recordInfo>
+					<mods:recordInfo>
+						<mods:recordOrigin>docWorks 6.8.1.24</mods:recordOrigin>
+					</mods:recordInfo>
+					<mods:accessCondition>copyrighted</mods:accessCondition>
+					<mods:genre>newspaper</mods:genre>
+					<mods:language>
+						<mods:languageTerm type="code" authority="iso639-3">lav</mods:languageTerm>
+					</mods:language>
+					<mods:originInfo>
+						<mods:dateIssued encoding="iso8601">20160301</mods:dateIssued>
+					</mods:originInfo>
+					<mods:relatedItem type="host">
+						<mods:titleInfo>
+							<mods:title>Diena</mods:title>
+						</mods:titleInfo>
+					</mods:relatedItem>
+					<mods:identifier type="issn">1407-1290</mods:identifier>
+					<mods:part>
+						<mods:detail type="volume">
+							<mods:partNumber></mods:partNumber>
+						</mods:detail>
+						<mods:detail type="issue">
+							<mods:partNumber>42</mods:partNumber>
+						</mods:detail>
+						<mods:detail type="pages">
+							<mods:partNumber>12</mods:partNumber>
+						</mods:detail>
+					</mods:part>
+				</mods:mods>
+			</mets:xmlData>
+		</mets:mdWrap>
+	</mets:dmdSec>
+	<mets:dmdSec ID="modssection1">
+		<mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS" LABEL="Bibliographic meta-data of section 0">
+			<mets:xmlData>
+				<mods:mods>
+					<mods:accessCondition>copyrighted</mods:accessCondition>
+					<mods:titleInfo>
+						<mods:title>komentāri</mods:title>
+					</mods:titleInfo>
+					<mods:language>
+						<mods:languageTerm type="code" authority="iso639-3">lav</mods:languageTerm>
+					</mods:language>
+				</mods:mods>
+			</mets:xmlData>
+		</mets:mdWrap>
+	</mets:dmdSec>
+	<mets:dmdSec ID="modsarticle1">
+		<mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS" LABEL="Bibliographic meta-data of article 1">
+			<mets:xmlData>
+				<mods:mods>
+					<mods:accessCondition>copyrighted</mods:accessCondition>
+					<mods:titleInfo>
+						<mods:title>Viņi joprojām nesaprot</mods:title>
+					</mods:titleInfo>
+					<mods:name>
+						<mods:namePart>Māris Zanders</mods:namePart>
+					</mods:name>
+					<mods:language>
+						<mods:languageTerm type="code" authority="iso639-3">lav</mods:languageTerm>
+					</mods:language>
+				</mods:mods>
+			</mets:xmlData>
+		</mets:mdWrap>
+	</mets:dmdSec>
+	<mets:dmdSec ID="modspict1">
+		<mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS" LABEL="Bibliographic meta-data of picture">
+			<mets:xmlData>
+				<mods:mods>
+					<mods:accessCondition>copyrighted</mods:accessCondition>
+					<mods:titleInfo>
+						<mods:title>Māris Zanders</mods:title>
+					</mods:titleInfo>
+				</mods:mods>
+			</mets:xmlData>
+		</mets:mdWrap>
+	</mets:dmdSec>
+	<mets:dmdSec ID="modsarticle2">
+		<mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS" LABEL="Bibliographic meta-data of article 1">
+			<mets:xmlData>
+				<mods:mods>
+					<mods:accessCondition>copyrighted</mods:accessCondition>
+					<mods:titleInfo>
+						<mods:title>Karikatūra</mods:title>
+					</mods:titleInfo>
+					<mods:language>
+						<mods:languageTerm type="code" authority="iso639-3">lav</mods:languageTerm>
+					</mods:language>
+				</mods:mods>
+			</mets:xmlData>
+		</mets:mdWrap>
+	</mets:dmdSec>
+	<mets:dmdSec ID="modspict2">
+		<mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS" LABEL="Bibliographic meta-data of picture">
+			<mets:xmlData>
+				<mods:mods>
+					<mods:accessCondition>copyrighted</mods:accessCondition>
+					<mods:titleInfo>
+						<mods:title>▲ PĒC daudzām neveiksmīgām nominācijam savu pirmo Amerikas Kinoakadēmijas Oskaru «nomedījis» Leonardo di Kaprio par galveno lomu filmā Cilvēks, kurš izdzīvoja. ZEMGUS ZAHARĀNA ZĪMĒJUMS</mods:title>
+					</mods:titleInfo>
+				</mods:mods>
+			</mets:xmlData>
+		</mets:mdWrap>
+	</mets:dmdSec>
+	<mets:dmdSec ID="modsarticle3">
+		<mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS" LABEL="Bibliographic meta-data of article 1">
+			<mets:xmlData>
+				<mods:mods>
+					<mods:accessCondition>copyrighted</mods:accessCondition>
+					<mods:titleInfo>
+						<mods:title>Algu izraisītās pārdomas</mods:title>
+					</mods:titleInfo>
+					<mods:language>
+						<mods:languageTerm type="code" authority="iso639-3">lav</mods:languageTerm>
+					</mods:language>
+				</mods:mods>
+			</mets:xmlData>
+		</mets:mdWrap>
+	</mets:dmdSec>
+	<mets:dmdSec ID="modspict3">
+		<mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS" LABEL="Bibliographic meta-data of picture">
+			<mets:xmlData>
+				<mods:mods>
+					<mods:accessCondition>copyrighted</mods:accessCondition>
+					<mods:titleInfo>
+						<mods:title>Aktuālā statistika</mods:title>
+					</mods:titleInfo>
+				</mods:mods>
+			</mets:xmlData>
+		</mets:mdWrap>
+	</mets:dmdSec>
+	<mets:dmdSec ID="modssection2">
+		<mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS" LABEL="Bibliographic meta-data of section 0">
+			<mets:xmlData>
+				<mods:mods>
+					<mods:accessCondition>copyrighted</mods:accessCondition>
+					<mods:titleInfo>
+						<mods:title>ekspresintervija</mods:title>
+					</mods:titleInfo>
+					<mods:language>
+						<mods:languageTerm type="code" authority="iso639-3">lav</mods:languageTerm>
+					</mods:language>
+				</mods:mods>
+			</mets:xmlData>
+		</mets:mdWrap>
+	</mets:dmdSec>
+	<mets:dmdSec ID="modsarticle4">
+		<mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS" LABEL="Bibliographic meta-data of article 1">
+			<mets:xmlData>
+				<mods:mods>
+					<mods:accessCondition>copyrighted</mods:accessCondition>
+					<mods:titleInfo>
+						<mods:title>Dilemma starp dzīvību un dalību tiesā</mods:title>
+					</mods:titleInfo>
+					<mods:name>
+						<mods:namePart>Jeļena Kvjatkovska</mods:namePart>
+					</mods:name>
+					<mods:name>
+						<mods:namePart>Romāns Meļņiks</mods:namePart>
+					</mods:name>
+					<mods:language>
+						<mods:languageTerm type="code" authority="iso639-3">lav</mods:languageTerm>
+					</mods:language>
+				</mods:mods>
+			</mets:xmlData>
+		</mets:mdWrap>
+	</mets:dmdSec>
+	<mets:dmdSec ID="modspict4">
+		<mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS" LABEL="Bibliographic meta-data of picture">
+			<mets:xmlData>
+				<mods:mods>
+					<mods:accessCondition>copyrighted</mods:accessCondition>
+					<mods:titleInfo>
+						<mods:title>▲ JEĻENA KVJATKOVSKA: aiz visas šīs procesuālās situācijas, šķiet, esam aizmirsuši vienu ļoti nopietnu faktoru – nevainīguma prezumpciju. Kamēr notiesājošais spriedums nav stājies likumīgā spēkā, tikmēr cilvēks uzskatāms par nevainīgu. FOTO – NO PERSONĪGĀ ARHĪVA</mods:title>
+					</mods:titleInfo>
+				</mods:mods>
+			</mets:xmlData>
+		</mets:mdWrap>
+	</mets:dmdSec>
+	<mets:dmdSec ID="modssection3">
+		<mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS" LABEL="Bibliographic meta-data of section 0">
+			<mets:xmlData>
+				<mods:mods>
+					<mods:accessCondition>copyrighted</mods:accessCondition>
+					<mods:titleInfo>
+						<mods:title>ziņas</mods:title>
+					</mods:titleInfo>
+					<mods:language>
+						<mods:languageTerm type="code" authority="iso639-3">lav</mods:languageTerm>
+					</mods:language>
+				</mods:mods>
+			</mets:xmlData>
+		</mets:mdWrap>
+	</mets:dmdSec>
+	<mets:dmdSec ID="modsarticle5">
+		<mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS" LABEL="Bibliographic meta-data of article 1">
+			<mets:xmlData>
+				<mods:mods>
+					<mods:accessCondition>copyrighted</mods:accessCondition>
+					<mods:titleInfo>
+						<mods:title>Kad kaimiņš sen jau ir mūmija</mods:title>
+					</mods:titleInfo>
+					<mods:name>
+						<mods:namePart>Inese Liepiņa</mods:namePart>
+					</mods:name>
+					<mods:language>
+						<mods:languageTerm type="code" authority="iso639-3">lav</mods:languageTerm>
+					</mods:language>
+				</mods:mods>
+			</mets:xmlData>
+		</mets:mdWrap>
+	</mets:dmdSec>
+	<mets:dmdSec ID="modspict5">
+		<mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS" LABEL="Bibliographic meta-data of picture">
+			<mets:xmlData>
+				<mods:mods>
+					<mods:accessCondition>copyrighted</mods:accessCondition>
+					<mods:titleInfo>
+						<mods:title>▲ JAUTĀJUMS par to, cik daudz jau sen aizmirstu cilvēku mirstīgo atlieku atrodas Latvijas daudzdzīvokļu namos, ir neatbildams. Sociālie dienesti neapseko visus invalīdus, vientuļos, vecos vai sen aizmirstos. Labklājības ministrija teic, ka situācija jālabo, kad to darīs, nav zināms. FOTO – LETA</mods:title>
+					</mods:titleInfo>
+				</mods:mods>
+			</mets:xmlData>
+		</mets:mdWrap>
+	</mets:dmdSec>
+	<mets:dmdSec ID="modspict6">
+		<mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS" LABEL="Bibliographic meta-data of picture">
+			<mets:xmlData>
+				<mods:mods>
+					<mods:accessCondition>copyrighted</mods:accessCondition>
+					<mods:titleInfo>
+						<mods:title>Inese Liepiņa</mods:title>
+					</mods:titleInfo>
+				</mods:mods>
+			</mets:xmlData>
+		</mets:mdWrap>
+	</mets:dmdSec>
+	<mets:dmdSec ID="modsarticle6">
+		<mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS" LABEL="Bibliographic meta-data of article 1">
+			<mets:xmlData>
+				<mods:mods>
+					<mods:accessCondition>copyrighted</mods:accessCondition>
+					<mods:titleInfo>
+						<mods:title>Latvijas vēstnieks ANO diskutēs par Ukrainu un Sīriju</mods:title>
+					</mods:titleInfo>
+					<mods:language>
+						<mods:languageTerm type="code" authority="iso639-3">lav</mods:languageTerm>
+					</mods:language>
+				</mods:mods>
+			</mets:xmlData>
+		</mets:mdWrap>
+	</mets:dmdSec>
+	<mets:dmdSec ID="modsarticle7">
+		<mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS" LABEL="Bibliographic meta-data of article 1">
+			<mets:xmlData>
+				<mods:mods>
+					<mods:accessCondition>copyrighted</mods:accessCondition>
+					<mods:titleInfo>
+						<mods:title>Skolotāji vairs negaida, bet iet citu ceļu</mods:title>
+					</mods:titleInfo>
+					<mods:name>
+						<mods:namePart>Anna Strapcāne</mods:namePart>
+					</mods:name>
+					<mods:language>
+						<mods:languageTerm type="code" authority="iso639-3">lav</mods:languageTerm>
+					</mods:language>
+				</mods:mods>
+			</mets:xmlData>
+		</mets:mdWrap>
+	</mets:dmdSec>
+	<mets:dmdSec ID="modspict7">
+		<mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS" LABEL="Bibliographic meta-data of picture">
+			<mets:xmlData>
+				<mods:mods>
+					<mods:accessCondition>copyrighted</mods:accessCondition>
+					<mods:titleInfo>
+						<mods:title>▲ PAŠU pedagogu piedāvātajā atalgojuma modelī uzsvērts vienlīdzības princips. Ja skolotājs strādātu pilnas 40 stundas nedēļā, tad saņemtu 1150 eiro pirms nodokļu nomaksas neatkarīgi no tā, cik lielā skolā strādā. Tomēr, visticamāk, mazā lauku skolā pedagogam pilnu slodzi būtu grūti nodrošināt. FOTO – AIVARS LIEPIŅŠ, DIENAS MEDIJI</mods:title>
+					</mods:titleInfo>
+				</mods:mods>
+			</mets:xmlData>
+		</mets:mdWrap>
+	</mets:dmdSec>
+	<mets:dmdSec ID="modspict8">
+		<mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS" LABEL="Bibliographic meta-data of picture">
+			<mets:xmlData>
+				<mods:mods>
+					<mods:accessCondition>copyrighted</mods:accessCondition>
+					<mods:titleInfo>
+						<mods:title>▲ DIVOS gados Izglītības un zinātnes ministrijai netiekot galā ar pedagogu darba samaksas modeli, alternatīvu variantu izstrādājis Ikšķiles vidusskolas direktors Česlavs Batņa. Tas vairāk balstās uz vienlīdzības principu un, pēc paša direktora teiktā, vairāk atbilst reālajai situācijai skolās. FOTO – KRISTAPS KALNS, DIENAS MEDIJI</mods:title>
+					</mods:titleInfo>
+				</mods:mods>
+			</mets:xmlData>
+		</mets:mdWrap>
+	</mets:dmdSec>
+	<mets:dmdSec ID="modspict9">
+		<mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS" LABEL="Bibliographic meta-data of picture">
+			<mets:xmlData>
+				<mods:mods>
+					<mods:accessCondition>copyrighted</mods:accessCondition>
+					<mods:titleInfo>
+						<mods:title>Anna Strapcāne</mods:title>
+					</mods:titleInfo>
+				</mods:mods>
+			</mets:xmlData>
+		</mets:mdWrap>
+	</mets:dmdSec>
+	<mets:dmdSec ID="modsarticle8">
+		<mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS" LABEL="Bibliographic meta-data of article 1">
+			<mets:xmlData>
+				<mods:mods>
+					<mods:accessCondition>copyrighted</mods:accessCondition>
+					<mods:titleInfo>
+						<mods:title>Sūdzas par nekorektu rīcību</mods:title>
+					</mods:titleInfo>
+					<mods:name>
+						<mods:namePart>Atis Rozentāls</mods:namePart>
+					</mods:name>
+					<mods:language>
+						<mods:languageTerm type="code" authority="iso639-3">lav</mods:languageTerm>
+					</mods:language>
+				</mods:mods>
+			</mets:xmlData>
+		</mets:mdWrap>
+	</mets:dmdSec>
+	<mets:dmdSec ID="modspict10">
+		<mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS" LABEL="Bibliographic meta-data of picture">
+			<mets:xmlData>
+				<mods:mods>
+					<mods:accessCondition>copyrighted</mods:accessCondition>
+					<mods:titleInfo>
+						<mods:title>▲ OBOJISTS Egils Upatnieks nepiedalīsies Lielās mūzikas balvas ceremonijā, protestējot pret Latvijas koncertu rīcību, mēģinot atcelt kvinteta Clarion koncertu. PUBLICITĀTES FOTO</mods:title>
+					</mods:titleInfo>
+				</mods:mods>
+			</mets:xmlData>
+		</mets:mdWrap>
+	</mets:dmdSec>
+	<mets:dmdSec ID="modssection4">
+		<mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS" LABEL="Bibliographic meta-data of section 0">
+			<mets:xmlData>
+				<mods:mods>
+					<mods:accessCondition>copyrighted</mods:accessCondition>
+					<mods:titleInfo>
+						<mods:title>ekonomika</mods:title>
+					</mods:titleInfo>
+					<mods:language>
+						<mods:languageTerm type="code" authority="iso639-3">lav</mods:languageTerm>
+					</mods:language>
+				</mods:mods>
+			</mets:xmlData>
+		</mets:mdWrap>
+	</mets:dmdSec>
+	<mets:dmdSec ID="modsarticle9">
+		<mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS" LABEL="Bibliographic meta-data of article 1">
+			<mets:xmlData>
+				<mods:mods>
+					<mods:accessCondition>copyrighted</mods:accessCondition>
+					<mods:titleInfo>
+						<mods:title>ekonomikas īsziņas</mods:title>
+					</mods:titleInfo>
+					<mods:language>
+						<mods:languageTerm type="code" authority="iso639-3">lav</mods:languageTerm>
+					</mods:language>
+				</mods:mods>
+			</mets:xmlData>
+		</mets:mdWrap>
+	</mets:dmdSec>
+	<mets:dmdSec ID="modspict11">
+		<mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS" LABEL="Bibliographic meta-data of picture">
+			<mets:xmlData>
+				<mods:mods>
+					<mods:accessCondition>copyrighted</mods:accessCondition>
+					<mods:titleInfo>
+						<mods:title>Gints Belēvičs</mods:title>
+					</mods:titleInfo>
+				</mods:mods>
+			</mets:xmlData>
+		</mets:mdWrap>
+	</mets:dmdSec>
+	<mets:dmdSec ID="modspict12">
+		<mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS" LABEL="Bibliographic meta-data of picture">
+			<mets:xmlData>
+				<mods:mods>
+					<mods:accessCondition>copyrighted</mods:accessCondition>
+					<mods:titleInfo>
+						<mods:title>Untitled</mods:title>
+					</mods:titleInfo>
+				</mods:mods>
+			</mets:xmlData>
+		</mets:mdWrap>
+	</mets:dmdSec>
+	<mets:dmdSec ID="modspict13">
+		<mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS" LABEL="Bibliographic meta-data of picture">
+			<mets:xmlData>
+				<mods:mods>
+					<mods:accessCondition>copyrighted</mods:accessCondition>
+					<mods:titleInfo>
+						<mods:title>LIETUVAS MEDIJS</mods:title>
+					</mods:titleInfo>
+				</mods:mods>
+			</mets:xmlData>
+		</mets:mdWrap>
+	</mets:dmdSec>
+	<mets:dmdSec ID="modsarticle10">
+		<mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS" LABEL="Bibliographic meta-data of article 1">
+			<mets:xmlData>
+				<mods:mods>
+					<mods:accessCondition>copyrighted</mods:accessCondition>
+					<mods:titleInfo>
+						<mods:title>Problēma gaida VID uzmanību</mods:title>
+						<mods:subTitle>sleja</mods:subTitle>
+					</mods:titleInfo>
+					<mods:name>
+						<mods:namePart>Vilnis Klinovičs</mods:namePart>
+					</mods:name>
+					<mods:language>
+						<mods:languageTerm type="code" authority="iso639-3">lav</mods:languageTerm>
+					</mods:language>
+				</mods:mods>
+			</mets:xmlData>
+		</mets:mdWrap>
+	</mets:dmdSec>
+	<mets:dmdSec ID="modspict14">
+		<mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS" LABEL="Bibliographic meta-data of picture">
+			<mets:xmlData>
+				<mods:mods>
+					<mods:accessCondition>copyrighted</mods:accessCondition>
+					<mods:titleInfo>
+						<mods:title>Vilnis Klinovičs</mods:title>
+					</mods:titleInfo>
+				</mods:mods>
+			</mets:xmlData>
+		</mets:mdWrap>
+	</mets:dmdSec>
+	<mets:dmdSec ID="modsarticle11">
+		<mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS" LABEL="Bibliographic meta-data of article 1">
+			<mets:xmlData>
+				<mods:mods>
+					<mods:accessCondition>copyrighted</mods:accessCondition>
+					<mods:titleInfo>
+						<mods:title>Cenu atšķirības – līdz 20%</mods:title>
+					</mods:titleInfo>
+					<mods:name>
+						<mods:namePart>Rūta Kesnere</mods:namePart>
+					</mods:name>
+					<mods:language>
+						<mods:languageTerm type="code" authority="iso639-3">lav</mods:languageTerm>
+					</mods:language>
+				</mods:mods>
+			</mets:xmlData>
+		</mets:mdWrap>
+	</mets:dmdSec>
+	<mets:dmdSec ID="modspict15">
+		<mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS" LABEL="Bibliographic meta-data of picture">
+			<mets:xmlData>
+				<mods:mods>
+					<mods:accessCondition>copyrighted</mods:accessCondition>
+					<mods:titleInfo>
+						<mods:title>INDIVIDUĀLAJIEM lietotājiem, kas dabasgāzi izmanto apkurei, dabasgāzes cenas īpatsvars kopējā rēķinā veido 45-50%. Mājsaimniecības varēs izvēlēties to pirkt no tirgotāja par tirgus cenām vai par Sabiedrisko pakalpojumu regulēšanas komisijas regulēto tarifu. FOTO – KRISTAPS KALNS, DIENAS MEDIJI</mods:title>
+					</mods:titleInfo>
+				</mods:mods>
+			</mets:xmlData>
+		</mets:mdWrap>
+	</mets:dmdSec>
+	<mets:dmdSec ID="modsarticle12">
+		<mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS" LABEL="Bibliographic meta-data of article 1">
+			<mets:xmlData>
+				<mods:mods>
+					<mods:accessCondition>copyrighted</mods:accessCondition>
+					<mods:titleInfo>
+						<mods:title>Grūtu izaicinājumu Latvijas dzelzceļa šefam netrūks</mods:title>
+					</mods:titleInfo>
+					<mods:name>
+						<mods:namePart>Rūta Kesnere</mods:namePart>
+					</mods:name>
+					<mods:language>
+						<mods:languageTerm type="code" authority="iso639-3">lav</mods:languageTerm>
+					</mods:language>
+				</mods:mods>
+			</mets:xmlData>
+		</mets:mdWrap>
+	</mets:dmdSec>
+	<mets:dmdSec ID="modspict16">
+		<mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS" LABEL="Bibliographic meta-data of picture">
+			<mets:xmlData>
+				<mods:mods>
+					<mods:accessCondition>copyrighted</mods:accessCondition>
+					<mods:titleInfo>
+						<mods:title>▲ JAUNAIS Latvijas dzelzceļa (LDz) valdes priekšsēdētājs Edvīns Bērziņš savu amatu ieguva atklāta konkursa, kurā bija pieteikušies ap 100 pretendentu, rezultātā. Līdz tam Edvīns Bērziņš bija uzņēmuma valdes loceklis. Viņš sola, ka pievērsīs nopietnu uzmanību LDz iekšzemes pārvadājumiem. FOTO – LETA</mods:title>
+					</mods:titleInfo>
+				</mods:mods>
+			</mets:xmlData>
+		</mets:mdWrap>
+	</mets:dmdSec>
+	<mets:dmdSec ID="modssection5">
+		<mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS" LABEL="Bibliographic meta-data of section 0">
+			<mets:xmlData>
+				<mods:mods>
+					<mods:accessCondition>copyrighted</mods:accessCondition>
+					<mods:titleInfo>
+						<mods:title>ārzemēs</mods:title>
+					</mods:titleInfo>
+					<mods:language>
+						<mods:languageTerm type="code" authority="iso639-3">lav</mods:languageTerm>
+					</mods:language>
+				</mods:mods>
+			</mets:xmlData>
+		</mets:mdWrap>
+	</mets:dmdSec>
+	<mets:dmdSec ID="modsarticle13">
+		<mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS" LABEL="Bibliographic meta-data of article 1">
+			<mets:xmlData>
+				<mods:mods>
+					<mods:accessCondition>copyrighted</mods:accessCondition>
+					<mods:titleInfo>
+						<mods:title>«Superotrdiena» izšķirs cīņas gaitu</mods:title>
+					</mods:titleInfo>
+					<mods:name>
+						<mods:namePart>Uldis Ķezberis</mods:namePart>
+					</mods:name>
+					<mods:language>
+						<mods:languageTerm type="code" authority="iso639-3">lav</mods:languageTerm>
+					</mods:language>
+				</mods:mods>
+			</mets:xmlData>
+		</mets:mdWrap>
+	</mets:dmdSec>
+	<mets:dmdSec ID="modspict17">
+		<mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS" LABEL="Bibliographic meta-data of picture">
+			<mets:xmlData>
+				<mods:mods>
+					<mods:accessCondition>copyrighted</mods:accessCondition>
+					<mods:titleInfo>
+						<mods:title>▲ ATTĒLĀ: Demokrātu partijas kandidāta cīņa par nomināciju ASV prezidenta vēlēšanās Bērnija Sandersa atbalstītāji viņa priekšvēlēšanu pasākumā Kolorado štata universitātē. Pašpasludinātajam «sociālistam» B. Sandersam otrdien notiekošajos balsojumos būs grūts uzdevums – nepieļaut, ka Hilarija Klintone saņem vairāk par pusi no delegātiem. FOTO – AFP/SCANPIX</mods:title>
+					</mods:titleInfo>
+				</mods:mods>
+			</mets:xmlData>
+		</mets:mdWrap>
+	</mets:dmdSec>
+	<mets:dmdSec ID="modspict18">
+		<mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS" LABEL="Bibliographic meta-data of picture">
+			<mets:xmlData>
+				<mods:mods>
+					<mods:accessCondition>copyrighted</mods:accessCondition>
+					<mods:titleInfo>
+						<mods:title>Superotrdiena</mods:title>
+					</mods:titleInfo>
+				</mods:mods>
+			</mets:xmlData>
+		</mets:mdWrap>
+	</mets:dmdSec>
+	<mets:dmdSec ID="modsarticle14">
+		<mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS" LABEL="Bibliographic meta-data of article 1">
+			<mets:xmlData>
+				<mods:mods>
+					<mods:accessCondition>copyrighted</mods:accessCondition>
+					<mods:titleInfo>
+						<mods:title>Lems par partijas aizliegšanu</mods:title>
+					</mods:titleInfo>
+					<mods:name>
+						<mods:namePart>Juris Tihonovs</mods:namePart>
+					</mods:name>
+					<mods:language>
+						<mods:languageTerm type="code" authority="iso639-3">lav</mods:languageTerm>
+					</mods:language>
+				</mods:mods>
+			</mets:xmlData>
+		</mets:mdWrap>
+	</mets:dmdSec>
+	<mets:dmdSec ID="modspict19">
+		<mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS" LABEL="Bibliographic meta-data of picture">
+			<mets:xmlData>
+				<mods:mods>
+					<mods:accessCondition>copyrighted</mods:accessCondition>
+					<mods:titleInfo>
+						<mods:title>▲ VĀCIJAS Nacionāldemokrātiskās partijas NPD biedri regulāri redzami protestos pret imigrantiem un musulmaņiem. FOTO – REUTERS/SCANPIX</mods:title>
+					</mods:titleInfo>
+				</mods:mods>
+			</mets:xmlData>
+		</mets:mdWrap>
+	</mets:dmdSec>
+	<mets:dmdSec ID="modsarticle15">
+		<mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS" LABEL="Bibliographic meta-data of article 1">
+			<mets:xmlData>
+				<mods:mods>
+					<mods:accessCondition>copyrighted</mods:accessCondition>
+					<mods:titleInfo>
+						<mods:title>Sāk nojaukt daļu no Kalē migrantu nometnes</mods:title>
+					</mods:titleInfo>
+					<mods:name>
+						<mods:namePart>Juris Tihonovs</mods:namePart>
+					</mods:name>
+					<mods:language>
+						<mods:languageTerm type="code" authority="iso639-3">lav</mods:languageTerm>
+					</mods:language>
+				</mods:mods>
+			</mets:xmlData>
+		</mets:mdWrap>
+	</mets:dmdSec>
+	<mets:dmdSec ID="modsarticle16">
+		<mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS" LABEL="Bibliographic meta-data of article 1">
+			<mets:xmlData>
+				<mods:mods>
+					<mods:accessCondition>copyrighted</mods:accessCondition>
+					<mods:titleInfo>
+						<mods:title>KO RAKSTA CITI PIRMAJĀ LAPPUSĒ</mods:title>
+					</mods:titleInfo>
+					<mods:language>
+						<mods:languageTerm type="code" authority="iso639-3">lav</mods:languageTerm>
+					</mods:language>
+				</mods:mods>
+			</mets:xmlData>
+		</mets:mdWrap>
+	</mets:dmdSec>
+	<mets:dmdSec ID="modspict20">
+		<mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS" LABEL="Bibliographic meta-data of picture">
+			<mets:xmlData>
+				<mods:mods>
+					<mods:accessCondition>copyrighted</mods:accessCondition>
+					<mods:titleInfo>
+						<mods:nonSort>the</mods:nonSort>
+						<mods:title>guardian</mods:title>
+					</mods:titleInfo>
+				</mods:mods>
+			</mets:xmlData>
+		</mets:mdWrap>
+	</mets:dmdSec>
+	<mets:dmdSec ID="modspict21">
+		<mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS" LABEL="Bibliographic meta-data of picture">
+			<mets:xmlData>
+				<mods:mods>
+					<mods:accessCondition>copyrighted</mods:accessCondition>
+					<mods:titleInfo>
+						<mods:title>ВЕСТИ</mods:title>
+					</mods:titleInfo>
+				</mods:mods>
+			</mets:xmlData>
+		</mets:mdWrap>
+	</mets:dmdSec>
+	<mets:dmdSec ID="modsarticle17">
+		<mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS" LABEL="Bibliographic meta-data of article 1">
+			<mets:xmlData>
+				<mods:mods>
+					<mods:accessCondition>copyrighted</mods:accessCondition>
+					<mods:titleInfo>
+						<mods:title>MIGRANTI CENŠAS IEKĻŪT MAĶEDONIJĀ</mods:title>
+					</mods:titleInfo>
+					<mods:language>
+						<mods:languageTerm type="code" authority="iso639-3">lav</mods:languageTerm>
+					</mods:language>
+				</mods:mods>
+			</mets:xmlData>
+		</mets:mdWrap>
+	</mets:dmdSec>
+	<mets:dmdSec ID="modsarticle18">
+		<mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS" LABEL="Bibliographic meta-data of article 1">
+			<mets:xmlData>
+				<mods:mods>
+					<mods:accessCondition>copyrighted</mods:accessCondition>
+					<mods:titleInfo>
+						<mods:title>VĒLĒŠANĀS SEKMES REFORMISTIEM</mods:title>
+					</mods:titleInfo>
+					<mods:language>
+						<mods:languageTerm type="code" authority="iso639-3">lav</mods:languageTerm>
+					</mods:language>
+				</mods:mods>
+			</mets:xmlData>
+		</mets:mdWrap>
+	</mets:dmdSec>
+	<mets:dmdSec ID="modssection6">
+		<mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS" LABEL="Bibliographic meta-data of section 0">
+			<mets:xmlData>
+				<mods:mods>
+					<mods:accessCondition>copyrighted</mods:accessCondition>
+					<mods:titleInfo>
+						<mods:title>kultūra</mods:title>
+					</mods:titleInfo>
+					<mods:language>
+						<mods:languageTerm type="code" authority="iso639-3">lav</mods:languageTerm>
+					</mods:language>
+				</mods:mods>
+			</mets:xmlData>
+		</mets:mdWrap>
+	</mets:dmdSec>
+	<mets:dmdSec ID="modsarticle19">
+		<mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS" LABEL="Bibliographic meta-data of article 1">
+			<mets:xmlData>
+				<mods:mods>
+					<mods:accessCondition>copyrighted</mods:accessCondition>
+					<mods:titleInfo>
+						<mods:title>Leo beidzot labākais</mods:title>
+					</mods:titleInfo>
+					<mods:name>
+						<mods:namePart>Elīna Gulbe</mods:namePart>
+					</mods:name>
+					<mods:language>
+						<mods:languageTerm type="code" authority="iso639-3">lav</mods:languageTerm>
+					</mods:language>
+				</mods:mods>
+			</mets:xmlData>
+		</mets:mdWrap>
+	</mets:dmdSec>
+	<mets:dmdSec ID="modspict22">
+		<mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS" LABEL="Bibliographic meta-data of picture">
+			<mets:xmlData>
+				<mods:mods>
+					<mods:accessCondition>copyrighted</mods:accessCondition>
+					<mods:titleInfo>
+						<mods:title>▲ PĀRLIECINOŠI līderi labāko aktieru kategorijās bija Leonardo di Kaprio un Brī Larsone. FOTO – AFP/LETA</mods:title>
+					</mods:titleInfo>
+				</mods:mods>
+			</mets:xmlData>
+		</mets:mdWrap>
+	</mets:dmdSec>
+	<mets:dmdSec ID="modspict23">
+		<mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS" LABEL="Bibliographic meta-data of picture">
+			<mets:xmlData>
+				<mods:mods>
+					<mods:accessCondition>copyrighted</mods:accessCondition>
+					<mods:titleInfo>
+						<mods:title>▲ LABĀKĀ FILMA – žurnālistikas drāma Uzmanības centrā. FOTO – AFP/LETA</mods:title>
+					</mods:titleInfo>
+				</mods:mods>
+			</mets:xmlData>
+		</mets:mdWrap>
+	</mets:dmdSec>
+	<mets:dmdSec ID="modssection7">
+		<mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS" LABEL="Bibliographic meta-data of section 0">
+			<mets:xmlData>
+				<mods:mods>
+					<mods:accessCondition>copyrighted</mods:accessCondition>
+					<mods:titleInfo>
+						<mods:title>karjeras diena</mods:title>
+					</mods:titleInfo>
+					<mods:language>
+						<mods:languageTerm type="code" authority="iso639-3">lav</mods:languageTerm>
+					</mods:language>
+				</mods:mods>
+			</mets:xmlData>
+		</mets:mdWrap>
+	</mets:dmdSec>
+	<mets:dmdSec ID="modsarticle20">
+		<mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS" LABEL="Bibliographic meta-data of article 1">
+			<mets:xmlData>
+				<mods:mods>
+					<mods:accessCondition>copyrighted</mods:accessCondition>
+					<mods:titleInfo>
+						<mods:title>Darba ņēmēji iebalso topā</mods:title>
+					</mods:titleInfo>
+					<mods:name>
+						<mods:namePart>Diāna Kārkliņa</mods:namePart>
+					</mods:name>
+					<mods:language>
+						<mods:languageTerm type="code" authority="iso639-3">lav</mods:languageTerm>
+					</mods:language>
+				</mods:mods>
+			</mets:xmlData>
+		</mets:mdWrap>
+	</mets:dmdSec>
+	<mets:dmdSec ID="modspict24">
+		<mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS" LABEL="Bibliographic meta-data of picture">
+			<mets:xmlData>
+				<mods:mods>
+					<mods:accessCondition>copyrighted</mods:accessCondition>
+					<mods:titleInfo>
+						<mods:title>■ IEKĀROJAMĀKĀ darba devēja titulu CV-Online Latvia rīkotajā aptaujā jau ceturto gadu pēc kārtas nosargājis uzņēmums Latvenergo. Attēlā – kompānijas personāla vadības direktore Inga Kola ar saņemto balvu. FOTO – LETA</mods:title>
+					</mods:titleInfo>
+				</mods:mods>
+			</mets:xmlData>
+		</mets:mdWrap>
+	</mets:dmdSec>
+	<mets:dmdSec ID="modsarticle21">
+		<mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS" LABEL="Bibliographic meta-data of article 1">
+			<mets:xmlData>
+				<mods:mods>
+					<mods:accessCondition>copyrighted</mods:accessCondition>
+					<mods:titleInfo>
+						<mods:title>Tiem, kas vēlas mācīties ārzemēs</mods:title>
+					</mods:titleInfo>
+					<mods:name>
+						<mods:namePart>Diāna Kārkliņa</mods:namePart>
+					</mods:name>
+					<mods:language>
+						<mods:languageTerm type="code" authority="iso639-3">lav</mods:languageTerm>
+					</mods:language>
+				</mods:mods>
+			</mets:xmlData>
+		</mets:mdWrap>
+	</mets:dmdSec>
+	<mets:dmdSec ID="modsarticle22">
+		<mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS" LABEL="Bibliographic meta-data of article 1">
+			<mets:xmlData>
+				<mods:mods>
+					<mods:accessCondition>copyrighted</mods:accessCondition>
+					<mods:titleInfo>
+						<mods:title>Palīdz gan invalīdiem, gan SOS ciematu jauniešiem</mods:title>
+					</mods:titleInfo>
+					<mods:name>
+						<mods:namePart>Diāna Kārkliņa</mods:namePart>
+					</mods:name>
+					<mods:language>
+						<mods:languageTerm type="code" authority="iso639-3">lav</mods:languageTerm>
+					</mods:language>
+				</mods:mods>
+			</mets:xmlData>
+		</mets:mdWrap>
+	</mets:dmdSec>
+	<mets:dmdSec ID="modsarticle23">
+		<mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS" LABEL="Bibliographic meta-data of article 1">
+			<mets:xmlData>
+				<mods:mods>
+					<mods:accessCondition>copyrighted</mods:accessCondition>
+					<mods:titleInfo>
+						<mods:title>SPĒKOSIES JAUNIE PROFESIONĀĻI</mods:title>
+					</mods:titleInfo>
+					<mods:language>
+						<mods:languageTerm type="code" authority="iso639-3">lav</mods:languageTerm>
+					</mods:language>
+				</mods:mods>
+			</mets:xmlData>
+		</mets:mdWrap>
+	</mets:dmdSec>
+	<mets:dmdSec ID="modsarticle24">
+		<mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS" LABEL="Bibliographic meta-data of article 1">
+			<mets:xmlData>
+				<mods:mods>
+					<mods:accessCondition>copyrighted</mods:accessCondition>
+					<mods:titleInfo>
+						<mods:title>ATBALSTS BIZNESA SĀKŠANAI</mods:title>
+					</mods:titleInfo>
+					<mods:language>
+						<mods:languageTerm type="code" authority="iso639-3">lav</mods:languageTerm>
+					</mods:language>
+				</mods:mods>
+			</mets:xmlData>
+		</mets:mdWrap>
+	</mets:dmdSec>
+	<mets:dmdSec ID="modsarticle25">
+		<mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS" LABEL="Bibliographic meta-data of article 1">
+			<mets:xmlData>
+				<mods:mods>
+					<mods:accessCondition>copyrighted</mods:accessCondition>
+					<mods:titleInfo>
+						<mods:title>Kustībā</mods:title>
+					</mods:titleInfo>
+					<mods:language>
+						<mods:languageTerm type="code" authority="iso639-3">lav</mods:languageTerm>
+					</mods:language>
+				</mods:mods>
+			</mets:xmlData>
+		</mets:mdWrap>
+	</mets:dmdSec>
+	<mets:dmdSec ID="modspict25">
+		<mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS" LABEL="Bibliographic meta-data of picture">
+			<mets:xmlData>
+				<mods:mods>
+					<mods:accessCondition>copyrighted</mods:accessCondition>
+					<mods:titleInfo>
+						<mods:title>ARTŪRS CINIS</mods:title>
+					</mods:titleInfo>
+				</mods:mods>
+			</mets:xmlData>
+		</mets:mdWrap>
+	</mets:dmdSec>
+	<mets:dmdSec ID="modssection8">
+		<mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS" LABEL="Bibliographic meta-data of section 0">
+			<mets:xmlData>
+				<mods:mods>
+					<mods:accessCondition>copyrighted</mods:accessCondition>
+					<mods:titleInfo>
+						<mods:title>sports</mods:title>
+					</mods:titleInfo>
+					<mods:language>
+						<mods:languageTerm type="code" authority="iso639-3">lav</mods:languageTerm>
+					</mods:language>
+				</mods:mods>
+			</mets:xmlData>
+		</mets:mdWrap>
+	</mets:dmdSec>
+	<mets:dmdSec ID="modsarticle26">
+		<mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS" LABEL="Bibliographic meta-data of article 1">
+			<mets:xmlData>
+				<mods:mods>
+					<mods:accessCondition>copyrighted</mods:accessCondition>
+					<mods:titleInfo>
+						<mods:title>PORZIŅĢIM NEKRĪT, KNICKS ZAUDĒ MAIAMI HEAT</mods:title>
+					</mods:titleInfo>
+					<mods:language>
+						<mods:languageTerm type="code" authority="iso639-3">lav</mods:languageTerm>
+					</mods:language>
+				</mods:mods>
+			</mets:xmlData>
+		</mets:mdWrap>
+	</mets:dmdSec>
+	<mets:dmdSec ID="modspict26">
+		<mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS" LABEL="Bibliographic meta-data of picture">
+			<mets:xmlData>
+				<mods:mods>
+					<mods:accessCondition>copyrighted</mods:accessCondition>
+					<mods:titleInfo>
+						<mods:title>Kristaps Porziņģis</mods:title>
+					</mods:titleInfo>
+				</mods:mods>
+			</mets:xmlData>
+		</mets:mdWrap>
+	</mets:dmdSec>
+	<mets:dmdSec ID="modsarticle27">
+		<mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS" LABEL="Bibliographic meta-data of article 1">
+			<mets:xmlData>
+				<mods:mods>
+					<mods:accessCondition>copyrighted</mods:accessCondition>
+					<mods:titleInfo>
+						<mods:title>AR LATVIEŠIEM KONKURĒS ARĪ TITULIEM BAGĀTAIS LĒBS</mods:title>
+					</mods:titleInfo>
+					<mods:language>
+						<mods:languageTerm type="code" authority="iso639-3">lav</mods:languageTerm>
+					</mods:language>
+				</mods:mods>
+			</mets:xmlData>
+		</mets:mdWrap>
+	</mets:dmdSec>
+	<mets:dmdSec ID="modspict27">
+		<mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS" LABEL="Bibliographic meta-data of picture">
+			<mets:xmlData>
+				<mods:mods>
+					<mods:accessCondition>copyrighted</mods:accessCondition>
+					<mods:titleInfo>
+						<mods:title>Sebastjēns Lēbs</mods:title>
+					</mods:titleInfo>
+				</mods:mods>
+			</mets:xmlData>
+		</mets:mdWrap>
+	</mets:dmdSec>
+	<mets:dmdSec ID="modsarticle28">
+		<mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS" LABEL="Bibliographic meta-data of article 1">
+			<mets:xmlData>
+				<mods:mods>
+					<mods:accessCondition>copyrighted</mods:accessCondition>
+					<mods:titleInfo>
+						<mods:title>ČEMPIONUS KRONĒ JAU FEBRUĀRĪ</mods:title>
+					</mods:titleInfo>
+					<mods:language>
+						<mods:languageTerm type="code" authority="iso639-3">lav</mods:languageTerm>
+					</mods:language>
+				</mods:mods>
+			</mets:xmlData>
+		</mets:mdWrap>
+	</mets:dmdSec>
+	<mets:dmdSec ID="modspict28">
+		<mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS" LABEL="Bibliographic meta-data of picture">
+			<mets:xmlData>
+				<mods:mods>
+					<mods:accessCondition>copyrighted</mods:accessCondition>
+					<mods:titleInfo>
+						<mods:title>Davids Fusters</mods:title>
+					</mods:titleInfo>
+				</mods:mods>
+			</mets:xmlData>
+		</mets:mdWrap>
+	</mets:dmdSec>
+	<mets:dmdSec ID="modsarticle29">
+		<mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS" LABEL="Bibliographic meta-data of article 1">
+			<mets:xmlData>
+				<mods:mods>
+					<mods:accessCondition>copyrighted</mods:accessCondition>
+					<mods:titleInfo>
+						<mods:title>BARCELONA UZVAR UN GŪST REKORDU</mods:title>
+					</mods:titleInfo>
+					<mods:language>
+						<mods:languageTerm type="code" authority="iso639-3">lav</mods:languageTerm>
+					</mods:language>
+				</mods:mods>
+			</mets:xmlData>
+		</mets:mdWrap>
+	</mets:dmdSec>
+	<mets:dmdSec ID="modspict29">
+		<mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS" LABEL="Bibliographic meta-data of picture">
+			<mets:xmlData>
+				<mods:mods>
+					<mods:accessCondition>copyrighted</mods:accessCondition>
+					<mods:titleInfo>
+						<mods:title>Žerāra Pikē</mods:title>
+					</mods:titleInfo>
+				</mods:mods>
+			</mets:xmlData>
+		</mets:mdWrap>
+	</mets:dmdSec>
+	<mets:dmdSec ID="modsarticle30">
+		<mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS" LABEL="Bibliographic meta-data of article 1">
+			<mets:xmlData>
+				<mods:mods>
+					<mods:accessCondition>copyrighted</mods:accessCondition>
+					<mods:titleInfo>
+						<mods:title>Gaidot pārmaiņu vējus</mods:title>
+					</mods:titleInfo>
+					<mods:name>
+						<mods:namePart>Iļja Poļakovs</mods:namePart>
+					</mods:name>
+					<mods:language>
+						<mods:languageTerm type="code" authority="iso639-3">lav</mods:languageTerm>
+					</mods:language>
+				</mods:mods>
+			</mets:xmlData>
+		</mets:mdWrap>
+	</mets:dmdSec>
+	<mets:dmdSec ID="modspict30">
+		<mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS" LABEL="Bibliographic meta-data of picture">
+			<mets:xmlData>
+				<mods:mods>
+					<mods:accessCondition>copyrighted</mods:accessCondition>
+					<mods:titleInfo>
+						<mods:title>▲ PIRMĀ darbadiena FIFA prezidenta amatā Džanni Infantīno (att.) sākās ar draudzības maču futbolā, lai gan pēc ievēlēšanas viņš solīja sākt ar FIFA reputācijas atgūšanai nepieciešamo reformu plānošanu. FOTO – AFP/LETA</mods:title>
+					</mods:titleInfo>
+				</mods:mods>
+			</mets:xmlData>
+		</mets:mdWrap>
+	</mets:dmdSec>
+	<mets:dmdSec ID="modsarticle31">
+		<mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS" LABEL="Bibliographic meta-data of article 1">
+			<mets:xmlData>
+				<mods:mods>
+					<mods:accessCondition>copyrighted</mods:accessCondition>
+					<mods:titleInfo>
+						<mods:title>Kārtslēcējam Pujātam lielisks rezultāts un Rio normatīvs</mods:title>
+					</mods:titleInfo>
+					<mods:name>
+						<mods:namePart>Māris Zembergs</mods:namePart>
+					</mods:name>
+					<mods:language>
+						<mods:languageTerm type="code" authority="iso639-3">lav</mods:languageTerm>
+					</mods:language>
+				</mods:mods>
+			</mets:xmlData>
+		</mets:mdWrap>
+	</mets:dmdSec>
+	<mets:dmdSec ID="modspict31">
+		<mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS" LABEL="Bibliographic meta-data of picture">
+			<mets:xmlData>
+				<mods:mods>
+					<mods:accessCondition>copyrighted</mods:accessCondition>
+					<mods:titleInfo>
+						<mods:title>KĀRTSLĒCĒJS Pauls Pujāts (att.). PUBLICITĀTES FOTO</mods:title>
+					</mods:titleInfo>
+				</mods:mods>
+			</mets:xmlData>
+		</mets:mdWrap>
+	</mets:dmdSec>
+	<mets:dmdSec ID="modsarticle32">
+		<mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS" LABEL="Bibliographic meta-data of article 1">
+			<mets:xmlData>
+				<mods:mods>
+					<mods:accessCondition>copyrighted</mods:accessCondition>
+					<mods:titleInfo>
+						<mods:title>SPORTS OTRDIEN</mods:title>
+						<mods:subTitle>TV</mods:subTitle>
+					</mods:titleInfo>
+					<mods:language>
+						<mods:languageTerm type="code" authority="iso639-3">lav</mods:languageTerm>
+					</mods:language>
+				</mods:mods>
+			</mets:xmlData>
+		</mets:mdWrap>
+	</mets:dmdSec>
+	<mets:dmdSec ID="modsarticle33">
+		<mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS" LABEL="Bibliographic meta-data of article 1">
+			<mets:xmlData>
+				<mods:mods>
+					<mods:accessCondition>copyrighted</mods:accessCondition>
+					<mods:titleInfo>
+						<mods:title>Nepacietīgi gaida debiju</mods:title>
+					</mods:titleInfo>
+					<mods:name>
+						<mods:namePart>Aldis Putniņš</mods:namePart>
+					</mods:name>
+					<mods:language>
+						<mods:languageTerm type="code" authority="iso639-3">lav</mods:languageTerm>
+					</mods:language>
+				</mods:mods>
+			</mets:xmlData>
+		</mets:mdWrap>
+	</mets:dmdSec>
+	<mets:dmdSec ID="modspict32">
+		<mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS" LABEL="Bibliographic meta-data of picture">
+			<mets:xmlData>
+				<mods:mods>
+					<mods:accessCondition>copyrighted</mods:accessCondition>
+					<mods:titleInfo>
+						<mods:title>▲ BRITS Džoljons Palmers (att.) jau pirmajā sezonā varētu iesaistīties cīņā par punktiem, kamēr pārējiem debitantiem sevi autosporta karaliskajā klasē vēl būs jāpierāda. FOTO – AFP/LETA</mods:title>
+					</mods:titleInfo>
+				</mods:mods>
+			</mets:xmlData>
+		</mets:mdWrap>
+	</mets:dmdSec>
+	<mets:dmdSec ID="modsarticle34">
+		<mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS" LABEL="Bibliographic meta-data of article 1">
+			<mets:xmlData>
+				<mods:mods>
+					<mods:accessCondition>copyrighted</mods:accessCondition>
+					<mods:titleInfo>
+						<mods:title>Cīņu par pusfinālu sāk Lietuvā un Igaunijā</mods:title>
+					</mods:titleInfo>
+					<mods:name>
+						<mods:namePart>Armands Sametis</mods:namePart>
+					</mods:name>
+					<mods:language>
+						<mods:languageTerm type="code" authority="iso639-3">lav</mods:languageTerm>
+					</mods:language>
+				</mods:mods>
+			</mets:xmlData>
+		</mets:mdWrap>
+	</mets:dmdSec>
+	<mets:dmdSec ID="modsarticle35">
+		<mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS" LABEL="Bibliographic meta-data of article 1">
+			<mets:xmlData>
+				<mods:mods>
+					<mods:accessCondition>copyrighted</mods:accessCondition>
+					<mods:titleInfo>
+						<mods:title>ĶĒNIŅŠ TURPINA SAVU SĒRIJU</mods:title>
+					</mods:titleInfo>
+					<mods:language>
+						<mods:languageTerm type="code" authority="iso639-3">lav</mods:languageTerm>
+					</mods:language>
+				</mods:mods>
+			</mets:xmlData>
+		</mets:mdWrap>
+	</mets:dmdSec>
+	<mets:dmdSec ID="modsarticle36">
+		<mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS" LABEL="Bibliographic meta-data of article 1">
+			<mets:xmlData>
+				<mods:mods>
+					<mods:accessCondition>copyrighted</mods:accessCondition>
+					<mods:titleInfo>
+						<mods:title>TURĪNĀ SABER TRĪSPUNKTNIEKUS</mods:title>
+					</mods:titleInfo>
+					<mods:language>
+						<mods:languageTerm type="code" authority="iso639-3">lav</mods:languageTerm>
+					</mods:language>
+				</mods:mods>
+			</mets:xmlData>
+		</mets:mdWrap>
+	</mets:dmdSec>
+	<mets:dmdSec ID="modsarticle37">
+		<mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS" LABEL="Bibliographic meta-data of article 1">
+			<mets:xmlData>
+				<mods:mods>
+					<mods:accessCondition>copyrighted</mods:accessCondition>
+					<mods:titleInfo>
+						<mods:title>ABIEM BERTĀNIEM PA DEVIŅIEM</mods:title>
+					</mods:titleInfo>
+					<mods:language>
+						<mods:languageTerm type="code" authority="iso639-3">lav</mods:languageTerm>
+					</mods:language>
+				</mods:mods>
+			</mets:xmlData>
+		</mets:mdWrap>
+	</mets:dmdSec>
+	<mets:dmdSec ID="modsarticle38">
+		<mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS" LABEL="Bibliographic meta-data of article 1">
+			<mets:xmlData>
+				<mods:mods>
+					<mods:accessCondition>copyrighted</mods:accessCondition>
+					<mods:titleInfo>
+						<mods:title>MIČELU PADZEN, ATROD AIZSTĀJĒJU</mods:title>
+					</mods:titleInfo>
+					<mods:language>
+						<mods:languageTerm type="code" authority="iso639-3">lav</mods:languageTerm>
+					</mods:language>
+				</mods:mods>
+			</mets:xmlData>
+		</mets:mdWrap>
+	</mets:dmdSec>
+	<mets:dmdSec ID="modsarticle39">
+		<mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS" LABEL="Bibliographic meta-data of article 1">
+			<mets:xmlData>
+				<mods:mods>
+					<mods:accessCondition>copyrighted</mods:accessCondition>
+					<mods:titleInfo>
+						<mods:title>FRANCIJĀ IESĀK AR PANĀKUMU</mods:title>
+					</mods:titleInfo>
+					<mods:language>
+						<mods:languageTerm type="code" authority="iso639-3">lav</mods:languageTerm>
+					</mods:language>
+				</mods:mods>
+			</mets:xmlData>
+		</mets:mdWrap>
+	</mets:dmdSec>
+	<mets:dmdSec ID="modssection9">
+		<mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS" LABEL="Bibliographic meta-data of section 0">
+			<mets:xmlData>
+				<mods:mods>
+					<mods:accessCondition>copyrighted</mods:accessCondition>
+					<mods:titleInfo>
+						<mods:title>šodien</mods:title>
+					</mods:titleInfo>
+					<mods:language>
+						<mods:languageTerm type="code" authority="iso639-3">lav</mods:languageTerm>
+					</mods:language>
+				</mods:mods>
+			</mets:xmlData>
+		</mets:mdWrap>
+	</mets:dmdSec>
+	<mets:dmdSec ID="modsarticle40">
+		<mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS" LABEL="Bibliographic meta-data of article 1">
+			<mets:xmlData>
+				<mods:mods>
+					<mods:accessCondition>copyrighted</mods:accessCondition>
+					<mods:titleInfo>
+						<mods:title>Terorisms, politika un sociālais absurds</mods:title>
+					</mods:titleInfo>
+					<mods:name>
+						<mods:namePart>Inga Melberga</mods:namePart>
+					</mods:name>
+					<mods:language>
+						<mods:languageTerm type="code" authority="iso639-3">lav</mods:languageTerm>
+					</mods:language>
+				</mods:mods>
+			</mets:xmlData>
+		</mets:mdWrap>
+	</mets:dmdSec>
+	<mets:dmdSec ID="modspict33">
+		<mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS" LABEL="Bibliographic meta-data of picture">
+			<mets:xmlData>
+				<mods:mods>
+					<mods:accessCondition>copyrighted</mods:accessCondition>
+					<mods:titleInfo>
+						<mods:title>▲ «MANAS gleznas nav dekoratīvas, tā nav dzīvokļa sienām domāta māksla,» uzskata mākslinieks Juris Utāns un atzīstas, ka viņam patīk provokācijas un mudināt cilvēkus domāt par neērtiem jautājumiem. FOTO – KRISTAPS KALNS, DIENAS MEDIJI</mods:title>
+					</mods:titleInfo>
+				</mods:mods>
+			</mets:xmlData>
+		</mets:mdWrap>
+	</mets:dmdSec>
+	<mets:dmdSec ID="modsarticle41">
+		<mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS" LABEL="Bibliographic meta-data of article 1">
+			<mets:xmlData>
+				<mods:mods>
+					<mods:accessCondition>copyrighted</mods:accessCondition>
+					<mods:titleInfo>
+						<mods:title>BĒRNS APPLAUCĒJIES! KO DARĪT?</mods:title>
+						<mods:subTitle>padoms</mods:subTitle>
+					</mods:titleInfo>
+					<mods:language>
+						<mods:languageTerm type="code" authority="iso639-3">lav</mods:languageTerm>
+					</mods:language>
+				</mods:mods>
+			</mets:xmlData>
+		</mets:mdWrap>
+	</mets:dmdSec>
+	<mets:dmdSec ID="modspict34">
+		<mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS" LABEL="Bibliographic meta-data of picture">
+			<mets:xmlData>
+				<mods:mods>
+					<mods:accessCondition>copyrighted</mods:accessCondition>
+					<mods:titleInfo>
+						<mods:title>Untitled</mods:title>
+					</mods:titleInfo>
+				</mods:mods>
+			</mets:xmlData>
+		</mets:mdWrap>
+	</mets:dmdSec>
+	<mets:dmdSec ID="modsarticle42">
+		<mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS" LABEL="Bibliographic meta-data of article 1">
+			<mets:xmlData>
+				<mods:mods>
+					<mods:accessCondition>copyrighted</mods:accessCondition>
+					<mods:titleInfo>
+						<mods:title>Zirnis joko"</mods:title>
+					</mods:titleInfo>
+					<mods:language>
+						<mods:languageTerm type="code" authority="iso639-3">lav</mods:languageTerm>
+					</mods:language>
+				</mods:mods>
+			</mets:xmlData>
+		</mets:mdWrap>
+	</mets:dmdSec>
+	<mets:dmdSec ID="modspict35">
+		<mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS" LABEL="Bibliographic meta-data of picture">
+			<mets:xmlData>
+				<mods:mods>
+					<mods:accessCondition>copyrighted</mods:accessCondition>
+					<mods:titleInfo>
+						<mods:title>Untitled</mods:title>
+					</mods:titleInfo>
+				</mods:mods>
+			</mets:xmlData>
+		</mets:mdWrap>
+	</mets:dmdSec>
+	<mets:dmdSec ID="modsarticle43">
+		<mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS" LABEL="Bibliographic meta-data of article 1">
+			<mets:xmlData>
+				<mods:mods>
+					<mods:accessCondition>copyrighted</mods:accessCondition>
+					<mods:titleInfo>
+						<mods:title>dienas izlase</mods:title>
+					</mods:titleInfo>
+					<mods:language>
+						<mods:languageTerm type="code" authority="iso639-3">lav</mods:languageTerm>
+					</mods:language>
+				</mods:mods>
+			</mets:xmlData>
+		</mets:mdWrap>
+	</mets:dmdSec>
+	<mets:dmdSec ID="modsarticle44">
+		<mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS" LABEL="Bibliographic meta-data of article 1">
+			<mets:xmlData>
+				<mods:mods>
+					<mods:accessCondition>copyrighted</mods:accessCondition>
+					<mods:titleInfo>
+						<mods:title>laika prognoze</mods:title>
+					</mods:titleInfo>
+					<mods:language>
+						<mods:languageTerm type="code" authority="iso639-3">lav</mods:languageTerm>
+					</mods:language>
+				</mods:mods>
+			</mets:xmlData>
+		</mets:mdWrap>
+	</mets:dmdSec>
+	<mets:dmdSec ID="modspict36">
+		<mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS" LABEL="Bibliographic meta-data of picture">
+			<mets:xmlData>
+				<mods:mods>
+					<mods:accessCondition>copyrighted</mods:accessCondition>
+					<mods:titleInfo>
+						<mods:title>Avots: yr.no</mods:title>
+					</mods:titleInfo>
+				</mods:mods>
+			</mets:xmlData>
+		</mets:mdWrap>
+	</mets:dmdSec>
+	<mets:dmdSec ID="modsarticle45">
+		<mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS" LABEL="Bibliographic meta-data of article 1">
+			<mets:xmlData>
+				<mods:mods>
+					<mods:accessCondition>copyrighted</mods:accessCondition>
+					<mods:titleInfo>
+						<mods:title>horoskopi</mods:title>
+					</mods:titleInfo>
+					<mods:language>
+						<mods:languageTerm type="code" authority="iso639-3">lav</mods:languageTerm>
+					</mods:language>
+				</mods:mods>
+			</mets:xmlData>
+		</mets:mdWrap>
+	</mets:dmdSec>
+	<mets:dmdSec ID="modsarticle46">
+		<mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS" LABEL="Bibliographic meta-data of article 1">
+			<mets:xmlData>
+				<mods:mods>
+					<mods:accessCondition>copyrighted</mods:accessCondition>
+					<mods:titleInfo>
+						<mods:title>krustvārdu mīkla</mods:title>
+					</mods:titleInfo>
+					<mods:language>
+						<mods:languageTerm type="code" authority="iso639-3">lav</mods:languageTerm>
+					</mods:language>
+				</mods:mods>
+			</mets:xmlData>
+		</mets:mdWrap>
+	</mets:dmdSec>
+	<mets:dmdSec ID="modspict37">
+		<mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS" LABEL="Bibliographic meta-data of picture">
+			<mets:xmlData>
+				<mods:mods>
+					<mods:accessCondition>copyrighted</mods:accessCondition>
+					<mods:titleInfo>
+						<mods:title>Untitled</mods:title>
+					</mods:titleInfo>
+				</mods:mods>
+			</mets:xmlData>
+		</mets:mdWrap>
+	</mets:dmdSec>
+	<mets:dmdSec ID="modssection10">
+		<mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS" LABEL="Bibliographic meta-data of section 0">
+			<mets:xmlData>
+				<mods:mods>
+					<mods:accessCondition>copyrighted</mods:accessCondition>
+					<mods:language>
+						<mods:languageTerm type="code" authority="iso639-3">lav</mods:languageTerm>
+					</mods:language>
+				</mods:mods>
+			</mets:xmlData>
+		</mets:mdWrap>
+	</mets:dmdSec>
+	<mets:amdSec ID="IMGPARAM00001">
+		<mets:techMD ID="IMGPARAM00001TECHMD">
+			<mets:mdWrap MDTYPE="NISOIMG">
+				<mets:xmlData>
+					<mix:mix>
+						<mix:BasicImageParameters>
+							<mix:Format>
+								<mix:MIMEType>image/jpeg</mix:MIMEType>
+								<mix:ByteOrder>little-endian</mix:ByteOrder>
+								<mix:Compression>
+									<mix:CompressionScheme>6</mix:CompressionScheme>
+								</mix:Compression>
+								<mix:PhotometricInterpretation>
+									<mix:ColorSpace>2</mix:ColorSpace>
+								</mix:PhotometricInterpretation>
+							</mix:Format>
+							<mix:File>
+								<mix:ImageIdentifier imageIdentifierLocation="//eleja.lnb.lan/OUT/NLL_Leta/B002_Dtest/D-test/p_001_diea2016n042">diea2016n042_001.jpg</mix:ImageIdentifier>
+								<mix:FileSize>569685</mix:FileSize>
+								<mix:Orientation>1</mix:Orientation>
+								<mix:DisplayOrientation>1</mix:DisplayOrientation>
+							</mix:File>
+						</mix:BasicImageParameters>
+						<mix:ImageCreation>
+							<mix:SourceType>Newspaper</mix:SourceType>
+							<mix:SourceID/>
+							<mix:ImageProducer/>
+							<mix:Host>
+								<mix:HostComputer>ELEJA</mix:HostComputer>
+								<mix:OperatingSystem>windows</mix:OperatingSystem>
+								<mix:OSVersion>6.2</mix:OSVersion>
+							</mix:Host>
+							<mix:DeviceSource/>
+							<mix:ScanningSystemCapture>
+								<mix:ScanningSystemHardware>
+									<mix:ScannerManufacturer/>
+									<mix:ScannerModel>
+										<mix:ScannerModelName/>
+										<mix:ScannerModelNumber/>
+										<mix:ScannerModelSerialNo/>
+									</mix:ScannerModel>
+								</mix:ScanningSystemHardware>
+								<mix:ScanningSystemSoftware>
+									<mix:ScanningSoftware>CCS docWorks</mix:ScanningSoftware>
+									<mix:ScanningSoftwareVersionNo/>
+								</mix:ScanningSystemSoftware>
+								<mix:ScannerCaptureSettings>
+									<mix:PixelSize>0.0846666</mix:PixelSize>
+									<mix:PhysScanResolution>
+										<mix:XphysScanResolution>173</mix:XphysScanResolution>
+										<mix:YphysScanResolution>173</mix:YphysScanResolution>
+									</mix:PhysScanResolution>
+								</mix:ScannerCaptureSettings>
+							</mix:ScanningSystemCapture>
+						</mix:ImageCreation>
+						<mix:ImagingPerformanceAssessment>
+							<mix:SpatialMetrics>
+								<mix:ImageWidth>1838</mix:ImageWidth>
+								<mix:ImageLength>2588</mix:ImageLength>
+							</mix:SpatialMetrics>
+							<mix:Energetics>
+								<mix:BitsPerSample>8,8,8</mix:BitsPerSample>
+								<mix:SamplesPerPixel>3</mix:SamplesPerPixel>
+							</mix:Energetics>
+						</mix:ImagingPerformanceAssessment>
+						<mix:ChangeHistory>
+							<mix:ImageProcessing>
+								<mix:SourceData>./NLL_Leta/B002_Dtest/D-test/p_001_diea2016n042/p_001_diea2016n042_001.pdf</mix:SourceData>
+							</mix:ImageProcessing>
+						</mix:ChangeHistory>
+					</mix:mix>
+				</mets:xmlData>
+			</mets:mdWrap>
+		</mets:techMD>
+	</mets:amdSec>
+	<mets:amdSec ID="IMGPARAM00002">
+		<mets:techMD ID="IMGPARAM00002TECHMD">
+			<mets:mdWrap MDTYPE="NISOIMG">
+				<mets:xmlData>
+					<mix:mix>
+						<mix:BasicImageParameters>
+							<mix:Format>
+								<mix:MIMEType>image/jpeg</mix:MIMEType>
+								<mix:ByteOrder>little-endian</mix:ByteOrder>
+								<mix:Compression>
+									<mix:CompressionScheme>6</mix:CompressionScheme>
+								</mix:Compression>
+								<mix:PhotometricInterpretation>
+									<mix:ColorSpace>2</mix:ColorSpace>
+								</mix:PhotometricInterpretation>
+							</mix:Format>
+							<mix:File>
+								<mix:ImageIdentifier imageIdentifierLocation="//eleja.lnb.lan/OUT/NLL_Leta/B002_Dtest/D-test/p_001_diea2016n042">diea2016n042_002.jpg</mix:ImageIdentifier>
+								<mix:FileSize>653859</mix:FileSize>
+								<mix:Orientation>1</mix:Orientation>
+								<mix:DisplayOrientation>1</mix:DisplayOrientation>
+							</mix:File>
+						</mix:BasicImageParameters>
+						<mix:ImageCreation>
+							<mix:SourceType>Newspaper</mix:SourceType>
+							<mix:SourceID/>
+							<mix:ImageProducer/>
+							<mix:Host>
+								<mix:HostComputer>ELEJA</mix:HostComputer>
+								<mix:OperatingSystem>windows</mix:OperatingSystem>
+								<mix:OSVersion>6.2</mix:OSVersion>
+							</mix:Host>
+							<mix:DeviceSource/>
+							<mix:ScanningSystemCapture>
+								<mix:ScanningSystemHardware>
+									<mix:ScannerManufacturer/>
+									<mix:ScannerModel>
+										<mix:ScannerModelName/>
+										<mix:ScannerModelNumber/>
+										<mix:ScannerModelSerialNo/>
+									</mix:ScannerModel>
+								</mix:ScanningSystemHardware>
+								<mix:ScanningSystemSoftware>
+									<mix:ScanningSoftware>CCS docWorks</mix:ScanningSoftware>
+									<mix:ScanningSoftwareVersionNo/>
+								</mix:ScanningSystemSoftware>
+								<mix:ScannerCaptureSettings>
+									<mix:PixelSize>0.0846666</mix:PixelSize>
+									<mix:PhysScanResolution>
+										<mix:XphysScanResolution>173</mix:XphysScanResolution>
+										<mix:YphysScanResolution>173</mix:YphysScanResolution>
+									</mix:PhysScanResolution>
+								</mix:ScannerCaptureSettings>
+							</mix:ScanningSystemCapture>
+						</mix:ImageCreation>
+						<mix:ImagingPerformanceAssessment>
+							<mix:SpatialMetrics>
+								<mix:ImageWidth>1838</mix:ImageWidth>
+								<mix:ImageLength>2588</mix:ImageLength>
+							</mix:SpatialMetrics>
+							<mix:Energetics>
+								<mix:BitsPerSample>8,8,8</mix:BitsPerSample>
+								<mix:SamplesPerPixel>3</mix:SamplesPerPixel>
+							</mix:Energetics>
+						</mix:ImagingPerformanceAssessment>
+						<mix:ChangeHistory>
+							<mix:ImageProcessing>
+								<mix:SourceData>./NLL_Leta/B002_Dtest/D-test/p_001_diea2016n042/p_001_diea2016n042_002.pdf</mix:SourceData>
+							</mix:ImageProcessing>
+						</mix:ChangeHistory>
+					</mix:mix>
+				</mets:xmlData>
+			</mets:mdWrap>
+		</mets:techMD>
+	</mets:amdSec>
+	<mets:amdSec ID="IMGPARAM00003">
+		<mets:techMD ID="IMGPARAM00003TECHMD">
+			<mets:mdWrap MDTYPE="NISOIMG">
+				<mets:xmlData>
+					<mix:mix>
+						<mix:BasicImageParameters>
+							<mix:Format>
+								<mix:MIMEType>image/jpeg</mix:MIMEType>
+								<mix:ByteOrder>little-endian</mix:ByteOrder>
+								<mix:Compression>
+									<mix:CompressionScheme>6</mix:CompressionScheme>
+								</mix:Compression>
+								<mix:PhotometricInterpretation>
+									<mix:ColorSpace>2</mix:ColorSpace>
+								</mix:PhotometricInterpretation>
+							</mix:Format>
+							<mix:File>
+								<mix:ImageIdentifier imageIdentifierLocation="//eleja.lnb.lan/OUT/NLL_Leta/B002_Dtest/D-test/p_001_diea2016n042">diea2016n042_003.jpg</mix:ImageIdentifier>
+								<mix:FileSize>819784</mix:FileSize>
+								<mix:Orientation>1</mix:Orientation>
+								<mix:DisplayOrientation>1</mix:DisplayOrientation>
+							</mix:File>
+						</mix:BasicImageParameters>
+						<mix:ImageCreation>
+							<mix:SourceType>Newspaper</mix:SourceType>
+							<mix:SourceID/>
+							<mix:ImageProducer/>
+							<mix:Host>
+								<mix:HostComputer>ELEJA</mix:HostComputer>
+								<mix:OperatingSystem>windows</mix:OperatingSystem>
+								<mix:OSVersion>6.2</mix:OSVersion>
+							</mix:Host>
+							<mix:DeviceSource/>
+							<mix:ScanningSystemCapture>
+								<mix:ScanningSystemHardware>
+									<mix:ScannerManufacturer/>
+									<mix:ScannerModel>
+										<mix:ScannerModelName/>
+										<mix:ScannerModelNumber/>
+										<mix:ScannerModelSerialNo/>
+									</mix:ScannerModel>
+								</mix:ScanningSystemHardware>
+								<mix:ScanningSystemSoftware>
+									<mix:ScanningSoftware>CCS docWorks</mix:ScanningSoftware>
+									<mix:ScanningSoftwareVersionNo/>
+								</mix:ScanningSystemSoftware>
+								<mix:ScannerCaptureSettings>
+									<mix:PixelSize>0.0846666</mix:PixelSize>
+									<mix:PhysScanResolution>
+										<mix:XphysScanResolution>173</mix:XphysScanResolution>
+										<mix:YphysScanResolution>173</mix:YphysScanResolution>
+									</mix:PhysScanResolution>
+								</mix:ScannerCaptureSettings>
+							</mix:ScanningSystemCapture>
+						</mix:ImageCreation>
+						<mix:ImagingPerformanceAssessment>
+							<mix:SpatialMetrics>
+								<mix:ImageWidth>1838</mix:ImageWidth>
+								<mix:ImageLength>2588</mix:ImageLength>
+							</mix:SpatialMetrics>
+							<mix:Energetics>
+								<mix:BitsPerSample>8,8,8</mix:BitsPerSample>
+								<mix:SamplesPerPixel>3</mix:SamplesPerPixel>
+							</mix:Energetics>
+						</mix:ImagingPerformanceAssessment>
+						<mix:ChangeHistory>
+							<mix:ImageProcessing>
+								<mix:SourceData>./NLL_Leta/B002_Dtest/D-test/p_001_diea2016n042/p_001_diea2016n042_003.pdf</mix:SourceData>
+							</mix:ImageProcessing>
+						</mix:ChangeHistory>
+					</mix:mix>
+				</mets:xmlData>
+			</mets:mdWrap>
+		</mets:techMD>
+	</mets:amdSec>
+	<mets:amdSec ID="IMGPARAM00004">
+		<mets:techMD ID="IMGPARAM00004TECHMD">
+			<mets:mdWrap MDTYPE="NISOIMG">
+				<mets:xmlData>
+					<mix:mix>
+						<mix:BasicImageParameters>
+							<mix:Format>
+								<mix:MIMEType>image/jpeg</mix:MIMEType>
+								<mix:ByteOrder>little-endian</mix:ByteOrder>
+								<mix:Compression>
+									<mix:CompressionScheme>6</mix:CompressionScheme>
+								</mix:Compression>
+								<mix:PhotometricInterpretation>
+									<mix:ColorSpace>2</mix:ColorSpace>
+								</mix:PhotometricInterpretation>
+							</mix:Format>
+							<mix:File>
+								<mix:ImageIdentifier imageIdentifierLocation="//eleja.lnb.lan/OUT/NLL_Leta/B002_Dtest/D-test/p_001_diea2016n042">diea2016n042_004.jpg</mix:ImageIdentifier>
+								<mix:FileSize>702293</mix:FileSize>
+								<mix:Orientation>1</mix:Orientation>
+								<mix:DisplayOrientation>1</mix:DisplayOrientation>
+							</mix:File>
+						</mix:BasicImageParameters>
+						<mix:ImageCreation>
+							<mix:SourceType>Newspaper</mix:SourceType>
+							<mix:SourceID/>
+							<mix:ImageProducer/>
+							<mix:Host>
+								<mix:HostComputer>ELEJA</mix:HostComputer>
+								<mix:OperatingSystem>windows</mix:OperatingSystem>
+								<mix:OSVersion>6.2</mix:OSVersion>
+							</mix:Host>
+							<mix:DeviceSource/>
+							<mix:ScanningSystemCapture>
+								<mix:ScanningSystemHardware>
+									<mix:ScannerManufacturer/>
+									<mix:ScannerModel>
+										<mix:ScannerModelName/>
+										<mix:ScannerModelNumber/>
+										<mix:ScannerModelSerialNo/>
+									</mix:ScannerModel>
+								</mix:ScanningSystemHardware>
+								<mix:ScanningSystemSoftware>
+									<mix:ScanningSoftware>CCS docWorks</mix:ScanningSoftware>
+									<mix:ScanningSoftwareVersionNo/>
+								</mix:ScanningSystemSoftware>
+								<mix:ScannerCaptureSettings>
+									<mix:PixelSize>0.0846666</mix:PixelSize>
+									<mix:PhysScanResolution>
+										<mix:XphysScanResolution>173</mix:XphysScanResolution>
+										<mix:YphysScanResolution>173</mix:YphysScanResolution>
+									</mix:PhysScanResolution>
+								</mix:ScannerCaptureSettings>
+							</mix:ScanningSystemCapture>
+						</mix:ImageCreation>
+						<mix:ImagingPerformanceAssessment>
+							<mix:SpatialMetrics>
+								<mix:ImageWidth>1838</mix:ImageWidth>
+								<mix:ImageLength>2588</mix:ImageLength>
+							</mix:SpatialMetrics>
+							<mix:Energetics>
+								<mix:BitsPerSample>8,8,8</mix:BitsPerSample>
+								<mix:SamplesPerPixel>3</mix:SamplesPerPixel>
+							</mix:Energetics>
+						</mix:ImagingPerformanceAssessment>
+						<mix:ChangeHistory>
+							<mix:ImageProcessing>
+								<mix:SourceData>./NLL_Leta/B002_Dtest/D-test/p_001_diea2016n042/p_001_diea2016n042_004.pdf</mix:SourceData>
+							</mix:ImageProcessing>
+						</mix:ChangeHistory>
+					</mix:mix>
+				</mets:xmlData>
+			</mets:mdWrap>
+		</mets:techMD>
+	</mets:amdSec>
+	<mets:amdSec ID="IMGPARAM00005">
+		<mets:techMD ID="IMGPARAM00005TECHMD">
+			<mets:mdWrap MDTYPE="NISOIMG">
+				<mets:xmlData>
+					<mix:mix>
+						<mix:BasicImageParameters>
+							<mix:Format>
+								<mix:MIMEType>image/jpeg</mix:MIMEType>
+								<mix:ByteOrder>little-endian</mix:ByteOrder>
+								<mix:Compression>
+									<mix:CompressionScheme>6</mix:CompressionScheme>
+								</mix:Compression>
+								<mix:PhotometricInterpretation>
+									<mix:ColorSpace>2</mix:ColorSpace>
+								</mix:PhotometricInterpretation>
+							</mix:Format>
+							<mix:File>
+								<mix:ImageIdentifier imageIdentifierLocation="//eleja.lnb.lan/OUT/NLL_Leta/B002_Dtest/D-test/p_001_diea2016n042">diea2016n042_005.jpg</mix:ImageIdentifier>
+								<mix:FileSize>475284</mix:FileSize>
+								<mix:Orientation>1</mix:Orientation>
+								<mix:DisplayOrientation>1</mix:DisplayOrientation>
+							</mix:File>
+						</mix:BasicImageParameters>
+						<mix:ImageCreation>
+							<mix:SourceType>Newspaper</mix:SourceType>
+							<mix:SourceID/>
+							<mix:ImageProducer/>
+							<mix:Host>
+								<mix:HostComputer>ELEJA</mix:HostComputer>
+								<mix:OperatingSystem>windows</mix:OperatingSystem>
+								<mix:OSVersion>6.2</mix:OSVersion>
+							</mix:Host>
+							<mix:DeviceSource/>
+							<mix:ScanningSystemCapture>
+								<mix:ScanningSystemHardware>
+									<mix:ScannerManufacturer/>
+									<mix:ScannerModel>
+										<mix:ScannerModelName/>
+										<mix:ScannerModelNumber/>
+										<mix:ScannerModelSerialNo/>
+									</mix:ScannerModel>
+								</mix:ScanningSystemHardware>
+								<mix:ScanningSystemSoftware>
+									<mix:ScanningSoftware>CCS docWorks</mix:ScanningSoftware>
+									<mix:ScanningSoftwareVersionNo/>
+								</mix:ScanningSystemSoftware>
+								<mix:ScannerCaptureSettings>
+									<mix:PixelSize>0.0846666</mix:PixelSize>
+									<mix:PhysScanResolution>
+										<mix:XphysScanResolution>173</mix:XphysScanResolution>
+										<mix:YphysScanResolution>173</mix:YphysScanResolution>
+									</mix:PhysScanResolution>
+								</mix:ScannerCaptureSettings>
+							</mix:ScanningSystemCapture>
+						</mix:ImageCreation>
+						<mix:ImagingPerformanceAssessment>
+							<mix:SpatialMetrics>
+								<mix:ImageWidth>1838</mix:ImageWidth>
+								<mix:ImageLength>2588</mix:ImageLength>
+							</mix:SpatialMetrics>
+							<mix:Energetics>
+								<mix:BitsPerSample>8,8,8</mix:BitsPerSample>
+								<mix:SamplesPerPixel>3</mix:SamplesPerPixel>
+							</mix:Energetics>
+						</mix:ImagingPerformanceAssessment>
+						<mix:ChangeHistory>
+							<mix:ImageProcessing>
+								<mix:SourceData>./NLL_Leta/B002_Dtest/D-test/p_001_diea2016n042/p_001_diea2016n042_005.pdf</mix:SourceData>
+							</mix:ImageProcessing>
+						</mix:ChangeHistory>
+					</mix:mix>
+				</mets:xmlData>
+			</mets:mdWrap>
+		</mets:techMD>
+	</mets:amdSec>
+	<mets:amdSec ID="IMGPARAM00006">
+		<mets:techMD ID="IMGPARAM00006TECHMD">
+			<mets:mdWrap MDTYPE="NISOIMG">
+				<mets:xmlData>
+					<mix:mix>
+						<mix:BasicImageParameters>
+							<mix:Format>
+								<mix:MIMEType>image/jpeg</mix:MIMEType>
+								<mix:ByteOrder>little-endian</mix:ByteOrder>
+								<mix:Compression>
+									<mix:CompressionScheme>6</mix:CompressionScheme>
+								</mix:Compression>
+								<mix:PhotometricInterpretation>
+									<mix:ColorSpace>2</mix:ColorSpace>
+								</mix:PhotometricInterpretation>
+							</mix:Format>
+							<mix:File>
+								<mix:ImageIdentifier imageIdentifierLocation="//eleja.lnb.lan/OUT/NLL_Leta/B002_Dtest/D-test/p_001_diea2016n042">diea2016n042_006.jpg</mix:ImageIdentifier>
+								<mix:FileSize>1436857</mix:FileSize>
+								<mix:Orientation>1</mix:Orientation>
+								<mix:DisplayOrientation>1</mix:DisplayOrientation>
+							</mix:File>
+						</mix:BasicImageParameters>
+						<mix:ImageCreation>
+							<mix:SourceType>Newspaper</mix:SourceType>
+							<mix:SourceID/>
+							<mix:ImageProducer/>
+							<mix:Host>
+								<mix:HostComputer>ELEJA</mix:HostComputer>
+								<mix:OperatingSystem>windows</mix:OperatingSystem>
+								<mix:OSVersion>6.2</mix:OSVersion>
+							</mix:Host>
+							<mix:DeviceSource/>
+							<mix:ScanningSystemCapture>
+								<mix:ScanningSystemHardware>
+									<mix:ScannerManufacturer/>
+									<mix:ScannerModel>
+										<mix:ScannerModelName/>
+										<mix:ScannerModelNumber/>
+										<mix:ScannerModelSerialNo/>
+									</mix:ScannerModel>
+								</mix:ScanningSystemHardware>
+								<mix:ScanningSystemSoftware>
+									<mix:ScanningSoftware>CCS docWorks</mix:ScanningSoftware>
+									<mix:ScanningSoftwareVersionNo/>
+								</mix:ScanningSystemSoftware>
+								<mix:ScannerCaptureSettings>
+									<mix:PixelSize>0.0846666</mix:PixelSize>
+									<mix:PhysScanResolution>
+										<mix:XphysScanResolution>173</mix:XphysScanResolution>
+										<mix:YphysScanResolution>173</mix:YphysScanResolution>
+									</mix:PhysScanResolution>
+								</mix:ScannerCaptureSettings>
+							</mix:ScanningSystemCapture>
+						</mix:ImageCreation>
+						<mix:ImagingPerformanceAssessment>
+							<mix:SpatialMetrics>
+								<mix:ImageWidth>3676</mix:ImageWidth>
+								<mix:ImageLength>2588</mix:ImageLength>
+							</mix:SpatialMetrics>
+							<mix:Energetics>
+								<mix:BitsPerSample>8,8,8</mix:BitsPerSample>
+								<mix:SamplesPerPixel>3</mix:SamplesPerPixel>
+							</mix:Energetics>
+						</mix:ImagingPerformanceAssessment>
+						<mix:ChangeHistory>
+							<mix:ImageProcessing>
+								<mix:SourceData>./NLL_Leta/B002_Dtest/D-test/p_001_diea2016n042/p_001_diea2016n042_006_007.pdf</mix:SourceData>
+							</mix:ImageProcessing>
+						</mix:ChangeHistory>
+					</mix:mix>
+				</mets:xmlData>
+			</mets:mdWrap>
+		</mets:techMD>
+	</mets:amdSec>
+	<mets:amdSec ID="IMGPARAM00007">
+		<mets:techMD ID="IMGPARAM00007TECHMD">
+			<mets:mdWrap MDTYPE="NISOIMG">
+				<mets:xmlData>
+					<mix:mix>
+						<mix:BasicImageParameters>
+							<mix:Format>
+								<mix:MIMEType>image/jpeg</mix:MIMEType>
+								<mix:ByteOrder>little-endian</mix:ByteOrder>
+								<mix:Compression>
+									<mix:CompressionScheme>6</mix:CompressionScheme>
+								</mix:Compression>
+								<mix:PhotometricInterpretation>
+									<mix:ColorSpace>2</mix:ColorSpace>
+								</mix:PhotometricInterpretation>
+							</mix:Format>
+							<mix:File>
+								<mix:ImageIdentifier imageIdentifierLocation="//eleja.lnb.lan/OUT/NLL_Leta/B002_Dtest/D-test/p_001_diea2016n042">diea2016n042_007.jpg</mix:ImageIdentifier>
+								<mix:FileSize>1680337</mix:FileSize>
+								<mix:Orientation>1</mix:Orientation>
+								<mix:DisplayOrientation>1</mix:DisplayOrientation>
+							</mix:File>
+						</mix:BasicImageParameters>
+						<mix:ImageCreation>
+							<mix:SourceType>Newspaper</mix:SourceType>
+							<mix:SourceID/>
+							<mix:ImageProducer/>
+							<mix:Host>
+								<mix:HostComputer>ELEJA</mix:HostComputer>
+								<mix:OperatingSystem>windows</mix:OperatingSystem>
+								<mix:OSVersion>6.2</mix:OSVersion>
+							</mix:Host>
+							<mix:DeviceSource/>
+							<mix:ScanningSystemCapture>
+								<mix:ScanningSystemHardware>
+									<mix:ScannerManufacturer/>
+									<mix:ScannerModel>
+										<mix:ScannerModelName/>
+										<mix:ScannerModelNumber/>
+										<mix:ScannerModelSerialNo/>
+									</mix:ScannerModel>
+								</mix:ScanningSystemHardware>
+								<mix:ScanningSystemSoftware>
+									<mix:ScanningSoftware>CCS docWorks</mix:ScanningSoftware>
+									<mix:ScanningSoftwareVersionNo/>
+								</mix:ScanningSystemSoftware>
+								<mix:ScannerCaptureSettings>
+									<mix:PixelSize>0.0846666</mix:PixelSize>
+									<mix:PhysScanResolution>
+										<mix:XphysScanResolution>173</mix:XphysScanResolution>
+										<mix:YphysScanResolution>173</mix:YphysScanResolution>
+									</mix:PhysScanResolution>
+								</mix:ScannerCaptureSettings>
+							</mix:ScanningSystemCapture>
+						</mix:ImageCreation>
+						<mix:ImagingPerformanceAssessment>
+							<mix:SpatialMetrics>
+								<mix:ImageWidth>3676</mix:ImageWidth>
+								<mix:ImageLength>2588</mix:ImageLength>
+							</mix:SpatialMetrics>
+							<mix:Energetics>
+								<mix:BitsPerSample>8,8,8</mix:BitsPerSample>
+								<mix:SamplesPerPixel>3</mix:SamplesPerPixel>
+							</mix:Energetics>
+						</mix:ImagingPerformanceAssessment>
+						<mix:ChangeHistory>
+							<mix:ImageProcessing>
+								<mix:SourceData>./NLL_Leta/B002_Dtest/D-test/p_001_diea2016n042/p_001_diea2016n042_008_009.pdf</mix:SourceData>
+							</mix:ImageProcessing>
+						</mix:ChangeHistory>
+					</mix:mix>
+				</mets:xmlData>
+			</mets:mdWrap>
+		</mets:techMD>
+	</mets:amdSec>
+	<mets:amdSec ID="IMGPARAM00008">
+		<mets:techMD ID="IMGPARAM00008TECHMD">
+			<mets:mdWrap MDTYPE="NISOIMG">
+				<mets:xmlData>
+					<mix:mix>
+						<mix:BasicImageParameters>
+							<mix:Format>
+								<mix:MIMEType>image/jpeg</mix:MIMEType>
+								<mix:ByteOrder>little-endian</mix:ByteOrder>
+								<mix:Compression>
+									<mix:CompressionScheme>6</mix:CompressionScheme>
+								</mix:Compression>
+								<mix:PhotometricInterpretation>
+									<mix:ColorSpace>2</mix:ColorSpace>
+								</mix:PhotometricInterpretation>
+							</mix:Format>
+							<mix:File>
+								<mix:ImageIdentifier imageIdentifierLocation="//eleja.lnb.lan/OUT/NLL_Leta/B002_Dtest/D-test/p_001_diea2016n042">diea2016n042_008.jpg</mix:ImageIdentifier>
+								<mix:FileSize>1550046</mix:FileSize>
+								<mix:Orientation>1</mix:Orientation>
+								<mix:DisplayOrientation>1</mix:DisplayOrientation>
+							</mix:File>
+						</mix:BasicImageParameters>
+						<mix:ImageCreation>
+							<mix:SourceType>Newspaper</mix:SourceType>
+							<mix:SourceID/>
+							<mix:ImageProducer/>
+							<mix:Host>
+								<mix:HostComputer>ELEJA</mix:HostComputer>
+								<mix:OperatingSystem>windows</mix:OperatingSystem>
+								<mix:OSVersion>6.2</mix:OSVersion>
+							</mix:Host>
+							<mix:DeviceSource/>
+							<mix:ScanningSystemCapture>
+								<mix:ScanningSystemHardware>
+									<mix:ScannerManufacturer/>
+									<mix:ScannerModel>
+										<mix:ScannerModelName/>
+										<mix:ScannerModelNumber/>
+										<mix:ScannerModelSerialNo/>
+									</mix:ScannerModel>
+								</mix:ScanningSystemHardware>
+								<mix:ScanningSystemSoftware>
+									<mix:ScanningSoftware>CCS docWorks</mix:ScanningSoftware>
+									<mix:ScanningSoftwareVersionNo/>
+								</mix:ScanningSystemSoftware>
+								<mix:ScannerCaptureSettings>
+									<mix:PixelSize>0.0846666</mix:PixelSize>
+									<mix:PhysScanResolution>
+										<mix:XphysScanResolution>173</mix:XphysScanResolution>
+										<mix:YphysScanResolution>173</mix:YphysScanResolution>
+									</mix:PhysScanResolution>
+								</mix:ScannerCaptureSettings>
+							</mix:ScanningSystemCapture>
+						</mix:ImageCreation>
+						<mix:ImagingPerformanceAssessment>
+							<mix:SpatialMetrics>
+								<mix:ImageWidth>3676</mix:ImageWidth>
+								<mix:ImageLength>2588</mix:ImageLength>
+							</mix:SpatialMetrics>
+							<mix:Energetics>
+								<mix:BitsPerSample>8,8,8</mix:BitsPerSample>
+								<mix:SamplesPerPixel>3</mix:SamplesPerPixel>
+							</mix:Energetics>
+						</mix:ImagingPerformanceAssessment>
+						<mix:ChangeHistory>
+							<mix:ImageProcessing>
+								<mix:SourceData>./NLL_Leta/B002_Dtest/D-test/p_001_diea2016n042/p_001_diea2016n042_010_011.pdf</mix:SourceData>
+							</mix:ImageProcessing>
+						</mix:ChangeHistory>
+					</mix:mix>
+				</mets:xmlData>
+			</mets:mdWrap>
+		</mets:techMD>
+	</mets:amdSec>
+	<mets:amdSec ID="IMGPARAM00009">
+		<mets:techMD ID="IMGPARAM00009TECHMD">
+			<mets:mdWrap MDTYPE="NISOIMG">
+				<mets:xmlData>
+					<mix:mix>
+						<mix:BasicImageParameters>
+							<mix:Format>
+								<mix:MIMEType>image/jpeg</mix:MIMEType>
+								<mix:ByteOrder>little-endian</mix:ByteOrder>
+								<mix:Compression>
+									<mix:CompressionScheme>6</mix:CompressionScheme>
+								</mix:Compression>
+								<mix:PhotometricInterpretation>
+									<mix:ColorSpace>2</mix:ColorSpace>
+								</mix:PhotometricInterpretation>
+							</mix:Format>
+							<mix:File>
+								<mix:ImageIdentifier imageIdentifierLocation="//eleja.lnb.lan/OUT/NLL_Leta/B002_Dtest/D-test/p_001_diea2016n042">diea2016n042_009.jpg</mix:ImageIdentifier>
+								<mix:FileSize>614032</mix:FileSize>
+								<mix:Orientation>1</mix:Orientation>
+								<mix:DisplayOrientation>1</mix:DisplayOrientation>
+							</mix:File>
+						</mix:BasicImageParameters>
+						<mix:ImageCreation>
+							<mix:SourceType>Newspaper</mix:SourceType>
+							<mix:SourceID/>
+							<mix:ImageProducer/>
+							<mix:Host>
+								<mix:HostComputer>ELEJA</mix:HostComputer>
+								<mix:OperatingSystem>windows</mix:OperatingSystem>
+								<mix:OSVersion>6.2</mix:OSVersion>
+							</mix:Host>
+							<mix:DeviceSource/>
+							<mix:ScanningSystemCapture>
+								<mix:ScanningSystemHardware>
+									<mix:ScannerManufacturer/>
+									<mix:ScannerModel>
+										<mix:ScannerModelName/>
+										<mix:ScannerModelNumber/>
+										<mix:ScannerModelSerialNo/>
+									</mix:ScannerModel>
+								</mix:ScanningSystemHardware>
+								<mix:ScanningSystemSoftware>
+									<mix:ScanningSoftware>CCS docWorks</mix:ScanningSoftware>
+									<mix:ScanningSoftwareVersionNo/>
+								</mix:ScanningSystemSoftware>
+								<mix:ScannerCaptureSettings>
+									<mix:PixelSize>0.0846666</mix:PixelSize>
+									<mix:PhysScanResolution>
+										<mix:XphysScanResolution>173</mix:XphysScanResolution>
+										<mix:YphysScanResolution>173</mix:YphysScanResolution>
+									</mix:PhysScanResolution>
+								</mix:ScannerCaptureSettings>
+							</mix:ScanningSystemCapture>
+						</mix:ImageCreation>
+						<mix:ImagingPerformanceAssessment>
+							<mix:SpatialMetrics>
+								<mix:ImageWidth>1838</mix:ImageWidth>
+								<mix:ImageLength>2588</mix:ImageLength>
+							</mix:SpatialMetrics>
+							<mix:Energetics>
+								<mix:BitsPerSample>8,8,8</mix:BitsPerSample>
+								<mix:SamplesPerPixel>3</mix:SamplesPerPixel>
+							</mix:Energetics>
+						</mix:ImagingPerformanceAssessment>
+						<mix:ChangeHistory>
+							<mix:ImageProcessing>
+								<mix:SourceData>./NLL_Leta/B002_Dtest/D-test/p_001_diea2016n042/p_001_diea2016n042_012.pdf</mix:SourceData>
+							</mix:ImageProcessing>
+						</mix:ChangeHistory>
+					</mix:mix>
+				</mets:xmlData>
+			</mets:mdWrap>
+		</mets:techMD>
+	</mets:amdSec>
+	<mets:amdSec ID="IMGPARAM00010">
+		<mets:techMD ID="IMGPARAM00010TECHMD">
+			<mets:mdWrap MDTYPE="NISOIMG">
+				<mets:xmlData>
+					<mix:mix>
+						<mix:BasicImageParameters>
+							<mix:Format>
+								<mix:MIMEType>image/jpeg</mix:MIMEType>
+								<mix:ByteOrder>little-endian</mix:ByteOrder>
+								<mix:Compression>
+									<mix:CompressionScheme>6</mix:CompressionScheme>
+								</mix:Compression>
+								<mix:PhotometricInterpretation>
+									<mix:ColorSpace>2</mix:ColorSpace>
+								</mix:PhotometricInterpretation>
+							</mix:Format>
+							<mix:File>
+								<mix:ImageIdentifier imageIdentifierLocation="//eleja.lnb.lan/OUT/NLL_Leta/B002_Dtest/D-test/p_001_diea2016n042">diea2016n042_010.jpg</mix:ImageIdentifier>
+								<mix:FileSize>833111</mix:FileSize>
+								<mix:Orientation>1</mix:Orientation>
+								<mix:DisplayOrientation>1</mix:DisplayOrientation>
+							</mix:File>
+						</mix:BasicImageParameters>
+						<mix:ImageCreation>
+							<mix:SourceType>Newspaper</mix:SourceType>
+							<mix:SourceID/>
+							<mix:ImageProducer/>
+							<mix:Host>
+								<mix:HostComputer>ELEJA</mix:HostComputer>
+								<mix:OperatingSystem>windows</mix:OperatingSystem>
+								<mix:OSVersion>6.2</mix:OSVersion>
+							</mix:Host>
+							<mix:DeviceSource/>
+							<mix:ScanningSystemCapture>
+								<mix:ScanningSystemHardware>
+									<mix:ScannerManufacturer/>
+									<mix:ScannerModel>
+										<mix:ScannerModelName/>
+										<mix:ScannerModelNumber/>
+										<mix:ScannerModelSerialNo/>
+									</mix:ScannerModel>
+								</mix:ScanningSystemHardware>
+								<mix:ScanningSystemSoftware>
+									<mix:ScanningSoftware>CCS docWorks</mix:ScanningSoftware>
+									<mix:ScanningSoftwareVersionNo/>
+								</mix:ScanningSystemSoftware>
+								<mix:ScannerCaptureSettings>
+									<mix:PixelSize>0.0846666</mix:PixelSize>
+									<mix:PhysScanResolution>
+										<mix:XphysScanResolution>173</mix:XphysScanResolution>
+										<mix:YphysScanResolution>173</mix:YphysScanResolution>
+									</mix:PhysScanResolution>
+								</mix:ScannerCaptureSettings>
+							</mix:ScanningSystemCapture>
+						</mix:ImageCreation>
+						<mix:ImagingPerformanceAssessment>
+							<mix:SpatialMetrics>
+								<mix:ImageWidth>1838</mix:ImageWidth>
+								<mix:ImageLength>2588</mix:ImageLength>
+							</mix:SpatialMetrics>
+							<mix:Energetics>
+								<mix:BitsPerSample>8,8,8</mix:BitsPerSample>
+								<mix:SamplesPerPixel>3</mix:SamplesPerPixel>
+							</mix:Energetics>
+						</mix:ImagingPerformanceAssessment>
+						<mix:ChangeHistory>
+							<mix:ImageProcessing>
+								<mix:SourceData>./NLL_Leta/B002_Dtest/D-test/p_001_diea2016n042/p_001_diea2016n042_013.pdf</mix:SourceData>
+							</mix:ImageProcessing>
+						</mix:ChangeHistory>
+					</mix:mix>
+				</mets:xmlData>
+			</mets:mdWrap>
+		</mets:techMD>
+	</mets:amdSec>
+	<mets:amdSec ID="IMGPARAM00011">
+		<mets:techMD ID="IMGPARAM00011TECHMD">
+			<mets:mdWrap MDTYPE="NISOIMG">
+				<mets:xmlData>
+					<mix:mix>
+						<mix:BasicImageParameters>
+							<mix:Format>
+								<mix:MIMEType>image/jpeg</mix:MIMEType>
+								<mix:ByteOrder>little-endian</mix:ByteOrder>
+								<mix:Compression>
+									<mix:CompressionScheme>6</mix:CompressionScheme>
+								</mix:Compression>
+								<mix:PhotometricInterpretation>
+									<mix:ColorSpace>2</mix:ColorSpace>
+								</mix:PhotometricInterpretation>
+							</mix:Format>
+							<mix:File>
+								<mix:ImageIdentifier imageIdentifierLocation="//eleja.lnb.lan/OUT/NLL_Leta/B002_Dtest/D-test/p_001_diea2016n042">diea2016n042_011.jpg</mix:ImageIdentifier>
+								<mix:FileSize>1549737</mix:FileSize>
+								<mix:Orientation>1</mix:Orientation>
+								<mix:DisplayOrientation>1</mix:DisplayOrientation>
+							</mix:File>
+						</mix:BasicImageParameters>
+						<mix:ImageCreation>
+							<mix:SourceType>Newspaper</mix:SourceType>
+							<mix:SourceID/>
+							<mix:ImageProducer/>
+							<mix:Host>
+								<mix:HostComputer>ELEJA</mix:HostComputer>
+								<mix:OperatingSystem>windows</mix:OperatingSystem>
+								<mix:OSVersion>6.2</mix:OSVersion>
+							</mix:Host>
+							<mix:DeviceSource/>
+							<mix:ScanningSystemCapture>
+								<mix:ScanningSystemHardware>
+									<mix:ScannerManufacturer/>
+									<mix:ScannerModel>
+										<mix:ScannerModelName/>
+										<mix:ScannerModelNumber/>
+										<mix:ScannerModelSerialNo/>
+									</mix:ScannerModel>
+								</mix:ScanningSystemHardware>
+								<mix:ScanningSystemSoftware>
+									<mix:ScanningSoftware>CCS docWorks</mix:ScanningSoftware>
+									<mix:ScanningSoftwareVersionNo/>
+								</mix:ScanningSystemSoftware>
+								<mix:ScannerCaptureSettings>
+									<mix:PixelSize>0.0846666</mix:PixelSize>
+									<mix:PhysScanResolution>
+										<mix:XphysScanResolution>173</mix:XphysScanResolution>
+										<mix:YphysScanResolution>173</mix:YphysScanResolution>
+									</mix:PhysScanResolution>
+								</mix:ScannerCaptureSettings>
+							</mix:ScanningSystemCapture>
+						</mix:ImageCreation>
+						<mix:ImagingPerformanceAssessment>
+							<mix:SpatialMetrics>
+								<mix:ImageWidth>3676</mix:ImageWidth>
+								<mix:ImageLength>2588</mix:ImageLength>
+							</mix:SpatialMetrics>
+							<mix:Energetics>
+								<mix:BitsPerSample>8,8,8</mix:BitsPerSample>
+								<mix:SamplesPerPixel>3</mix:SamplesPerPixel>
+							</mix:Energetics>
+						</mix:ImagingPerformanceAssessment>
+						<mix:ChangeHistory>
+							<mix:ImageProcessing>
+								<mix:SourceData>./NLL_Leta/B002_Dtest/D-test/p_001_diea2016n042/p_001_diea2016n042_014_015.pdf</mix:SourceData>
+							</mix:ImageProcessing>
+						</mix:ChangeHistory>
+					</mix:mix>
+				</mets:xmlData>
+			</mets:mdWrap>
+		</mets:techMD>
+	</mets:amdSec>
+	<mets:amdSec ID="IMGPARAM00012">
+		<mets:techMD ID="IMGPARAM00012TECHMD">
+			<mets:mdWrap MDTYPE="NISOIMG">
+				<mets:xmlData>
+					<mix:mix>
+						<mix:BasicImageParameters>
+							<mix:Format>
+								<mix:MIMEType>image/jpeg</mix:MIMEType>
+								<mix:ByteOrder>little-endian</mix:ByteOrder>
+								<mix:Compression>
+									<mix:CompressionScheme>6</mix:CompressionScheme>
+								</mix:Compression>
+								<mix:PhotometricInterpretation>
+									<mix:ColorSpace>2</mix:ColorSpace>
+								</mix:PhotometricInterpretation>
+							</mix:Format>
+							<mix:File>
+								<mix:ImageIdentifier imageIdentifierLocation="//eleja.lnb.lan/OUT/NLL_Leta/B002_Dtest/D-test/p_001_diea2016n042">diea2016n042_012.jpg</mix:ImageIdentifier>
+								<mix:FileSize>752369</mix:FileSize>
+								<mix:Orientation>1</mix:Orientation>
+								<mix:DisplayOrientation>1</mix:DisplayOrientation>
+							</mix:File>
+						</mix:BasicImageParameters>
+						<mix:ImageCreation>
+							<mix:SourceType>Newspaper</mix:SourceType>
+							<mix:SourceID/>
+							<mix:ImageProducer/>
+							<mix:Host>
+								<mix:HostComputer>ELEJA</mix:HostComputer>
+								<mix:OperatingSystem>windows</mix:OperatingSystem>
+								<mix:OSVersion>6.2</mix:OSVersion>
+							</mix:Host>
+							<mix:DeviceSource/>
+							<mix:ScanningSystemCapture>
+								<mix:ScanningSystemHardware>
+									<mix:ScannerManufacturer/>
+									<mix:ScannerModel>
+										<mix:ScannerModelName/>
+										<mix:ScannerModelNumber/>
+										<mix:ScannerModelSerialNo/>
+									</mix:ScannerModel>
+								</mix:ScanningSystemHardware>
+								<mix:ScanningSystemSoftware>
+									<mix:ScanningSoftware>CCS docWorks</mix:ScanningSoftware>
+									<mix:ScanningSoftwareVersionNo/>
+								</mix:ScanningSystemSoftware>
+								<mix:ScannerCaptureSettings>
+									<mix:PixelSize>0.0846666</mix:PixelSize>
+									<mix:PhysScanResolution>
+										<mix:XphysScanResolution>173</mix:XphysScanResolution>
+										<mix:YphysScanResolution>173</mix:YphysScanResolution>
+									</mix:PhysScanResolution>
+								</mix:ScannerCaptureSettings>
+							</mix:ScanningSystemCapture>
+						</mix:ImageCreation>
+						<mix:ImagingPerformanceAssessment>
+							<mix:SpatialMetrics>
+								<mix:ImageWidth>1838</mix:ImageWidth>
+								<mix:ImageLength>2588</mix:ImageLength>
+							</mix:SpatialMetrics>
+							<mix:Energetics>
+								<mix:BitsPerSample>8,8,8</mix:BitsPerSample>
+								<mix:SamplesPerPixel>3</mix:SamplesPerPixel>
+							</mix:Energetics>
+						</mix:ImagingPerformanceAssessment>
+						<mix:ChangeHistory>
+							<mix:ImageProcessing>
+								<mix:SourceData>./NLL_Leta/B002_Dtest/D-test/p_001_diea2016n042/p_001_diea2016n042_016.pdf</mix:SourceData>
+							</mix:ImageProcessing>
+						</mix:ChangeHistory>
+					</mix:mix>
+				</mets:xmlData>
+			</mets:mdWrap>
+		</mets:techMD>
+	</mets:amdSec>
+	<mets:fileSec>
+		<mets:fileGrp ID="IMGGRP" USE="Images">
+			<mets:file ID="IMG00001" CREATED="2016-03-01T17:12:32" ADMID="IMGPARAM00001" MIMETYPE="image/jpg" SEQ="1" CHECKSUM="b6a1f0280bb6bfbc2239d9886a5b1659" CHECKSUMTYPE="MD5" SIZE="569685">
+				<mets:FLocat LOCTYPE="URL" xlink:href="file://./diea2016n042_001.jpg"/>
+			</mets:file>
+			<mets:file ID="IMG00002" CREATED="2016-03-01T17:12:34" ADMID="IMGPARAM00002" MIMETYPE="image/jpg" SEQ="2" CHECKSUM="e641e647c16b4e0826f61c79ff7d5ba2" CHECKSUMTYPE="MD5" SIZE="653859">
+				<mets:FLocat LOCTYPE="URL" xlink:href="file://./diea2016n042_002.jpg"/>
+			</mets:file>
+			<mets:file ID="IMG00003" CREATED="2016-03-01T17:12:37" ADMID="IMGPARAM00003" MIMETYPE="image/jpg" SEQ="3" CHECKSUM="6a29ff5ded5e543fb88cbc4ebbdff101" CHECKSUMTYPE="MD5" SIZE="819784">
+				<mets:FLocat LOCTYPE="URL" xlink:href="file://./diea2016n042_003.jpg"/>
+			</mets:file>
+			<mets:file ID="IMG00004" CREATED="2016-03-01T17:12:39" ADMID="IMGPARAM00004" MIMETYPE="image/jpg" SEQ="4" CHECKSUM="cec2d2b538b436e05dd4c8690bc30b8e" CHECKSUMTYPE="MD5" SIZE="702293">
+				<mets:FLocat LOCTYPE="URL" xlink:href="file://./diea2016n042_004.jpg"/>
+			</mets:file>
+			<mets:file ID="IMG00005" CREATED="2016-03-01T17:12:41" ADMID="IMGPARAM00005" MIMETYPE="image/jpg" SEQ="5" CHECKSUM="681199d18d5b5bc939ea51c90873e149" CHECKSUMTYPE="MD5" SIZE="475284">
+				<mets:FLocat LOCTYPE="URL" xlink:href="file://./diea2016n042_005.jpg"/>
+			</mets:file>
+			<mets:file ID="IMG00006" CREATED="2016-03-01T17:12:44" ADMID="IMGPARAM00006" MIMETYPE="image/jpg" SEQ="6" CHECKSUM="3545ad2b82fad888004235d675417f59" CHECKSUMTYPE="MD5" SIZE="1436857">
+				<mets:FLocat LOCTYPE="URL" xlink:href="file://./diea2016n042_006.jpg"/>
+			</mets:file>
+			<mets:file ID="IMG00007" CREATED="2016-03-01T17:12:49" ADMID="IMGPARAM00007" MIMETYPE="image/jpg" SEQ="7" CHECKSUM="cc330b5e066ec3c6e8990dc17dc468c4" CHECKSUMTYPE="MD5" SIZE="1680337">
+				<mets:FLocat LOCTYPE="URL" xlink:href="file://./diea2016n042_007.jpg"/>
+			</mets:file>
+			<mets:file ID="IMG00008" CREATED="2016-03-01T17:12:53" ADMID="IMGPARAM00008" MIMETYPE="image/jpg" SEQ="8" CHECKSUM="111bc971e3825f9c539ba1832d5ff630" CHECKSUMTYPE="MD5" SIZE="1550046">
+				<mets:FLocat LOCTYPE="URL" xlink:href="file://./diea2016n042_008.jpg"/>
+			</mets:file>
+			<mets:file ID="IMG00009" CREATED="2016-03-01T17:12:55" ADMID="IMGPARAM00009" MIMETYPE="image/jpg" SEQ="9" CHECKSUM="86d72e722bed1ff3464dfcc1354d289a" CHECKSUMTYPE="MD5" SIZE="614032">
+				<mets:FLocat LOCTYPE="URL" xlink:href="file://./diea2016n042_009.jpg"/>
+			</mets:file>
+			<mets:file ID="IMG00010" CREATED="2016-03-01T17:12:57" ADMID="IMGPARAM00010" MIMETYPE="image/jpg" SEQ="10" CHECKSUM="62b766767b885df291d8c45362bc6df5" CHECKSUMTYPE="MD5" SIZE="833111">
+				<mets:FLocat LOCTYPE="URL" xlink:href="file://./diea2016n042_010.jpg"/>
+			</mets:file>
+			<mets:file ID="IMG00011" CREATED="2016-03-01T17:13:01" ADMID="IMGPARAM00011" MIMETYPE="image/jpg" SEQ="11" CHECKSUM="badc1a93d3b30165b0a6ec6c0797debb" CHECKSUMTYPE="MD5" SIZE="1549737">
+				<mets:FLocat LOCTYPE="URL" xlink:href="file://./diea2016n042_011.jpg"/>
+			</mets:file>
+			<mets:file ID="IMG00012" CREATED="2016-03-01T17:13:03" ADMID="IMGPARAM00012" MIMETYPE="image/jpg" SEQ="12" CHECKSUM="c9560a83d09801566980c91df825aa8b" CHECKSUMTYPE="MD5" SIZE="752369">
+				<mets:FLocat LOCTYPE="URL" xlink:href="file://./diea2016n042_012.jpg"/>
+			</mets:file>
+		</mets:fileGrp>
+		<mets:fileGrp ID="ALTOGRP" USE="Text">
+			<mets:file ID="ALTO00001" CREATED="2016-03-01T17:13:03" MIMETYPE="text/xml" CHECKSUM="785426249b88d9cffb960e75bfaca630" CHECKSUMTYPE="MD5" SIZE="65080">
+				<mets:FLocat LOCTYPE="URL" xlink:href="file://./diea2016n042_001_alto.xml"/>
+			</mets:file>
+			<mets:file ID="ALTO00002" CREATED="2016-03-01T17:13:04" MIMETYPE="text/xml" CHECKSUM="2fe836a6d3b80c475c89a8f748eacdc4" CHECKSUMTYPE="MD5" SIZE="166748">
+				<mets:FLocat LOCTYPE="URL" xlink:href="file://./diea2016n042_002_alto.xml"/>
+			</mets:file>
+			<mets:file ID="ALTO00003" CREATED="2016-03-01T17:13:04" MIMETYPE="text/xml" CHECKSUM="dcf3f360a4f05788df8372df79200e87" CHECKSUMTYPE="MD5" SIZE="310835">
+				<mets:FLocat LOCTYPE="URL" xlink:href="file://./diea2016n042_003_alto.xml"/>
+			</mets:file>
+			<mets:file ID="ALTO00004" CREATED="2016-03-01T17:13:05" MIMETYPE="text/xml" CHECKSUM="f44cc55fca2e0e7dc597b8ae9fd22f8f" CHECKSUMTYPE="MD5" SIZE="218678">
+				<mets:FLocat LOCTYPE="URL" xlink:href="file://./diea2016n042_004_alto.xml"/>
+			</mets:file>
+			<mets:file ID="ALTO00005" CREATED="2016-03-01T17:13:06" MIMETYPE="text/xml" CHECKSUM="75faf1dca77916fdde5ed43b8b89bf1c" CHECKSUMTYPE="MD5" SIZE="15102">
+				<mets:FLocat LOCTYPE="URL" xlink:href="file://./diea2016n042_005_alto.xml"/>
+			</mets:file>
+			<mets:file ID="ALTO00006" CREATED="2016-03-01T17:13:06" MIMETYPE="text/xml" CHECKSUM="7855f13fde9636f78587e4bb597600e8" CHECKSUMTYPE="MD5" SIZE="436327">
+				<mets:FLocat LOCTYPE="URL" xlink:href="file://./diea2016n042_006_alto.xml"/>
+			</mets:file>
+			<mets:file ID="ALTO00007" CREATED="2016-03-01T17:13:07" MIMETYPE="text/xml" CHECKSUM="08c0396e473ce392ba0ea23939786cf0" CHECKSUMTYPE="MD5" SIZE="569653">
+				<mets:FLocat LOCTYPE="URL" xlink:href="file://./diea2016n042_007_alto.xml"/>
+			</mets:file>
+			<mets:file ID="ALTO00008" CREATED="2016-03-01T17:13:08" MIMETYPE="text/xml" CHECKSUM="4b03eac85efebe89cb4bd433f6794766" CHECKSUMTYPE="MD5" SIZE="309472">
+				<mets:FLocat LOCTYPE="URL" xlink:href="file://./diea2016n042_008_alto.xml"/>
+			</mets:file>
+			<mets:file ID="ALTO00009" CREATED="2016-03-01T17:13:09" MIMETYPE="text/xml" CHECKSUM="6b6ffe5f7f186cf2e210fe36148de782" CHECKSUMTYPE="MD5" SIZE="137146">
+				<mets:FLocat LOCTYPE="URL" xlink:href="file://./diea2016n042_009_alto.xml"/>
+			</mets:file>
+			<mets:file ID="ALTO00010" CREATED="2016-03-01T17:13:09" MIMETYPE="text/xml" CHECKSUM="c797e807df428bc40d2b6b1be6b7fa7f" CHECKSUMTYPE="MD5" SIZE="253173">
+				<mets:FLocat LOCTYPE="URL" xlink:href="file://./diea2016n042_010_alto.xml"/>
+			</mets:file>
+			<mets:file ID="ALTO00011" CREATED="2016-03-01T17:13:10" MIMETYPE="text/xml" CHECKSUM="028783d10a68d9117f51b6483229bcab" CHECKSUMTYPE="MD5" SIZE="487734">
+				<mets:FLocat LOCTYPE="URL" xlink:href="file://./diea2016n042_011_alto.xml"/>
+			</mets:file>
+			<mets:file ID="ALTO00012" CREATED="2016-03-01T17:13:11" MIMETYPE="text/xml" CHECKSUM="c4eeab176dbf1fd1de32c33af6aafc15" CHECKSUMTYPE="MD5" SIZE="235059">
+				<mets:FLocat LOCTYPE="URL" xlink:href="file://./diea2016n042_012_alto.xml"/>
+			</mets:file>
+		</mets:fileGrp>
+	</mets:fileSec>
+	<mets:structMap LABEL="Physical Structure" TYPE="PHYSICAL">
+		<mets:div ID="DIVP1" LABEL="Diena" TYPE="Newspaper" DMDID="modsissue">
+			<mets:div ID="DIVP2" ORDER="1" ORDERLABEL="1" TYPE="PAGE">
+				<mets:fptr>
+					<mets:par>
+						<mets:area FILEID="IMG00001"/>
+						<mets:area FILEID="ALTO00001" BETYPE="IDREF" BEGIN="P1"/>
+					</mets:par>
+				</mets:fptr>
+			</mets:div>
+			<mets:div ID="DIVP3" ORDER="2" ORDERLABEL="2" LABEL="2" TYPE="PAGE">
+				<mets:fptr>
+					<mets:par>
+						<mets:area FILEID="IMG00002"/>
+						<mets:area FILEID="ALTO00002" BETYPE="IDREF" BEGIN="P2"/>
+					</mets:par>
+				</mets:fptr>
+			</mets:div>
+			<mets:div ID="DIVP4" ORDER="3" ORDERLABEL="3" LABEL="3" TYPE="PAGE">
+				<mets:fptr>
+					<mets:par>
+						<mets:area FILEID="IMG00003"/>
+						<mets:area FILEID="ALTO00003" BETYPE="IDREF" BEGIN="P3"/>
+					</mets:par>
+				</mets:fptr>
+			</mets:div>
+			<mets:div ID="DIVP5" ORDER="4" ORDERLABEL="4" LABEL="4" TYPE="PAGE">
+				<mets:fptr>
+					<mets:par>
+						<mets:area FILEID="IMG00004"/>
+						<mets:area FILEID="ALTO00004" BETYPE="IDREF" BEGIN="P4"/>
+					</mets:par>
+				</mets:fptr>
+			</mets:div>
+			<mets:div ID="DIVP6" ORDER="5" ORDERLABEL="5" TYPE="PAGE">
+				<mets:fptr>
+					<mets:par>
+						<mets:area FILEID="IMG00005"/>
+						<mets:area FILEID="ALTO00005" BETYPE="IDREF" BEGIN="P5"/>
+					</mets:par>
+				</mets:fptr>
+			</mets:div>
+			<mets:div ID="DIVP7" ORDER="6" ORDERLABEL="6 / 7" LABEL="67" TYPE="PAGE">
+				<mets:fptr>
+					<mets:par>
+						<mets:area FILEID="IMG00006"/>
+						<mets:area FILEID="ALTO00006" BETYPE="IDREF" BEGIN="P6"/>
+					</mets:par>
+				</mets:fptr>
+			</mets:div>
+			<mets:div ID="DIVP8" ORDER="7" ORDERLABEL="8 / 9" LABEL="89" TYPE="PAGE">
+				<mets:fptr>
+					<mets:par>
+						<mets:area FILEID="IMG00007"/>
+						<mets:area FILEID="ALTO00007" BETYPE="IDREF" BEGIN="P7"/>
+					</mets:par>
+				</mets:fptr>
+			</mets:div>
+			<mets:div ID="DIVP9" ORDER="8" ORDERLABEL="10 / 11" LABEL="1011" TYPE="PAGE">
+				<mets:fptr>
+					<mets:par>
+						<mets:area FILEID="IMG00008"/>
+						<mets:area FILEID="ALTO00008" BETYPE="IDREF" BEGIN="P8"/>
+					</mets:par>
+				</mets:fptr>
+			</mets:div>
+			<mets:div ID="DIVP10" ORDER="9" ORDERLABEL="12" LABEL="12" TYPE="PAGE">
+				<mets:fptr>
+					<mets:par>
+						<mets:area FILEID="IMG00009"/>
+						<mets:area FILEID="ALTO00009" BETYPE="IDREF" BEGIN="P9"/>
+					</mets:par>
+				</mets:fptr>
+			</mets:div>
+			<mets:div ID="DIVP11" ORDER="10" ORDERLABEL="13" LABEL="13" TYPE="PAGE">
+				<mets:fptr>
+					<mets:par>
+						<mets:area FILEID="IMG00010"/>
+						<mets:area FILEID="ALTO00010" BETYPE="IDREF" BEGIN="P10"/>
+					</mets:par>
+				</mets:fptr>
+			</mets:div>
+			<mets:div ID="DIVP12" ORDER="11" ORDERLABEL="14/15" LABEL="1415" TYPE="PAGE">
+				<mets:fptr>
+					<mets:par>
+						<mets:area FILEID="IMG00011"/>
+						<mets:area FILEID="ALTO00011" BETYPE="IDREF" BEGIN="P11"/>
+					</mets:par>
+				</mets:fptr>
+			</mets:div>
+			<mets:div ID="DIVP13" ORDER="12" ORDERLABEL="16" LABEL="16" TYPE="PAGE">
+				<mets:fptr>
+					<mets:par>
+						<mets:area FILEID="IMG00012"/>
+						<mets:area FILEID="ALTO00012" BETYPE="IDREF" BEGIN="P12"/>
+					</mets:par>
+				</mets:fptr>
+			</mets:div>
+		</mets:div>
+	</mets:structMap>
+	<mets:structMap LABEL="Logical Structure" TYPE="LOGICAL">
+		<mets:div ID="DIVL1" TYPE="Newspaper" LABEL="Diena no. 42 01032016">
+			<mets:div ID="DIVL3" TYPE="ISSUE" DMDID="modsissue" LABEL="Diena no. 42 01032016">
+				<mets:div ID="DIVL4" TYPE="TITLE_SECTION">
+					<mets:div ID="DIVL5" TYPE="HEADLINE" ORDER="1">
+						<mets:fptr>
+							<mets:area BETYPE="IDREF" FILEID="ALTO00001" BEGIN="P1_TB00001"/>
+						</mets:fptr>
+					</mets:div>
+					<mets:div ID="DIVL6" TYPE="TEXTBLOCK" ORDER="2">
+						<mets:fptr>
+							<mets:area BETYPE="IDREF" FILEID="ALTO00001" BEGIN="P1_TB00002"/>
+						</mets:fptr>
+					</mets:div>
+				</mets:div>
+				<mets:div ID="DIVL7" TYPE="CONTENT">
+					<mets:div ID="DIVL8" TYPE="SECTION" DMDID="modssection1" LABEL="komentāri">
+						<mets:div ID="DIVL9" TYPE="HEADING">
+							<mets:div ID="DIVL10" TYPE="TITLE">
+								<mets:fptr>
+									<mets:area BETYPE="IDREF" FILEID="ALTO00002" BEGIN="P2_TB00001"/>
+								</mets:fptr>
+							</mets:div>
+						</mets:div>
+						<mets:div ID="DIVL11" TYPE="ARTICLE" ORDER="1" DMDID="modsarticle1" LABEL="Viņi joprojām nesaprot">
+							<mets:div ID="DIVL12" TYPE="HEADING">
+								<mets:div ID="DIVL13" TYPE="TITLE">
+									<mets:fptr>
+										<mets:area BETYPE="IDREF" FILEID="ALTO00002" BEGIN="P2_TB00002"/>
+									</mets:fptr>
+								</mets:div>
+							</mets:div>
+							<mets:div ID="DIVL14" TYPE="BODY">
+								<mets:div ID="DIVL15" TYPE="BODY_CONTENT">
+									<mets:div ID="DIVL16" TYPE="AUTHOR" ORDER="1">
+										<mets:fptr>
+											<mets:area BETYPE="IDREF" FILEID="ALTO00002" BEGIN="P2_TB00003"/>
+										</mets:fptr>
+									</mets:div>
+									<mets:div ID="DIVL17" TYPE="PARAGRAPH" ORDER="2">
+										<mets:div ID="DIVL18" TYPE="TEXT">
+											<mets:fptr>
+												<mets:area BETYPE="IDREF" FILEID="ALTO00002" BEGIN="P2_TB00004"/>
+											</mets:fptr>
+										</mets:div>
+									</mets:div>
+									<mets:div ID="DIVL19" TYPE="PARAGRAPH" ORDER="3">
+										<mets:div ID="DIVL20" TYPE="TEXT">
+											<mets:fptr>
+												<mets:area BETYPE="IDREF" FILEID="ALTO00002" BEGIN="P2_TB00005"/>
+											</mets:fptr>
+										</mets:div>
+									</mets:div>
+									<mets:div ID="DIVL21" TYPE="PARAGRAPH" ORDER="4">
+										<mets:div ID="DIVL22" TYPE="TEXT">
+											<mets:fptr>
+												<mets:area BETYPE="IDREF" FILEID="ALTO00002" BEGIN="P2_TB00006"/>
+											</mets:fptr>
+										</mets:div>
+									</mets:div>
+									<mets:div ID="DIVL23" TYPE="PARAGRAPH" ORDER="5">
+										<mets:div ID="DIVL24" TYPE="TEXT">
+											<mets:fptr>
+												<mets:area BETYPE="IDREF" FILEID="ALTO00002" BEGIN="P2_TB00007"/>
+											</mets:fptr>
+										</mets:div>
+									</mets:div>
+									<mets:div ID="DIVL25" TYPE="PARAGRAPH" ORDER="6">
+										<mets:div ID="DIVL26" TYPE="TEXT">
+											<mets:fptr>
+												<mets:area BETYPE="IDREF" FILEID="ALTO00002" BEGIN="P2_TB00008"/>
+											</mets:fptr>
+										</mets:div>
+									</mets:div>
+								</mets:div>
+								<mets:div ID="DIVL27" TYPE="ILLUSTRATION" ORDER="1" DMDID="modspict1" LABEL="Māris Zanders">
+									<mets:div ID="DIVL28" TYPE="IMAGE">
+										<mets:fptr>
+											<mets:area BETYPE="IDREF" FILEID="ALTO00002" BEGIN="P2_CB00001"/>
+										</mets:fptr>
+									</mets:div>
+									<mets:div ID="DIVL29" TYPE="CAPTION">
+										<mets:fptr>
+											<mets:area BETYPE="IDREF" FILEID="ALTO00002" BEGIN="P2_TB00009"/>
+										</mets:fptr>
+									</mets:div>
+								</mets:div>
+							</mets:div>
+						</mets:div>
+						<mets:div ID="DIVL30" TYPE="ARTICLE" ORDER="2" DMDID="modsarticle2" LABEL="Karikatūra">
+							<mets:div ID="DIVL31" TYPE="HEADING">
+								<mets:div ID="DIVL32" TYPE="TITLE">
+									<mets:fptr>
+										<mets:area BETYPE="IDREF" FILEID="ALTO00002" BEGIN="P2_TB00010"/>
+									</mets:fptr>
+								</mets:div>
+							</mets:div>
+							<mets:div ID="DIVL33" TYPE="BODY">
+								<mets:div ID="DIVL34" TYPE="ILLUSTRATION" ORDER="1" DMDID="modspict2" LABEL="▲ PĒC daudzām neveiksmīgām nominācijam savu pirmo Amerikas Kinoakadēmijas Oskaru «nomedījis» Leonardo di Kaprio par galveno lomu filmā Cilvēks, kurš izdzīvoja. ZEMGUS ZAHARĀNA ZĪMĒJUMS">
+									<mets:div ID="DIVL35" TYPE="IMAGE">
+										<mets:fptr>
+											<mets:area BETYPE="IDREF" FILEID="ALTO00002" BEGIN="P2_CB00002"/>
+										</mets:fptr>
+									</mets:div>
+									<mets:div ID="DIVL36" TYPE="CAPTION">
+										<mets:fptr>
+											<mets:area BETYPE="IDREF" FILEID="ALTO00002" BEGIN="P2_TB00011"/>
+										</mets:fptr>
+									</mets:div>
+								</mets:div>
+							</mets:div>
+						</mets:div>
+						<mets:div ID="DIVL37" TYPE="ARTICLE" ORDER="3" DMDID="modsarticle3" LABEL="Algu izraisītās pārdomas">
+							<mets:div ID="DIVL38" TYPE="HEADING">
+								<mets:div ID="DIVL39" TYPE="TITLE">
+									<mets:fptr>
+										<mets:area BETYPE="IDREF" FILEID="ALTO00002" BEGIN="P2_TB00012"/>
+									</mets:fptr>
+								</mets:div>
+							</mets:div>
+							<mets:div ID="DIVL40" TYPE="BODY">
+								<mets:div ID="DIVL41" TYPE="BODY_CONTENT">
+									<mets:div ID="DIVL42" TYPE="PARAGRAPH" ORDER="1">
+										<mets:div ID="DIVL43" TYPE="TEXT">
+											<mets:fptr>
+												<mets:seq>
+													<mets:area BETYPE="IDREF" FILEID="ALTO00002" BEGIN="P2_TB00013"/>
+													<mets:area BETYPE="IDREF" FILEID="ALTO00002" BEGIN="P2_TB00014"/>
+												</mets:seq>
+											</mets:fptr>
+										</mets:div>
+									</mets:div>
+								</mets:div>
+								<mets:div ID="DIVL44" TYPE="ILLUSTRATION" ORDER="1" DMDID="modspict3" LABEL="Aktuālā statistika">
+									<mets:div ID="DIVL45" TYPE="IMAGE">
+										<mets:fptr>
+											<mets:area BETYPE="IDREF" FILEID="ALTO00002" BEGIN="P2_CB00003"/>
+										</mets:fptr>
+									</mets:div>
+									<mets:div ID="DIVL46" TYPE="CAPTION">
+										<mets:fptr>
+											<mets:area BETYPE="IDREF" FILEID="ALTO00002" BEGIN="P2_TB00015"/>
+										</mets:fptr>
+									</mets:div>
+								</mets:div>
+							</mets:div>
+						</mets:div>
+					</mets:div>
+					<mets:div ID="DIVL47" TYPE="SECTION" DMDID="modssection2" LABEL="ekspresintervija">
+						<mets:div ID="DIVL48" TYPE="HEADING">
+							<mets:div ID="DIVL49" TYPE="TITLE">
+								<mets:fptr>
+									<mets:area BETYPE="IDREF" FILEID="ALTO00003" BEGIN="P3_TB00001"/>
+								</mets:fptr>
+							</mets:div>
+						</mets:div>
+						<mets:div ID="DIVL50" TYPE="ARTICLE" ORDER="1" DMDID="modsarticle4" LABEL="Dilemma starp dzīvību un dalību tiesā">
+							<mets:div ID="DIVL51" TYPE="HEADING">
+								<mets:div ID="DIVL52" TYPE="TITLE">
+									<mets:fptr>
+										<mets:area BETYPE="IDREF" FILEID="ALTO00003" BEGIN="P3_TB00002"/>
+									</mets:fptr>
+								</mets:div>
+							</mets:div>
+							<mets:div ID="DIVL53" TYPE="BODY">
+								<mets:div ID="DIVL54" TYPE="BODY_CONTENT">
+									<mets:div ID="DIVL55" TYPE="AUTHOR" ORDER="1">
+										<mets:fptr>
+											<mets:area BETYPE="IDREF" FILEID="ALTO00003" BEGIN="P3_TB00003"/>
+										</mets:fptr>
+									</mets:div>
+									<mets:div ID="DIVL56" TYPE="AUTHOR" ORDER="2">
+										<mets:fptr>
+											<mets:area BETYPE="IDREF" FILEID="ALTO00003" BEGIN="P3_TB00004"/>
+										</mets:fptr>
+									</mets:div>
+									<mets:div ID="DIVL57" TYPE="PARAGRAPH" ORDER="3">
+										<mets:div ID="DIVL58" TYPE="TEXT">
+											<mets:fptr>
+												<mets:area BETYPE="IDREF" FILEID="ALTO00003" BEGIN="P3_TB00005"/>
+											</mets:fptr>
+										</mets:div>
+									</mets:div>
+									<mets:div ID="DIVL59" TYPE="PARAGRAPH" ORDER="4">
+										<mets:div ID="DIVL60" TYPE="TEXT">
+											<mets:fptr>
+												<mets:seq>
+													<mets:area BETYPE="IDREF" FILEID="ALTO00003" BEGIN="P3_TB00006"/>
+													<mets:area BETYPE="IDREF" FILEID="ALTO00003" BEGIN="P3_TB00007"/>
+													<mets:area BETYPE="IDREF" FILEID="ALTO00003" BEGIN="P3_TB00008"/>
+													<mets:area BETYPE="IDREF" FILEID="ALTO00003" BEGIN="P3_TB00009"/>
+													<mets:area BETYPE="IDREF" FILEID="ALTO00003" BEGIN="P3_TB00010"/>
+													<mets:area BETYPE="IDREF" FILEID="ALTO00003" BEGIN="P3_TB00011"/>
+													<mets:area BETYPE="IDREF" FILEID="ALTO00003" BEGIN="P3_TB00012"/>
+												</mets:seq>
+											</mets:fptr>
+										</mets:div>
+									</mets:div>
+									<mets:div ID="DIVL61" TYPE="PARAGRAPH" ORDER="5">
+										<mets:div ID="DIVL62" TYPE="TEXT">
+											<mets:fptr>
+												<mets:area BETYPE="IDREF" FILEID="ALTO00003" BEGIN="P3_TB00013"/>
+											</mets:fptr>
+										</mets:div>
+									</mets:div>
+								</mets:div>
+								<mets:div ID="DIVL63" TYPE="ILLUSTRATION" ORDER="1" DMDID="modspict4" LABEL="▲ JEĻENA KVJATKOVSKA: aiz visas šīs procesuālās situācijas, šķiet, esam aizmirsuši vienu ļoti nopietnu faktoru – nevainīguma prezumpciju. Kamēr notiesājošais spriedums nav stājies likumīgā spēkā, tikmēr cilvēks uzskatāms par nevainīgu. FOTO – NO PERSONĪGĀ ARHĪVA">
+									<mets:div ID="DIVL64" TYPE="IMAGE">
+										<mets:fptr>
+											<mets:area BETYPE="IDREF" FILEID="ALTO00003" BEGIN="P3_CB00001"/>
+										</mets:fptr>
+									</mets:div>
+									<mets:div ID="DIVL65" TYPE="CAPTION">
+										<mets:fptr>
+											<mets:area BETYPE="IDREF" FILEID="ALTO00003" BEGIN="P3_TB00014"/>
+										</mets:fptr>
+									</mets:div>
+								</mets:div>
+							</mets:div>
+						</mets:div>
+					</mets:div>
+					<mets:div ID="DIVL66" TYPE="SECTION" DMDID="modssection3" LABEL="ziņas">
+						<mets:div ID="DIVL67" TYPE="HEADING">
+							<mets:div ID="DIVL68" TYPE="TITLE">
+								<mets:fptr>
+									<mets:area BETYPE="IDREF" FILEID="ALTO00004" BEGIN="P4_TB00001"/>
+								</mets:fptr>
+							</mets:div>
+						</mets:div>
+						<mets:div ID="DIVL69" TYPE="ARTICLE" ORDER="1" DMDID="modsarticle5" LABEL="Kad kaimiņš sen jau ir mūmija">
+							<mets:div ID="DIVL70" TYPE="HEADING">
+								<mets:div ID="DIVL71" TYPE="TITLE">
+									<mets:fptr>
+										<mets:area BETYPE="IDREF" FILEID="ALTO00004" BEGIN="P4_TB00002"/>
+									</mets:fptr>
+								</mets:div>
+							</mets:div>
+							<mets:div ID="DIVL72" TYPE="BODY">
+								<mets:div ID="DIVL73" TYPE="BODY_CONTENT">
+									<mets:div ID="DIVL74" TYPE="PARAGRAPH" ORDER="1">
+										<mets:div ID="DIVL75" TYPE="TEXT">
+											<mets:fptr>
+												<mets:area BETYPE="IDREF" FILEID="ALTO00004" BEGIN="P4_TB00003"/>
+											</mets:fptr>
+										</mets:div>
+									</mets:div>
+									<mets:div ID="DIVL76" TYPE="AUTHOR" ORDER="2">
+										<mets:fptr>
+											<mets:area BETYPE="IDREF" FILEID="ALTO00004" BEGIN="P4_TB00004"/>
+										</mets:fptr>
+									</mets:div>
+									<mets:div ID="DIVL77" TYPE="PARAGRAPH" ORDER="3">
+										<mets:div ID="DIVL78" TYPE="TEXT">
+											<mets:fptr>
+												<mets:seq>
+													<mets:area BETYPE="IDREF" FILEID="ALTO00004" BEGIN="P4_TB00005"/>
+													<mets:area BETYPE="IDREF" FILEID="ALTO00004" BEGIN="P4_TB00006"/>
+													<mets:area BETYPE="IDREF" FILEID="ALTO00004" BEGIN="P4_TB00007"/>
+													<mets:area BETYPE="IDREF" FILEID="ALTO00004" BEGIN="P4_TB00008"/>
+													<mets:area BETYPE="IDREF" FILEID="ALTO00004" BEGIN="P4_TB00009"/>
+													<mets:area BETYPE="IDREF" FILEID="ALTO00004" BEGIN="P4_TB00010"/>
+													<mets:area BETYPE="IDREF" FILEID="ALTO00004" BEGIN="P4_TB00011"/>
+													<mets:area BETYPE="IDREF" FILEID="ALTO00004" BEGIN="P4_TB00012"/>
+												</mets:seq>
+											</mets:fptr>
+										</mets:div>
+									</mets:div>
+									<mets:div ID="DIVL79" TYPE="PARAGRAPH" ORDER="4">
+										<mets:div ID="DIVL80" TYPE="TEXT">
+											<mets:fptr>
+												<mets:area BETYPE="IDREF" FILEID="ALTO00004" BEGIN="P4_TB00013"/>
+											</mets:fptr>
+										</mets:div>
+									</mets:div>
+								</mets:div>
+								<mets:div ID="DIVL81" TYPE="ILLUSTRATION" ORDER="1" DMDID="modspict5" LABEL="▲ JAUTĀJUMS par to, cik daudz jau sen aizmirstu cilvēku mirstīgo atlieku atrodas Latvijas daudzdzīvokļu namos, ir neatbildams. Sociālie dienesti neapseko visus invalīdus, vientuļos, vecos vai sen aizmirstos. Labklājības ministrija teic, ka situācija jālabo, kad to darīs, nav zināms. FOTO – LETA">
+									<mets:div ID="DIVL82" TYPE="IMAGE">
+										<mets:fptr>
+											<mets:area BETYPE="IDREF" FILEID="ALTO00004" BEGIN="P4_CB00001"/>
+										</mets:fptr>
+									</mets:div>
+									<mets:div ID="DIVL83" TYPE="CAPTION">
+										<mets:fptr>
+											<mets:area BETYPE="IDREF" FILEID="ALTO00004" BEGIN="P4_TB00014"/>
+										</mets:fptr>
+									</mets:div>
+								</mets:div>
+								<mets:div ID="DIVL84" TYPE="ILLUSTRATION" ORDER="2" DMDID="modspict6" LABEL="Inese Liepiņa">
+									<mets:div ID="DIVL85" TYPE="IMAGE">
+										<mets:fptr>
+											<mets:area BETYPE="IDREF" FILEID="ALTO00004" BEGIN="P4_CB00002"/>
+										</mets:fptr>
+									</mets:div>
+									<mets:div ID="DIVL86" TYPE="CAPTION">
+										<mets:fptr>
+											<mets:area BETYPE="IDREF" FILEID="ALTO00004" BEGIN="P4_TB00015"/>
+										</mets:fptr>
+									</mets:div>
+								</mets:div>
+							</mets:div>
+						</mets:div>
+						<mets:div ID="DIVL87" TYPE="ARTICLE" ORDER="2" DMDID="modsarticle6" LABEL="Latvijas vēstnieks ANO diskutēs par Ukrainu un Sīriju">
+							<mets:div ID="DIVL88" TYPE="HEADING">
+								<mets:div ID="DIVL89" TYPE="TITLE">
+									<mets:fptr>
+										<mets:area BETYPE="IDREF" FILEID="ALTO00004" BEGIN="P4_TB00016"/>
+									</mets:fptr>
+								</mets:div>
+							</mets:div>
+							<mets:div ID="DIVL90" TYPE="BODY">
+								<mets:div ID="DIVL91" TYPE="BODY_CONTENT">
+									<mets:div ID="DIVL92" TYPE="PARAGRAPH" ORDER="1">
+										<mets:div ID="DIVL93" TYPE="TEXT">
+											<mets:fptr>
+												<mets:area BETYPE="IDREF" FILEID="ALTO00004" BEGIN="P4_TB00017"/>
+											</mets:fptr>
+										</mets:div>
+									</mets:div>
+									<mets:div ID="DIVL94" TYPE="PARAGRAPH" ORDER="2">
+										<mets:div ID="DIVL95" TYPE="TEXT">
+											<mets:fptr>
+												<mets:seq>
+													<mets:area BETYPE="IDREF" FILEID="ALTO00004" BEGIN="P4_TB00018"/>
+													<mets:area BETYPE="IDREF" FILEID="ALTO00004" BEGIN="P4_TB00019"/>
+													<mets:area BETYPE="IDREF" FILEID="ALTO00004" BEGIN="P4_TB00020"/>
+													<mets:area BETYPE="IDREF" FILEID="ALTO00004" BEGIN="P4_TB00021"/>
+													<mets:area BETYPE="IDREF" FILEID="ALTO00004" BEGIN="P4_TB00022"/>
+												</mets:seq>
+											</mets:fptr>
+										</mets:div>
+									</mets:div>
+								</mets:div>
+							</mets:div>
+						</mets:div>
+						<mets:div ID="DIVL96" TYPE="ARTICLE" ORDER="3" DMDID="modsarticle7" LABEL="Skolotāji vairs negaida, bet iet citu ceļu">
+							<mets:div ID="DIVL97" TYPE="HEADING">
+								<mets:div ID="DIVL98" TYPE="TITLE">
+									<mets:fptr>
+										<mets:area BETYPE="IDREF" FILEID="ALTO00006" BEGIN="P6_TB00001"/>
+									</mets:fptr>
+								</mets:div>
+							</mets:div>
+							<mets:div ID="DIVL99" TYPE="BODY">
+								<mets:div ID="DIVL100" TYPE="BODY_CONTENT">
+									<mets:div ID="DIVL101" TYPE="PARAGRAPH" ORDER="1">
+										<mets:div ID="DIVL102" TYPE="TEXT">
+											<mets:fptr>
+												<mets:area BETYPE="IDREF" FILEID="ALTO00006" BEGIN="P6_TB00002"/>
+											</mets:fptr>
+										</mets:div>
+									</mets:div>
+									<mets:div ID="DIVL103" TYPE="AUTHOR" ORDER="2">
+										<mets:fptr>
+											<mets:area BETYPE="IDREF" FILEID="ALTO00006" BEGIN="P6_TB00003"/>
+										</mets:fptr>
+									</mets:div>
+									<mets:div ID="DIVL104" TYPE="PARAGRAPH" ORDER="3">
+										<mets:div ID="DIVL105" TYPE="TEXT">
+											<mets:fptr>
+												<mets:seq>
+													<mets:area BETYPE="IDREF" FILEID="ALTO00006" BEGIN="P6_TB00004"/>
+													<mets:area BETYPE="IDREF" FILEID="ALTO00006" BEGIN="P6_TB00005"/>
+													<mets:area BETYPE="IDREF" FILEID="ALTO00006" BEGIN="P6_TB00006"/>
+													<mets:area BETYPE="IDREF" FILEID="ALTO00006" BEGIN="P6_TB00007"/>
+													<mets:area BETYPE="IDREF" FILEID="ALTO00006" BEGIN="P6_TB00008"/>
+													<mets:area BETYPE="IDREF" FILEID="ALTO00006" BEGIN="P6_TB00009"/>
+													<mets:area BETYPE="IDREF" FILEID="ALTO00006" BEGIN="P6_TB00010"/>
+													<mets:area BETYPE="IDREF" FILEID="ALTO00006" BEGIN="P6_TB00011"/>
+												</mets:seq>
+											</mets:fptr>
+										</mets:div>
+									</mets:div>
+									<mets:div ID="DIVL106" TYPE="PARAGRAPH" ORDER="4">
+										<mets:div ID="DIVL107" TYPE="TEXT">
+											<mets:fptr>
+												<mets:area BETYPE="IDREF" FILEID="ALTO00006" BEGIN="P6_TB00012"/>
+											</mets:fptr>
+										</mets:div>
+									</mets:div>
+								</mets:div>
+								<mets:div ID="DIVL108" TYPE="ILLUSTRATION" ORDER="1" DMDID="modspict7" LABEL="▲ PAŠU pedagogu piedāvātajā atalgojuma modelī uzsvērts vienlīdzības princips. Ja skolotājs strādātu pilnas 40 stundas nedēļā, tad saņemtu 1150 eiro pirms nodokļu nomaksas neatkarīgi no tā, cik lielā skolā strādā. Tomēr, visticamāk, mazā lauku skolā pedagogam pilnu slodzi būtu grūti nodrošināt. FOTO – AIVARS LIEPIŅŠ, DIENAS MEDIJI">
+									<mets:div ID="DIVL109" TYPE="IMAGE">
+										<mets:fptr>
+											<mets:area BETYPE="IDREF" FILEID="ALTO00006" BEGIN="P6_CB00001"/>
+										</mets:fptr>
+									</mets:div>
+									<mets:div ID="DIVL110" TYPE="CAPTION">
+										<mets:fptr>
+											<mets:area BETYPE="IDREF" FILEID="ALTO00006" BEGIN="P6_TB00013"/>
+										</mets:fptr>
+									</mets:div>
+								</mets:div>
+								<mets:div ID="DIVL111" TYPE="ILLUSTRATION" ORDER="2" DMDID="modspict8" LABEL="▲ DIVOS gados Izglītības un zinātnes ministrijai netiekot galā ar pedagogu darba samaksas modeli, alternatīvu variantu izstrādājis Ikšķiles vidusskolas direktors Česlavs Batņa. Tas vairāk balstās uz vienlīdzības principu un, pēc paša direktora teiktā, vairāk atbilst reālajai situācijai skolās. FOTO – KRISTAPS KALNS, DIENAS MEDIJI">
+									<mets:div ID="DIVL112" TYPE="IMAGE">
+										<mets:fptr>
+											<mets:area BETYPE="IDREF" FILEID="ALTO00001" BEGIN="P1_CB00001"/>
+										</mets:fptr>
+									</mets:div>
+									<mets:div ID="DIVL113" TYPE="CAPTION">
+										<mets:fptr>
+											<mets:area BETYPE="IDREF" FILEID="ALTO00001" BEGIN="P1_TB00003"/>
+										</mets:fptr>
+									</mets:div>
+								</mets:div>
+								<mets:div ID="DIVL114" TYPE="ILLUSTRATION" ORDER="3" DMDID="modspict9" LABEL="Anna Strapcāne">
+									<mets:div ID="DIVL115" TYPE="IMAGE">
+										<mets:fptr>
+											<mets:area BETYPE="IDREF" FILEID="ALTO00006" BEGIN="P6_CB00002"/>
+										</mets:fptr>
+									</mets:div>
+									<mets:div ID="DIVL116" TYPE="CAPTION">
+										<mets:fptr>
+											<mets:area BETYPE="IDREF" FILEID="ALTO00006" BEGIN="P6_TB00014"/>
+										</mets:fptr>
+									</mets:div>
+								</mets:div>
+							</mets:div>
+						</mets:div>
+						<mets:div ID="DIVL117" TYPE="ARTICLE" ORDER="4" DMDID="modsarticle8" LABEL="Sūdzas par nekorektu rīcību">
+							<mets:div ID="DIVL118" TYPE="HEADING">
+								<mets:div ID="DIVL119" TYPE="TITLE">
+									<mets:fptr>
+										<mets:area BETYPE="IDREF" FILEID="ALTO00006" BEGIN="P6_TB00015"/>
+									</mets:fptr>
+								</mets:div>
+							</mets:div>
+							<mets:div ID="DIVL120" TYPE="BODY">
+								<mets:div ID="DIVL121" TYPE="BODY_CONTENT">
+									<mets:div ID="DIVL122" TYPE="PARAGRAPH" ORDER="1">
+										<mets:div ID="DIVL123" TYPE="TEXT">
+											<mets:fptr>
+												<mets:area BETYPE="IDREF" FILEID="ALTO00006" BEGIN="P6_TB00016"/>
+											</mets:fptr>
+										</mets:div>
+									</mets:div>
+									<mets:div ID="DIVL124" TYPE="AUTHOR" ORDER="2">
+										<mets:fptr>
+											<mets:area BETYPE="IDREF" FILEID="ALTO00006" BEGIN="P6_TB00017"/>
+										</mets:fptr>
+									</mets:div>
+									<mets:div ID="DIVL125" TYPE="PARAGRAPH" ORDER="3">
+										<mets:div ID="DIVL126" TYPE="TEXT">
+											<mets:fptr>
+												<mets:seq>
+													<mets:area BETYPE="IDREF" FILEID="ALTO00006" BEGIN="P6_TB00018"/>
+													<mets:area BETYPE="IDREF" FILEID="ALTO00006" BEGIN="P6_TB00019"/>
+												</mets:seq>
+											</mets:fptr>
+										</mets:div>
+									</mets:div>
+									<mets:div ID="DIVL127" TYPE="PARAGRAPH" ORDER="4">
+										<mets:div ID="DIVL128" TYPE="TEXT">
+											<mets:fptr>
+												<mets:seq>
+													<mets:area BETYPE="IDREF" FILEID="ALTO00006" BEGIN="P6_TB00020"/>
+													<mets:area BETYPE="IDREF" FILEID="ALTO00006" BEGIN="P6_TB00021"/>
+												</mets:seq>
+											</mets:fptr>
+										</mets:div>
+									</mets:div>
+								</mets:div>
+								<mets:div ID="DIVL129" TYPE="ILLUSTRATION" ORDER="1" DMDID="modspict10" LABEL="▲ OBOJISTS Egils Upatnieks nepiedalīsies Lielās mūzikas balvas ceremonijā, protestējot pret Latvijas koncertu rīcību, mēģinot atcelt kvinteta Clarion koncertu. PUBLICITĀTES FOTO">
+									<mets:div ID="DIVL130" TYPE="IMAGE">
+										<mets:fptr>
+											<mets:area BETYPE="IDREF" FILEID="ALTO00006" BEGIN="P6_CB00003"/>
+										</mets:fptr>
+									</mets:div>
+									<mets:div ID="DIVL131" TYPE="CAPTION">
+										<mets:fptr>
+											<mets:area BETYPE="IDREF" FILEID="ALTO00006" BEGIN="P6_TB00022"/>
+										</mets:fptr>
+									</mets:div>
+								</mets:div>
+							</mets:div>
+						</mets:div>
+					</mets:div>
+					<mets:div ID="DIVL132" TYPE="SECTION" DMDID="modssection4" LABEL="ekonomika">
+						<mets:div ID="DIVL133" TYPE="HEADING">
+							<mets:div ID="DIVL134" TYPE="TITLE">
+								<mets:fptr>
+									<mets:area BETYPE="IDREF" FILEID="ALTO00007" BEGIN="P7_TB00001"/>
+								</mets:fptr>
+							</mets:div>
+						</mets:div>
+						<mets:div ID="DIVL135" TYPE="ARTICLE" ORDER="1" DMDID="modsarticle9" LABEL="ekonomikas īsziņas">
+							<mets:div ID="DIVL136" TYPE="HEADING">
+								<mets:div ID="DIVL137" TYPE="TITLE">
+									<mets:fptr>
+										<mets:area BETYPE="IDREF" FILEID="ALTO00007" BEGIN="P7_TB00002"/>
+									</mets:fptr>
+								</mets:div>
+							</mets:div>
+							<mets:div ID="DIVL138" TYPE="BODY">
+								<mets:div ID="DIVL139" TYPE="BODY_CONTENT">
+									<mets:div ID="DIVL140" TYPE="PARAGRAPH" ORDER="1">
+										<mets:div ID="DIVL141" TYPE="TEXT">
+											<mets:fptr>
+												<mets:seq>
+													<mets:area BETYPE="IDREF" FILEID="ALTO00007" BEGIN="P7_TB00003"/>
+													<mets:area BETYPE="IDREF" FILEID="ALTO00007" BEGIN="P7_TB00004"/>
+												</mets:seq>
+											</mets:fptr>
+										</mets:div>
+									</mets:div>
+									<mets:div ID="DIVL142" TYPE="PARAGRAPH" ORDER="2">
+										<mets:div ID="DIVL143" TYPE="TEXT">
+											<mets:fptr>
+												<mets:area BETYPE="IDREF" FILEID="ALTO00007" BEGIN="P7_TB00005"/>
+											</mets:fptr>
+										</mets:div>
+									</mets:div>
+									<mets:div ID="DIVL144" TYPE="PARAGRAPH" ORDER="3">
+										<mets:div ID="DIVL145" TYPE="TEXT">
+											<mets:fptr>
+												<mets:area BETYPE="IDREF" FILEID="ALTO00007" BEGIN="P7_TB00006"/>
+											</mets:fptr>
+										</mets:div>
+									</mets:div>
+									<mets:div ID="DIVL146" TYPE="PARAGRAPH" ORDER="4">
+										<mets:div ID="DIVL147" TYPE="TEXT">
+											<mets:fptr>
+												<mets:area BETYPE="IDREF" FILEID="ALTO00007" BEGIN="P7_TB00007"/>
+											</mets:fptr>
+										</mets:div>
+									</mets:div>
+								</mets:div>
+								<mets:div ID="DIVL148" TYPE="ILLUSTRATION" ORDER="1" DMDID="modspict11" LABEL="Gints Belēvičs">
+									<mets:div ID="DIVL149" TYPE="IMAGE">
+										<mets:fptr>
+											<mets:area BETYPE="IDREF" FILEID="ALTO00007" BEGIN="P7_CB00001"/>
+										</mets:fptr>
+									</mets:div>
+									<mets:div ID="DIVL150" TYPE="CAPTION">
+										<mets:fptr>
+											<mets:area BETYPE="IDREF" FILEID="ALTO00007" BEGIN="P7_TB00008"/>
+										</mets:fptr>
+									</mets:div>
+								</mets:div>
+								<mets:div ID="DIVL151" TYPE="ILLUSTRATION" ORDER="2" DMDID="modspict12" LABEL="Untitled">
+									<mets:div ID="DIVL152" TYPE="IMAGE">
+										<mets:fptr>
+											<mets:area BETYPE="IDREF" FILEID="ALTO00007" BEGIN="P7_CB00002"/>
+										</mets:fptr>
+									</mets:div>
+								</mets:div>
+								<mets:div ID="DIVL153" TYPE="ILLUSTRATION" ORDER="3" DMDID="modspict13" LABEL="LIETUVAS MEDIJS">
+									<mets:div ID="DIVL154" TYPE="IMAGE">
+										<mets:fptr>
+											<mets:area BETYPE="IDREF" FILEID="ALTO00007" BEGIN="P7_CB00003"/>
+										</mets:fptr>
+									</mets:div>
+									<mets:div ID="DIVL155" TYPE="CAPTION">
+										<mets:fptr>
+											<mets:area BETYPE="IDREF" FILEID="ALTO00007" BEGIN="P7_TB00009"/>
+										</mets:fptr>
+									</mets:div>
+								</mets:div>
+							</mets:div>
+						</mets:div>
+						<mets:div ID="DIVL156" TYPE="ARTICLE" ORDER="2" DMDID="modsarticle10" LABEL="Problēma gaida VID uzmanību">
+							<mets:div ID="DIVL157" TYPE="HEADING">
+								<mets:div ID="DIVL158" TYPE="TITLE">
+									<mets:fptr>
+										<mets:area BETYPE="IDREF" FILEID="ALTO00007" BEGIN="P7_TB00010"/>
+									</mets:fptr>
+								</mets:div>
+								<mets:div ID="DIVL159" TYPE="SUBHEADLINE">
+									<mets:fptr>
+										<mets:area BETYPE="IDREF" FILEID="ALTO00007" BEGIN="P7_TB00011"/>
+									</mets:fptr>
+								</mets:div>
+							</mets:div>
+							<mets:div ID="DIVL160" TYPE="BODY">
+								<mets:div ID="DIVL161" TYPE="BODY_CONTENT">
+									<mets:div ID="DIVL162" TYPE="AUTHOR" ORDER="1">
+										<mets:fptr>
+											<mets:area BETYPE="IDREF" FILEID="ALTO00007" BEGIN="P7_TB00012"/>
+										</mets:fptr>
+									</mets:div>
+									<mets:div ID="DIVL163" TYPE="PARAGRAPH" ORDER="2">
+										<mets:div ID="DIVL164" TYPE="TEXT">
+											<mets:fptr>
+												<mets:seq>
+													<mets:area BETYPE="IDREF" FILEID="ALTO00007" BEGIN="P7_TB00013"/>
+													<mets:area BETYPE="IDREF" FILEID="ALTO00007" BEGIN="P7_TB00014"/>
+												</mets:seq>
+											</mets:fptr>
+										</mets:div>
+									</mets:div>
+									<mets:div ID="DIVL165" TYPE="PARAGRAPH" ORDER="3">
+										<mets:div ID="DIVL166" TYPE="TEXT">
+											<mets:fptr>
+												<mets:seq>
+													<mets:area BETYPE="IDREF" FILEID="ALTO00007" BEGIN="P7_TB00015"/>
+													<mets:area BETYPE="IDREF" FILEID="ALTO00007" BEGIN="P7_TB00016"/>
+												</mets:seq>
+											</mets:fptr>
+										</mets:div>
+									</mets:div>
+									<mets:div ID="DIVL167" TYPE="PARAGRAPH" ORDER="4">
+										<mets:div ID="DIVL168" TYPE="TEXT">
+											<mets:fptr>
+												<mets:area BETYPE="IDREF" FILEID="ALTO00007" BEGIN="P7_TB00017"/>
+											</mets:fptr>
+										</mets:div>
+									</mets:div>
+								</mets:div>
+								<mets:div ID="DIVL169" TYPE="ILLUSTRATION" ORDER="1" DMDID="modspict14" LABEL="Vilnis Klinovičs">
+									<mets:div ID="DIVL170" TYPE="IMAGE">
+										<mets:fptr>
+											<mets:area BETYPE="IDREF" FILEID="ALTO00007" BEGIN="P7_CB00004"/>
+										</mets:fptr>
+									</mets:div>
+									<mets:div ID="DIVL171" TYPE="CAPTION">
+										<mets:fptr>
+											<mets:area BETYPE="IDREF" FILEID="ALTO00007" BEGIN="P7_TB00018"/>
+										</mets:fptr>
+									</mets:div>
+								</mets:div>
+							</mets:div>
+						</mets:div>
+						<mets:div ID="DIVL172" TYPE="ARTICLE" ORDER="3" DMDID="modsarticle11" LABEL="Cenu atšķirības – līdz 20%">
+							<mets:div ID="DIVL173" TYPE="HEADING">
+								<mets:div ID="DIVL174" TYPE="TITLE">
+									<mets:fptr>
+										<mets:area BETYPE="IDREF" FILEID="ALTO00007" BEGIN="P7_TB00019"/>
+									</mets:fptr>
+								</mets:div>
+							</mets:div>
+							<mets:div ID="DIVL175" TYPE="BODY">
+								<mets:div ID="DIVL176" TYPE="BODY_CONTENT">
+									<mets:div ID="DIVL177" TYPE="PARAGRAPH" ORDER="1">
+										<mets:div ID="DIVL178" TYPE="TEXT">
+											<mets:fptr>
+												<mets:area BETYPE="IDREF" FILEID="ALTO00007" BEGIN="P7_TB00020"/>
+											</mets:fptr>
+										</mets:div>
+									</mets:div>
+									<mets:div ID="DIVL179" TYPE="AUTHOR" ORDER="2">
+										<mets:fptr>
+											<mets:area BETYPE="IDREF" FILEID="ALTO00007" BEGIN="P7_TB00021"/>
+										</mets:fptr>
+									</mets:div>
+									<mets:div ID="DIVL180" TYPE="PARAGRAPH" ORDER="3">
+										<mets:div ID="DIVL181" TYPE="TEXT">
+											<mets:fptr>
+												<mets:area BETYPE="IDREF" FILEID="ALTO00007" BEGIN="P7_TB00022"/>
+											</mets:fptr>
+										</mets:div>
+									</mets:div>
+									<mets:div ID="DIVL182" TYPE="PARAGRAPH" ORDER="4">
+										<mets:div ID="DIVL183" TYPE="TEXT">
+											<mets:fptr>
+												<mets:seq>
+													<mets:area BETYPE="IDREF" FILEID="ALTO00007" BEGIN="P7_TB00023"/>
+													<mets:area BETYPE="IDREF" FILEID="ALTO00007" BEGIN="P7_TB00024"/>
+													<mets:area BETYPE="IDREF" FILEID="ALTO00007" BEGIN="P7_TB00025"/>
+													<mets:area BETYPE="IDREF" FILEID="ALTO00007" BEGIN="P7_TB00026"/>
+													<mets:area BETYPE="IDREF" FILEID="ALTO00007" BEGIN="P7_TB00027"/>
+													<mets:area BETYPE="IDREF" FILEID="ALTO00007" BEGIN="P7_TB00028"/>
+												</mets:seq>
+											</mets:fptr>
+										</mets:div>
+									</mets:div>
+									<mets:div ID="DIVL184" TYPE="PARAGRAPH" ORDER="5">
+										<mets:div ID="DIVL185" TYPE="TEXT">
+											<mets:fptr>
+												<mets:area BETYPE="IDREF" FILEID="ALTO00007" BEGIN="P7_TB00029"/>
+											</mets:fptr>
+										</mets:div>
+									</mets:div>
+									<mets:div ID="DIVL186" TYPE="PARAGRAPH" ORDER="6">
+										<mets:div ID="DIVL187" TYPE="TEXT">
+											<mets:fptr>
+												<mets:area BETYPE="IDREF" FILEID="ALTO00007" BEGIN="P7_TB00030"/>
+											</mets:fptr>
+										</mets:div>
+									</mets:div>
+								</mets:div>
+								<mets:div ID="DIVL188" TYPE="ILLUSTRATION" ORDER="1" DMDID="modspict15" LABEL="INDIVIDUĀLAJIEM lietotājiem, kas dabasgāzi izmanto apkurei, dabasgāzes cenas īpatsvars kopējā rēķinā veido 45-50%. Mājsaimniecības varēs izvēlēties to pirkt no tirgotāja par tirgus cenām vai par Sabiedrisko pakalpojumu regulēšanas komisijas regulēto tarifu. FOTO – KRISTAPS KALNS, DIENAS MEDIJI">
+									<mets:div ID="DIVL189" TYPE="IMAGE">
+										<mets:fptr>
+											<mets:area BETYPE="IDREF" FILEID="ALTO00007" BEGIN="P7_CB00005"/>
+										</mets:fptr>
+									</mets:div>
+									<mets:div ID="DIVL190" TYPE="CAPTION">
+										<mets:fptr>
+											<mets:area BETYPE="IDREF" FILEID="ALTO00007" BEGIN="P7_TB00031"/>
+										</mets:fptr>
+									</mets:div>
+								</mets:div>
+							</mets:div>
+						</mets:div>
+						<mets:div ID="DIVL191" TYPE="ARTICLE" ORDER="4" DMDID="modsarticle12" LABEL="Grūtu izaicinājumu Latvijas dzelzceļa šefam netrūks">
+							<mets:div ID="DIVL192" TYPE="HEADING">
+								<mets:div ID="DIVL193" TYPE="TITLE">
+									<mets:fptr>
+										<mets:area BETYPE="IDREF" FILEID="ALTO00007" BEGIN="P7_TB00032"/>
+									</mets:fptr>
+								</mets:div>
+							</mets:div>
+							<mets:div ID="DIVL194" TYPE="BODY">
+								<mets:div ID="DIVL195" TYPE="BODY_CONTENT">
+									<mets:div ID="DIVL196" TYPE="PARAGRAPH" ORDER="1">
+										<mets:div ID="DIVL197" TYPE="TEXT">
+											<mets:fptr>
+												<mets:area BETYPE="IDREF" FILEID="ALTO00007" BEGIN="P7_TB00033"/>
+											</mets:fptr>
+										</mets:div>
+									</mets:div>
+									<mets:div ID="DIVL198" TYPE="AUTHOR" ORDER="2">
+										<mets:fptr>
+											<mets:area BETYPE="IDREF" FILEID="ALTO00007" BEGIN="P7_TB00034"/>
+										</mets:fptr>
+									</mets:div>
+									<mets:div ID="DIVL199" TYPE="PARAGRAPH" ORDER="3">
+										<mets:div ID="DIVL200" TYPE="TEXT">
+											<mets:fptr>
+												<mets:seq>
+													<mets:area BETYPE="IDREF" FILEID="ALTO00007" BEGIN="P7_TB00035"/>
+													<mets:area BETYPE="IDREF" FILEID="ALTO00007" BEGIN="P7_TB00036"/>
+													<mets:area BETYPE="IDREF" FILEID="ALTO00007" BEGIN="P7_TB00037"/>
+													<mets:area BETYPE="IDREF" FILEID="ALTO00007" BEGIN="P7_TB00038"/>
+													<mets:area BETYPE="IDREF" FILEID="ALTO00007" BEGIN="P7_TB00039"/>
+												</mets:seq>
+											</mets:fptr>
+										</mets:div>
+									</mets:div>
+									<mets:div ID="DIVL201" TYPE="PARAGRAPH" ORDER="4">
+										<mets:div ID="DIVL202" TYPE="TEXT">
+											<mets:fptr>
+												<mets:area BETYPE="IDREF" FILEID="ALTO00007" BEGIN="P7_TB00040"/>
+											</mets:fptr>
+										</mets:div>
+									</mets:div>
+								</mets:div>
+								<mets:div ID="DIVL203" TYPE="ILLUSTRATION" ORDER="1" DMDID="modspict16" LABEL="▲ JAUNAIS Latvijas dzelzceļa (LDz) valdes priekšsēdētājs Edvīns Bērziņš savu amatu ieguva atklāta konkursa, kurā bija pieteikušies ap 100 pretendentu, rezultātā. Līdz tam Edvīns Bērziņš bija uzņēmuma valdes loceklis. Viņš sola, ka pievērsīs nopietnu uzmanību LDz iekšzemes pārvadājumiem. FOTO – LETA">
+									<mets:div ID="DIVL204" TYPE="IMAGE">
+										<mets:fptr>
+											<mets:area BETYPE="IDREF" FILEID="ALTO00007" BEGIN="P7_CB00006"/>
+										</mets:fptr>
+									</mets:div>
+									<mets:div ID="DIVL205" TYPE="CAPTION">
+										<mets:fptr>
+											<mets:area BETYPE="IDREF" FILEID="ALTO00007" BEGIN="P7_TB00041"/>
+										</mets:fptr>
+									</mets:div>
+								</mets:div>
+							</mets:div>
+						</mets:div>
+					</mets:div>
+					<mets:div ID="DIVL206" TYPE="SECTION" DMDID="modssection5" LABEL="ārzemēs">
+						<mets:div ID="DIVL207" TYPE="HEADING">
+							<mets:div ID="DIVL208" TYPE="TITLE">
+								<mets:fptr>
+									<mets:area BETYPE="IDREF" FILEID="ALTO00008" BEGIN="P8_TB00001"/>
+								</mets:fptr>
+							</mets:div>
+						</mets:div>
+						<mets:div ID="DIVL209" TYPE="ARTICLE" ORDER="1" DMDID="modsarticle13" LABEL="«Superotrdiena» izšķirs cīņas gaitu">
+							<mets:div ID="DIVL210" TYPE="HEADING">
+								<mets:div ID="DIVL211" TYPE="TITLE">
+									<mets:fptr>
+										<mets:area BETYPE="IDREF" FILEID="ALTO00008" BEGIN="P8_TB00002"/>
+									</mets:fptr>
+								</mets:div>
+							</mets:div>
+							<mets:div ID="DIVL212" TYPE="BODY">
+								<mets:div ID="DIVL213" TYPE="BODY_CONTENT">
+									<mets:div ID="DIVL214" TYPE="PARAGRAPH" ORDER="1">
+										<mets:div ID="DIVL215" TYPE="TEXT">
+											<mets:fptr>
+												<mets:area BETYPE="IDREF" FILEID="ALTO00008" BEGIN="P8_TB00003"/>
+											</mets:fptr>
+										</mets:div>
+									</mets:div>
+									<mets:div ID="DIVL216" TYPE="AUTHOR" ORDER="2">
+										<mets:fptr>
+											<mets:area BETYPE="IDREF" FILEID="ALTO00008" BEGIN="P8_TB00004"/>
+										</mets:fptr>
+									</mets:div>
+									<mets:div ID="DIVL217" TYPE="PARAGRAPH" ORDER="3">
+										<mets:div ID="DIVL218" TYPE="TEXT">
+											<mets:fptr>
+												<mets:seq>
+													<mets:area BETYPE="IDREF" FILEID="ALTO00008" BEGIN="P8_TB00005"/>
+													<mets:area BETYPE="IDREF" FILEID="ALTO00008" BEGIN="P8_TB00006"/>
+													<mets:area BETYPE="IDREF" FILEID="ALTO00008" BEGIN="P8_TB00007"/>
+													<mets:area BETYPE="IDREF" FILEID="ALTO00008" BEGIN="P8_TB00008"/>
+													<mets:area BETYPE="IDREF" FILEID="ALTO00008" BEGIN="P8_TB00009"/>
+													<mets:area BETYPE="IDREF" FILEID="ALTO00008" BEGIN="P8_TB00010"/>
+													<mets:area BETYPE="IDREF" FILEID="ALTO00008" BEGIN="P8_TB00011"/>
+													<mets:area BETYPE="IDREF" FILEID="ALTO00008" BEGIN="P8_TB00012"/>
+												</mets:seq>
+											</mets:fptr>
+										</mets:div>
+									</mets:div>
+									<mets:div ID="DIVL219" TYPE="PARAGRAPH" ORDER="4">
+										<mets:div ID="DIVL220" TYPE="TEXT">
+											<mets:fptr>
+												<mets:area BETYPE="IDREF" FILEID="ALTO00008" BEGIN="P8_TB00013"/>
+											</mets:fptr>
+										</mets:div>
+									</mets:div>
+								</mets:div>
+								<mets:div ID="DIVL221" TYPE="ILLUSTRATION" ORDER="1" DMDID="modspict17" LABEL="▲ ATTĒLĀ: Demokrātu partijas kandidāta cīņa par nomināciju ASV prezidenta vēlēšanās Bērnija Sandersa atbalstītāji viņa priekšvēlēšanu pasākumā Kolorado štata universitātē. Pašpasludinātajam «sociālistam» B. Sandersam otrdien notiekošajos balsojumos būs grūts uzdevums – nepieļaut, ka Hilarija Klintone saņem vairāk par pusi no delegātiem. FOTO – AFP/SCANPIX">
+									<mets:div ID="DIVL222" TYPE="IMAGE">
+										<mets:fptr>
+											<mets:area BETYPE="IDREF" FILEID="ALTO00008" BEGIN="P8_CB00001"/>
+										</mets:fptr>
+									</mets:div>
+									<mets:div ID="DIVL223" TYPE="CAPTION">
+										<mets:fptr>
+											<mets:area BETYPE="IDREF" FILEID="ALTO00008" BEGIN="P8_TB00014"/>
+										</mets:fptr>
+									</mets:div>
+								</mets:div>
+								<mets:div ID="DIVL224" TYPE="ILLUSTRATION" ORDER="2" DMDID="modspict18" LABEL="Superotrdiena">
+									<mets:div ID="DIVL225" TYPE="IMAGE">
+										<mets:fptr>
+											<mets:area BETYPE="IDREF" FILEID="ALTO00008" BEGIN="P8_CB00002"/>
+										</mets:fptr>
+									</mets:div>
+									<mets:div ID="DIVL226" TYPE="CAPTION">
+										<mets:fptr>
+											<mets:area BETYPE="IDREF" FILEID="ALTO00008" BEGIN="P8_TB00015"/>
+										</mets:fptr>
+									</mets:div>
+								</mets:div>
+							</mets:div>
+						</mets:div>
+						<mets:div ID="DIVL227" TYPE="ARTICLE" ORDER="2" DMDID="modsarticle14" LABEL="Lems par partijas aizliegšanu">
+							<mets:div ID="DIVL228" TYPE="HEADING">
+								<mets:div ID="DIVL229" TYPE="TITLE">
+									<mets:fptr>
+										<mets:area BETYPE="IDREF" FILEID="ALTO00008" BEGIN="P8_TB00016"/>
+									</mets:fptr>
+								</mets:div>
+							</mets:div>
+							<mets:div ID="DIVL230" TYPE="BODY">
+								<mets:div ID="DIVL231" TYPE="BODY_CONTENT">
+									<mets:div ID="DIVL232" TYPE="AUTHOR" ORDER="1">
+										<mets:fptr>
+											<mets:area BETYPE="IDREF" FILEID="ALTO00008" BEGIN="P8_TB00017"/>
+										</mets:fptr>
+									</mets:div>
+									<mets:div ID="DIVL233" TYPE="PARAGRAPH" ORDER="2">
+										<mets:div ID="DIVL234" TYPE="TEXT">
+											<mets:fptr>
+												<mets:seq>
+													<mets:area BETYPE="IDREF" FILEID="ALTO00008" BEGIN="P8_TB00018"/>
+													<mets:area BETYPE="IDREF" FILEID="ALTO00008" BEGIN="P8_TB00019"/>
+													<mets:area BETYPE="IDREF" FILEID="ALTO00008" BEGIN="P8_TB00020"/>
+												</mets:seq>
+											</mets:fptr>
+										</mets:div>
+									</mets:div>
+								</mets:div>
+								<mets:div ID="DIVL235" TYPE="ILLUSTRATION" ORDER="1" DMDID="modspict19" LABEL="▲ VĀCIJAS Nacionāldemokrātiskās partijas NPD biedri regulāri redzami protestos pret imigrantiem un musulmaņiem. FOTO – REUTERS/SCANPIX">
+									<mets:div ID="DIVL236" TYPE="IMAGE">
+										<mets:fptr>
+											<mets:area BETYPE="IDREF" FILEID="ALTO00008" BEGIN="P8_CB00003"/>
+										</mets:fptr>
+									</mets:div>
+									<mets:div ID="DIVL237" TYPE="CAPTION">
+										<mets:fptr>
+											<mets:area BETYPE="IDREF" FILEID="ALTO00008" BEGIN="P8_TB00021"/>
+										</mets:fptr>
+									</mets:div>
+								</mets:div>
+							</mets:div>
+						</mets:div>
+						<mets:div ID="DIVL238" TYPE="ARTICLE" ORDER="3" DMDID="modsarticle15" LABEL="Sāk nojaukt daļu no Kalē migrantu nometnes">
+							<mets:div ID="DIVL239" TYPE="HEADING">
+								<mets:div ID="DIVL240" TYPE="TITLE">
+									<mets:fptr>
+										<mets:area BETYPE="IDREF" FILEID="ALTO00008" BEGIN="P8_TB00022"/>
+									</mets:fptr>
+								</mets:div>
+							</mets:div>
+							<mets:div ID="DIVL241" TYPE="BODY">
+								<mets:div ID="DIVL242" TYPE="BODY_CONTENT">
+									<mets:div ID="DIVL243" TYPE="AUTHOR" ORDER="1">
+										<mets:fptr>
+											<mets:area BETYPE="IDREF" FILEID="ALTO00008" BEGIN="P8_TB00023"/>
+										</mets:fptr>
+									</mets:div>
+									<mets:div ID="DIVL244" TYPE="PARAGRAPH" ORDER="2">
+										<mets:div ID="DIVL245" TYPE="TEXT">
+											<mets:fptr>
+												<mets:seq>
+													<mets:area BETYPE="IDREF" FILEID="ALTO00008" BEGIN="P8_TB00024"/>
+													<mets:area BETYPE="IDREF" FILEID="ALTO00008" BEGIN="P8_TB00025"/>
+												</mets:seq>
+											</mets:fptr>
+										</mets:div>
+									</mets:div>
+								</mets:div>
+							</mets:div>
+						</mets:div>
+						<mets:div ID="DIVL246" TYPE="ARTICLE" ORDER="4" DMDID="modsarticle16" LABEL="KO RAKSTA CITI PIRMAJĀ LAPPUSĒ">
+							<mets:div ID="DIVL247" TYPE="HEADING">
+								<mets:div ID="DIVL248" TYPE="TITLE">
+									<mets:fptr>
+										<mets:area BETYPE="IDREF" FILEID="ALTO00008" BEGIN="P8_TB00026"/>
+									</mets:fptr>
+								</mets:div>
+							</mets:div>
+							<mets:div ID="DIVL249" TYPE="BODY">
+								<mets:div ID="DIVL250" TYPE="BODY_CONTENT">
+									<mets:div ID="DIVL251" TYPE="PARAGRAPH" ORDER="1">
+										<mets:div ID="DIVL252" TYPE="TEXT">
+											<mets:fptr>
+												<mets:area BETYPE="IDREF" FILEID="ALTO00008" BEGIN="P8_TB00027"/>
+											</mets:fptr>
+										</mets:div>
+									</mets:div>
+									<mets:div ID="DIVL253" TYPE="PARAGRAPH" ORDER="2">
+										<mets:div ID="DIVL254" TYPE="TEXT">
+											<mets:fptr>
+												<mets:area BETYPE="IDREF" FILEID="ALTO00008" BEGIN="P8_TB00028"/>
+											</mets:fptr>
+										</mets:div>
+									</mets:div>
+								</mets:div>
+								<mets:div ID="DIVL255" TYPE="ILLUSTRATION" ORDER="1" DMDID="modspict20" LABEL="the guardian">
+									<mets:div ID="DIVL256" TYPE="IMAGE">
+										<mets:fptr>
+											<mets:area BETYPE="IDREF" FILEID="ALTO00008" BEGIN="P8_CB00004"/>
+										</mets:fptr>
+									</mets:div>
+									<mets:div ID="DIVL257" TYPE="CAPTION">
+										<mets:fptr>
+											<mets:area BETYPE="IDREF" FILEID="ALTO00008" BEGIN="P8_TB00029"/>
+										</mets:fptr>
+									</mets:div>
+								</mets:div>
+								<mets:div ID="DIVL258" TYPE="ILLUSTRATION" ORDER="2" DMDID="modspict21" LABEL="ВЕСТИ">
+									<mets:div ID="DIVL259" TYPE="IMAGE">
+										<mets:fptr>
+											<mets:area BETYPE="IDREF" FILEID="ALTO00008" BEGIN="P8_CB00005"/>
+										</mets:fptr>
+									</mets:div>
+									<mets:div ID="DIVL260" TYPE="CAPTION">
+										<mets:fptr>
+											<mets:area BETYPE="IDREF" FILEID="ALTO00008" BEGIN="P8_TB00030"/>
+										</mets:fptr>
+									</mets:div>
+								</mets:div>
+							</mets:div>
+						</mets:div>
+						<mets:div ID="DIVL261" TYPE="ARTICLE" ORDER="5" DMDID="modsarticle17" LABEL="MIGRANTI CENŠAS IEKĻŪT MAĶEDONIJĀ">
+							<mets:div ID="DIVL262" TYPE="HEADING">
+								<mets:div ID="DIVL263" TYPE="TITLE">
+									<mets:fptr>
+										<mets:area BETYPE="IDREF" FILEID="ALTO00008" BEGIN="P8_TB00031"/>
+									</mets:fptr>
+								</mets:div>
+							</mets:div>
+							<mets:div ID="DIVL264" TYPE="BODY">
+								<mets:div ID="DIVL265" TYPE="BODY_CONTENT">
+									<mets:div ID="DIVL266" TYPE="PARAGRAPH" ORDER="1">
+										<mets:div ID="DIVL267" TYPE="TEXT">
+											<mets:fptr>
+												<mets:area BETYPE="IDREF" FILEID="ALTO00008" BEGIN="P8_TB00032"/>
+											</mets:fptr>
+										</mets:div>
+									</mets:div>
+								</mets:div>
+							</mets:div>
+						</mets:div>
+						<mets:div ID="DIVL268" TYPE="ARTICLE" ORDER="6" DMDID="modsarticle18" LABEL="VĒLĒŠANĀS SEKMES REFORMISTIEM">
+							<mets:div ID="DIVL269" TYPE="HEADING">
+								<mets:div ID="DIVL270" TYPE="TITLE">
+									<mets:fptr>
+										<mets:area BETYPE="IDREF" FILEID="ALTO00008" BEGIN="P8_TB00033"/>
+									</mets:fptr>
+								</mets:div>
+							</mets:div>
+							<mets:div ID="DIVL271" TYPE="BODY">
+								<mets:div ID="DIVL272" TYPE="BODY_CONTENT">
+									<mets:div ID="DIVL273" TYPE="PARAGRAPH" ORDER="1">
+										<mets:div ID="DIVL274" TYPE="TEXT">
+											<mets:fptr>
+												<mets:area BETYPE="IDREF" FILEID="ALTO00008" BEGIN="P8_TB00034"/>
+											</mets:fptr>
+										</mets:div>
+									</mets:div>
+								</mets:div>
+							</mets:div>
+						</mets:div>
+					</mets:div>
+					<mets:div ID="DIVL275" TYPE="SECTION" DMDID="modssection6" LABEL="kultūra">
+						<mets:div ID="DIVL276" TYPE="HEADING">
+							<mets:div ID="DIVL277" TYPE="TITLE">
+								<mets:fptr>
+									<mets:area BETYPE="IDREF" FILEID="ALTO00009" BEGIN="P9_TB00001"/>
+								</mets:fptr>
+							</mets:div>
+						</mets:div>
+						<mets:div ID="DIVL278" TYPE="ARTICLE" ORDER="1" DMDID="modsarticle19" LABEL="Leo beidzot labākais">
+							<mets:div ID="DIVL279" TYPE="HEADING">
+								<mets:div ID="DIVL280" TYPE="TITLE">
+									<mets:fptr>
+										<mets:area BETYPE="IDREF" FILEID="ALTO00009" BEGIN="P9_TB00002"/>
+									</mets:fptr>
+								</mets:div>
+							</mets:div>
+							<mets:div ID="DIVL281" TYPE="BODY">
+								<mets:div ID="DIVL282" TYPE="BODY_CONTENT">
+									<mets:div ID="DIVL283" TYPE="PARAGRAPH" ORDER="1">
+										<mets:div ID="DIVL284" TYPE="TEXT">
+											<mets:fptr>
+												<mets:area BETYPE="IDREF" FILEID="ALTO00009" BEGIN="P9_TB00003"/>
+											</mets:fptr>
+										</mets:div>
+									</mets:div>
+									<mets:div ID="DIVL285" TYPE="AUTHOR" ORDER="2">
+										<mets:fptr>
+											<mets:area BETYPE="IDREF" FILEID="ALTO00009" BEGIN="P9_TB00004"/>
+										</mets:fptr>
+									</mets:div>
+									<mets:div ID="DIVL286" TYPE="PARAGRAPH" ORDER="3">
+										<mets:div ID="DIVL287" TYPE="TEXT">
+											<mets:fptr>
+												<mets:seq>
+													<mets:area BETYPE="IDREF" FILEID="ALTO00009" BEGIN="P9_TB00005"/>
+													<mets:area BETYPE="IDREF" FILEID="ALTO00009" BEGIN="P9_TB00006"/>
+													<mets:area BETYPE="IDREF" FILEID="ALTO00009" BEGIN="P9_TB00007"/>
+													<mets:area BETYPE="IDREF" FILEID="ALTO00009" BEGIN="P9_TB00008"/>
+													<mets:area BETYPE="IDREF" FILEID="ALTO00009" BEGIN="P9_TB00009"/>
+												</mets:seq>
+											</mets:fptr>
+										</mets:div>
+									</mets:div>
+									<mets:div ID="DIVL288" TYPE="PARAGRAPH" ORDER="4">
+										<mets:div ID="DIVL289" TYPE="TEXT">
+											<mets:fptr>
+												<mets:area BETYPE="IDREF" FILEID="ALTO00009" BEGIN="P9_TB00010"/>
+											</mets:fptr>
+										</mets:div>
+									</mets:div>
+								</mets:div>
+								<mets:div ID="DIVL290" TYPE="ILLUSTRATION" ORDER="1" DMDID="modspict22" LABEL="▲ PĀRLIECINOŠI līderi labāko aktieru kategorijās bija Leonardo di Kaprio un Brī Larsone. FOTO – AFP/LETA">
+									<mets:div ID="DIVL291" TYPE="IMAGE">
+										<mets:fptr>
+											<mets:area BETYPE="IDREF" FILEID="ALTO00009" BEGIN="P9_CB00001"/>
+										</mets:fptr>
+									</mets:div>
+									<mets:div ID="DIVL292" TYPE="CAPTION">
+										<mets:fptr>
+											<mets:area BETYPE="IDREF" FILEID="ALTO00009" BEGIN="P9_TB00011"/>
+										</mets:fptr>
+									</mets:div>
+								</mets:div>
+								<mets:div ID="DIVL293" TYPE="ILLUSTRATION" ORDER="2" DMDID="modspict23" LABEL="▲ LABĀKĀ FILMA – žurnālistikas drāma Uzmanības centrā. FOTO – AFP/LETA">
+									<mets:div ID="DIVL294" TYPE="IMAGE">
+										<mets:fptr>
+											<mets:area BETYPE="IDREF" FILEID="ALTO00009" BEGIN="P9_CB00002"/>
+										</mets:fptr>
+									</mets:div>
+									<mets:div ID="DIVL295" TYPE="CAPTION">
+										<mets:fptr>
+											<mets:area BETYPE="IDREF" FILEID="ALTO00009" BEGIN="P9_TB00012"/>
+										</mets:fptr>
+									</mets:div>
+								</mets:div>
+							</mets:div>
+						</mets:div>
+					</mets:div>
+					<mets:div ID="DIVL296" TYPE="SECTION" DMDID="modssection7" LABEL="karjeras diena">
+						<mets:div ID="DIVL297" TYPE="HEADING">
+							<mets:div ID="DIVL298" TYPE="TITLE">
+								<mets:fptr>
+									<mets:area BETYPE="IDREF" FILEID="ALTO00010" BEGIN="P10_TB00001"/>
+								</mets:fptr>
+							</mets:div>
+						</mets:div>
+						<mets:div ID="DIVL299" TYPE="ARTICLE" ORDER="1" DMDID="modsarticle20" LABEL="Darba ņēmēji iebalso topā">
+							<mets:div ID="DIVL300" TYPE="HEADING">
+								<mets:div ID="DIVL301" TYPE="TITLE">
+									<mets:fptr>
+										<mets:area BETYPE="IDREF" FILEID="ALTO00010" BEGIN="P10_TB00002"/>
+									</mets:fptr>
+								</mets:div>
+							</mets:div>
+							<mets:div ID="DIVL302" TYPE="BODY">
+								<mets:div ID="DIVL303" TYPE="BODY_CONTENT">
+									<mets:div ID="DIVL304" TYPE="PARAGRAPH" ORDER="1">
+										<mets:div ID="DIVL305" TYPE="TEXT">
+											<mets:fptr>
+												<mets:area BETYPE="IDREF" FILEID="ALTO00010" BEGIN="P10_TB00003"/>
+											</mets:fptr>
+										</mets:div>
+									</mets:div>
+									<mets:div ID="DIVL306" TYPE="AUTHOR" ORDER="2">
+										<mets:fptr>
+											<mets:area BETYPE="IDREF" FILEID="ALTO00010" BEGIN="P10_TB00004"/>
+										</mets:fptr>
+									</mets:div>
+									<mets:div ID="DIVL307" TYPE="PARAGRAPH" ORDER="3">
+										<mets:div ID="DIVL308" TYPE="TEXT">
+											<mets:fptr>
+												<mets:seq>
+													<mets:area BETYPE="IDREF" FILEID="ALTO00010" BEGIN="P10_TB00005"/>
+													<mets:area BETYPE="IDREF" FILEID="ALTO00010" BEGIN="P10_TB00006"/>
+												</mets:seq>
+											</mets:fptr>
+										</mets:div>
+									</mets:div>
+								</mets:div>
+								<mets:div ID="DIVL309" TYPE="ILLUSTRATION" ORDER="1" DMDID="modspict24" LABEL="■ IEKĀROJAMĀKĀ darba devēja titulu CV-Online Latvia rīkotajā aptaujā jau ceturto gadu pēc kārtas nosargājis uzņēmums Latvenergo. Attēlā – kompānijas personāla vadības direktore Inga Kola ar saņemto balvu. FOTO – LETA">
+									<mets:div ID="DIVL310" TYPE="IMAGE">
+										<mets:fptr>
+											<mets:area BETYPE="IDREF" FILEID="ALTO00010" BEGIN="P10_CB00001"/>
+										</mets:fptr>
+									</mets:div>
+									<mets:div ID="DIVL311" TYPE="CAPTION">
+										<mets:fptr>
+											<mets:area BETYPE="IDREF" FILEID="ALTO00010" BEGIN="P10_TB00007"/>
+										</mets:fptr>
+									</mets:div>
+								</mets:div>
+							</mets:div>
+						</mets:div>
+						<mets:div ID="DIVL312" TYPE="ARTICLE" ORDER="2" DMDID="modsarticle21" LABEL="Tiem, kas vēlas mācīties ārzemēs">
+							<mets:div ID="DIVL313" TYPE="HEADING">
+								<mets:div ID="DIVL314" TYPE="TITLE">
+									<mets:fptr>
+										<mets:area BETYPE="IDREF" FILEID="ALTO00010" BEGIN="P10_TB00008"/>
+									</mets:fptr>
+								</mets:div>
+							</mets:div>
+							<mets:div ID="DIVL315" TYPE="BODY">
+								<mets:div ID="DIVL316" TYPE="BODY_CONTENT">
+									<mets:div ID="DIVL317" TYPE="AUTHOR" ORDER="1">
+										<mets:fptr>
+											<mets:area BETYPE="IDREF" FILEID="ALTO00010" BEGIN="P10_TB00009"/>
+										</mets:fptr>
+									</mets:div>
+									<mets:div ID="DIVL318" TYPE="PARAGRAPH" ORDER="2">
+										<mets:div ID="DIVL319" TYPE="TEXT">
+											<mets:fptr>
+												<mets:seq>
+													<mets:area BETYPE="IDREF" FILEID="ALTO00010" BEGIN="P10_TB00010"/>
+													<mets:area BETYPE="IDREF" FILEID="ALTO00010" BEGIN="P10_TB00011"/>
+													<mets:area BETYPE="IDREF" FILEID="ALTO00010" BEGIN="P10_TB00012"/>
+													<mets:area BETYPE="IDREF" FILEID="ALTO00010" BEGIN="P10_TB00013"/>
+													<mets:area BETYPE="IDREF" FILEID="ALTO00010" BEGIN="P10_TB00014"/>
+												</mets:seq>
+											</mets:fptr>
+										</mets:div>
+									</mets:div>
+								</mets:div>
+							</mets:div>
+						</mets:div>
+						<mets:div ID="DIVL320" TYPE="ARTICLE" ORDER="3" DMDID="modsarticle22" LABEL="Palīdz gan invalīdiem, gan SOS ciematu jauniešiem">
+							<mets:div ID="DIVL321" TYPE="HEADING">
+								<mets:div ID="DIVL322" TYPE="TITLE">
+									<mets:fptr>
+										<mets:area BETYPE="IDREF" FILEID="ALTO00010" BEGIN="P10_TB00015"/>
+									</mets:fptr>
+								</mets:div>
+							</mets:div>
+							<mets:div ID="DIVL323" TYPE="BODY">
+								<mets:div ID="DIVL324" TYPE="BODY_CONTENT">
+									<mets:div ID="DIVL325" TYPE="AUTHOR" ORDER="1">
+										<mets:fptr>
+											<mets:area BETYPE="IDREF" FILEID="ALTO00010" BEGIN="P10_TB00016"/>
+										</mets:fptr>
+									</mets:div>
+									<mets:div ID="DIVL326" TYPE="PARAGRAPH" ORDER="2">
+										<mets:div ID="DIVL327" TYPE="TEXT">
+											<mets:fptr>
+												<mets:seq>
+													<mets:area BETYPE="IDREF" FILEID="ALTO00010" BEGIN="P10_TB00017"/>
+													<mets:area BETYPE="IDREF" FILEID="ALTO00010" BEGIN="P10_TB00018"/>
+													<mets:area BETYPE="IDREF" FILEID="ALTO00010" BEGIN="P10_TB00019"/>
+													<mets:area BETYPE="IDREF" FILEID="ALTO00010" BEGIN="P10_TB00020"/>
+												</mets:seq>
+											</mets:fptr>
+										</mets:div>
+									</mets:div>
+								</mets:div>
+							</mets:div>
+						</mets:div>
+						<mets:div ID="DIVL328" TYPE="ARTICLE" ORDER="4" DMDID="modsarticle23" LABEL="SPĒKOSIES JAUNIE PROFESIONĀĻI">
+							<mets:div ID="DIVL329" TYPE="HEADING">
+								<mets:div ID="DIVL330" TYPE="TITLE">
+									<mets:fptr>
+										<mets:area BETYPE="IDREF" FILEID="ALTO00010" BEGIN="P10_TB00021"/>
+									</mets:fptr>
+								</mets:div>
+							</mets:div>
+							<mets:div ID="DIVL331" TYPE="BODY">
+								<mets:div ID="DIVL332" TYPE="BODY_CONTENT">
+									<mets:div ID="DIVL333" TYPE="PARAGRAPH" ORDER="1">
+										<mets:div ID="DIVL334" TYPE="TEXT">
+											<mets:fptr>
+												<mets:area BETYPE="IDREF" FILEID="ALTO00010" BEGIN="P10_TB00022"/>
+											</mets:fptr>
+										</mets:div>
+									</mets:div>
+								</mets:div>
+							</mets:div>
+						</mets:div>
+						<mets:div ID="DIVL335" TYPE="ARTICLE" ORDER="5" DMDID="modsarticle24" LABEL="ATBALSTS BIZNESA SĀKŠANAI">
+							<mets:div ID="DIVL336" TYPE="HEADING">
+								<mets:div ID="DIVL337" TYPE="TITLE">
+									<mets:fptr>
+										<mets:area BETYPE="IDREF" FILEID="ALTO00010" BEGIN="P10_TB00023"/>
+									</mets:fptr>
+								</mets:div>
+							</mets:div>
+							<mets:div ID="DIVL338" TYPE="BODY">
+								<mets:div ID="DIVL339" TYPE="BODY_CONTENT">
+									<mets:div ID="DIVL340" TYPE="PARAGRAPH" ORDER="1">
+										<mets:div ID="DIVL341" TYPE="TEXT">
+											<mets:fptr>
+												<mets:area BETYPE="IDREF" FILEID="ALTO00010" BEGIN="P10_TB00024"/>
+											</mets:fptr>
+										</mets:div>
+									</mets:div>
+								</mets:div>
+							</mets:div>
+						</mets:div>
+						<mets:div ID="DIVL342" TYPE="ARTICLE" ORDER="6" DMDID="modsarticle25" LABEL="Kustībā">
+							<mets:div ID="DIVL343" TYPE="HEADING">
+								<mets:div ID="DIVL344" TYPE="TITLE">
+									<mets:fptr>
+										<mets:area BETYPE="IDREF" FILEID="ALTO00010" BEGIN="P10_TB00025"/>
+									</mets:fptr>
+								</mets:div>
+							</mets:div>
+							<mets:div ID="DIVL345" TYPE="BODY">
+								<mets:div ID="DIVL346" TYPE="BODY_CONTENT">
+									<mets:div ID="DIVL347" TYPE="PARAGRAPH" ORDER="1">
+										<mets:div ID="DIVL348" TYPE="TEXT">
+											<mets:fptr>
+												<mets:area BETYPE="IDREF" FILEID="ALTO00010" BEGIN="P10_TB00026"/>
+											</mets:fptr>
+										</mets:div>
+									</mets:div>
+								</mets:div>
+								<mets:div ID="DIVL349" TYPE="ILLUSTRATION" ORDER="1" DMDID="modspict25" LABEL="ARTŪRS CINIS">
+									<mets:div ID="DIVL350" TYPE="IMAGE">
+										<mets:fptr>
+											<mets:area BETYPE="IDREF" FILEID="ALTO00010" BEGIN="P10_CB00002"/>
+										</mets:fptr>
+									</mets:div>
+									<mets:div ID="DIVL351" TYPE="CAPTION">
+										<mets:fptr>
+											<mets:area BETYPE="IDREF" FILEID="ALTO00010" BEGIN="P10_TB00027"/>
+										</mets:fptr>
+									</mets:div>
+								</mets:div>
+							</mets:div>
+						</mets:div>
+					</mets:div>
+					<mets:div ID="DIVL352" TYPE="SECTION" DMDID="modssection8" LABEL="sports">
+						<mets:div ID="DIVL353" TYPE="HEADING">
+							<mets:div ID="DIVL354" TYPE="TITLE">
+								<mets:fptr>
+									<mets:area BETYPE="IDREF" FILEID="ALTO00011" BEGIN="P11_TB00001"/>
+								</mets:fptr>
+							</mets:div>
+						</mets:div>
+						<mets:div ID="DIVL355" TYPE="ARTICLE" ORDER="1" DMDID="modsarticle26" LABEL="PORZIŅĢIM NEKRĪT, KNICKS ZAUDĒ MAIAMI HEAT">
+							<mets:div ID="DIVL356" TYPE="HEADING">
+								<mets:div ID="DIVL357" TYPE="TITLE">
+									<mets:fptr>
+										<mets:area BETYPE="IDREF" FILEID="ALTO00011" BEGIN="P11_TB00002"/>
+									</mets:fptr>
+								</mets:div>
+							</mets:div>
+							<mets:div ID="DIVL358" TYPE="BODY">
+								<mets:div ID="DIVL359" TYPE="BODY_CONTENT">
+									<mets:div ID="DIVL360" TYPE="PARAGRAPH" ORDER="1">
+										<mets:div ID="DIVL361" TYPE="TEXT">
+											<mets:fptr>
+												<mets:area BETYPE="IDREF" FILEID="ALTO00011" BEGIN="P11_TB00003"/>
+											</mets:fptr>
+										</mets:div>
+									</mets:div>
+								</mets:div>
+								<mets:div ID="DIVL362" TYPE="ILLUSTRATION" ORDER="1" DMDID="modspict26" LABEL="Kristaps Porziņģis">
+									<mets:div ID="DIVL363" TYPE="IMAGE">
+										<mets:fptr>
+											<mets:area BETYPE="IDREF" FILEID="ALTO00011" BEGIN="P11_CB00001"/>
+										</mets:fptr>
+									</mets:div>
+									<mets:div ID="DIVL364" TYPE="CAPTION">
+										<mets:fptr>
+											<mets:area BETYPE="IDREF" FILEID="ALTO00011" BEGIN="P11_TB00004"/>
+										</mets:fptr>
+									</mets:div>
+								</mets:div>
+							</mets:div>
+						</mets:div>
+						<mets:div ID="DIVL365" TYPE="ARTICLE" ORDER="2" DMDID="modsarticle27" LABEL="AR LATVIEŠIEM KONKURĒS ARĪ TITULIEM BAGĀTAIS LĒBS">
+							<mets:div ID="DIVL366" TYPE="HEADING">
+								<mets:div ID="DIVL367" TYPE="TITLE">
+									<mets:fptr>
+										<mets:area BETYPE="IDREF" FILEID="ALTO00011" BEGIN="P11_TB00005"/>
+									</mets:fptr>
+								</mets:div>
+							</mets:div>
+							<mets:div ID="DIVL368" TYPE="BODY">
+								<mets:div ID="DIVL369" TYPE="BODY_CONTENT">
+									<mets:div ID="DIVL370" TYPE="PARAGRAPH" ORDER="1">
+										<mets:div ID="DIVL371" TYPE="TEXT">
+											<mets:fptr>
+												<mets:area BETYPE="IDREF" FILEID="ALTO00011" BEGIN="P11_TB00006"/>
+											</mets:fptr>
+										</mets:div>
+									</mets:div>
+								</mets:div>
+								<mets:div ID="DIVL372" TYPE="ILLUSTRATION" ORDER="1" DMDID="modspict27" LABEL="Sebastjēns Lēbs">
+									<mets:div ID="DIVL373" TYPE="IMAGE">
+										<mets:fptr>
+											<mets:area BETYPE="IDREF" FILEID="ALTO00011" BEGIN="P11_CB00002"/>
+										</mets:fptr>
+									</mets:div>
+									<mets:div ID="DIVL374" TYPE="CAPTION">
+										<mets:fptr>
+											<mets:area BETYPE="IDREF" FILEID="ALTO00011" BEGIN="P11_TB00007"/>
+										</mets:fptr>
+									</mets:div>
+								</mets:div>
+							</mets:div>
+						</mets:div>
+						<mets:div ID="DIVL375" TYPE="ARTICLE" ORDER="3" DMDID="modsarticle28" LABEL="ČEMPIONUS KRONĒ JAU FEBRUĀRĪ">
+							<mets:div ID="DIVL376" TYPE="HEADING">
+								<mets:div ID="DIVL377" TYPE="TITLE">
+									<mets:fptr>
+										<mets:area BETYPE="IDREF" FILEID="ALTO00011" BEGIN="P11_TB00008"/>
+									</mets:fptr>
+								</mets:div>
+							</mets:div>
+							<mets:div ID="DIVL378" TYPE="BODY">
+								<mets:div ID="DIVL379" TYPE="BODY_CONTENT">
+									<mets:div ID="DIVL380" TYPE="PARAGRAPH" ORDER="1">
+										<mets:div ID="DIVL381" TYPE="TEXT">
+											<mets:fptr>
+												<mets:area BETYPE="IDREF" FILEID="ALTO00011" BEGIN="P11_TB00009"/>
+											</mets:fptr>
+										</mets:div>
+									</mets:div>
+								</mets:div>
+								<mets:div ID="DIVL382" TYPE="ILLUSTRATION" ORDER="1" DMDID="modspict28" LABEL="Davids Fusters">
+									<mets:div ID="DIVL383" TYPE="IMAGE">
+										<mets:fptr>
+											<mets:area BETYPE="IDREF" FILEID="ALTO00011" BEGIN="P11_CB00003"/>
+										</mets:fptr>
+									</mets:div>
+									<mets:div ID="DIVL384" TYPE="CAPTION">
+										<mets:fptr>
+											<mets:area BETYPE="IDREF" FILEID="ALTO00011" BEGIN="P11_TB00010"/>
+										</mets:fptr>
+									</mets:div>
+								</mets:div>
+							</mets:div>
+						</mets:div>
+						<mets:div ID="DIVL385" TYPE="ARTICLE" ORDER="4" DMDID="modsarticle29" LABEL="BARCELONA UZVAR UN GŪST REKORDU">
+							<mets:div ID="DIVL386" TYPE="HEADING">
+								<mets:div ID="DIVL387" TYPE="TITLE">
+									<mets:fptr>
+										<mets:area BETYPE="IDREF" FILEID="ALTO00011" BEGIN="P11_TB00011"/>
+									</mets:fptr>
+								</mets:div>
+							</mets:div>
+							<mets:div ID="DIVL388" TYPE="BODY">
+								<mets:div ID="DIVL389" TYPE="BODY_CONTENT">
+									<mets:div ID="DIVL390" TYPE="PARAGRAPH" ORDER="1">
+										<mets:div ID="DIVL391" TYPE="TEXT">
+											<mets:fptr>
+												<mets:area BETYPE="IDREF" FILEID="ALTO00011" BEGIN="P11_TB00012"/>
+											</mets:fptr>
+										</mets:div>
+									</mets:div>
+								</mets:div>
+								<mets:div ID="DIVL392" TYPE="ILLUSTRATION" ORDER="1" DMDID="modspict29" LABEL="Žerāra Pikē">
+									<mets:div ID="DIVL393" TYPE="IMAGE">
+										<mets:fptr>
+											<mets:area BETYPE="IDREF" FILEID="ALTO00011" BEGIN="P11_CB00004"/>
+										</mets:fptr>
+									</mets:div>
+									<mets:div ID="DIVL394" TYPE="CAPTION">
+										<mets:fptr>
+											<mets:area BETYPE="IDREF" FILEID="ALTO00011" BEGIN="P11_TB00013"/>
+										</mets:fptr>
+									</mets:div>
+								</mets:div>
+							</mets:div>
+						</mets:div>
+						<mets:div ID="DIVL395" TYPE="ARTICLE" ORDER="5" DMDID="modsarticle30" LABEL="Gaidot pārmaiņu vējus">
+							<mets:div ID="DIVL396" TYPE="HEADING">
+								<mets:div ID="DIVL397" TYPE="TITLE">
+									<mets:fptr>
+										<mets:area BETYPE="IDREF" FILEID="ALTO00011" BEGIN="P11_TB00014"/>
+									</mets:fptr>
+								</mets:div>
+							</mets:div>
+							<mets:div ID="DIVL398" TYPE="BODY">
+								<mets:div ID="DIVL399" TYPE="BODY_CONTENT">
+									<mets:div ID="DIVL400" TYPE="PARAGRAPH" ORDER="1">
+										<mets:div ID="DIVL401" TYPE="TEXT">
+											<mets:fptr>
+												<mets:area BETYPE="IDREF" FILEID="ALTO00011" BEGIN="P11_TB00015"/>
+											</mets:fptr>
+										</mets:div>
+									</mets:div>
+									<mets:div ID="DIVL402" TYPE="AUTHOR" ORDER="2">
+										<mets:fptr>
+											<mets:area BETYPE="IDREF" FILEID="ALTO00011" BEGIN="P11_TB00016"/>
+										</mets:fptr>
+									</mets:div>
+									<mets:div ID="DIVL403" TYPE="PARAGRAPH" ORDER="3">
+										<mets:div ID="DIVL404" TYPE="TEXT">
+											<mets:fptr>
+												<mets:seq>
+													<mets:area BETYPE="IDREF" FILEID="ALTO00011" BEGIN="P11_TB00017"/>
+													<mets:area BETYPE="IDREF" FILEID="ALTO00011" BEGIN="P11_TB00018"/>
+													<mets:area BETYPE="IDREF" FILEID="ALTO00011" BEGIN="P11_TB00019"/>
+													<mets:area BETYPE="IDREF" FILEID="ALTO00011" BEGIN="P11_TB00020"/>
+													<mets:area BETYPE="IDREF" FILEID="ALTO00011" BEGIN="P11_TB00021"/>
+													<mets:area BETYPE="IDREF" FILEID="ALTO00011" BEGIN="P11_TB00022"/>
+													<mets:area BETYPE="IDREF" FILEID="ALTO00011" BEGIN="P11_TB00023"/>
+												</mets:seq>
+											</mets:fptr>
+										</mets:div>
+									</mets:div>
+									<mets:div ID="DIVL405" TYPE="PARAGRAPH" ORDER="4">
+										<mets:div ID="DIVL406" TYPE="TEXT">
+											<mets:fptr>
+												<mets:area BETYPE="IDREF" FILEID="ALTO00011" BEGIN="P11_TB00024"/>
+											</mets:fptr>
+										</mets:div>
+									</mets:div>
+								</mets:div>
+								<mets:div ID="DIVL407" TYPE="ILLUSTRATION" ORDER="1" DMDID="modspict30" LABEL="▲ PIRMĀ darbadiena FIFA prezidenta amatā Džanni Infantīno (att.) sākās ar draudzības maču futbolā, lai gan pēc ievēlēšanas viņš solīja sākt ar FIFA reputācijas atgūšanai nepieciešamo reformu plānošanu. FOTO – AFP/LETA">
+									<mets:div ID="DIVL408" TYPE="IMAGE">
+										<mets:fptr>
+											<mets:area BETYPE="IDREF" FILEID="ALTO00011" BEGIN="P11_CB00005"/>
+										</mets:fptr>
+									</mets:div>
+									<mets:div ID="DIVL409" TYPE="CAPTION">
+										<mets:fptr>
+											<mets:area BETYPE="IDREF" FILEID="ALTO00011" BEGIN="P11_TB00025"/>
+										</mets:fptr>
+									</mets:div>
+								</mets:div>
+							</mets:div>
+						</mets:div>
+						<mets:div ID="DIVL410" TYPE="ARTICLE" ORDER="6" DMDID="modsarticle31" LABEL="Kārtslēcējam Pujātam lielisks rezultāts un Rio normatīvs">
+							<mets:div ID="DIVL411" TYPE="HEADING">
+								<mets:div ID="DIVL412" TYPE="TITLE">
+									<mets:fptr>
+										<mets:area BETYPE="IDREF" FILEID="ALTO00011" BEGIN="P11_TB00026"/>
+									</mets:fptr>
+								</mets:div>
+							</mets:div>
+							<mets:div ID="DIVL413" TYPE="BODY">
+								<mets:div ID="DIVL414" TYPE="BODY_CONTENT">
+									<mets:div ID="DIVL415" TYPE="AUTHOR" ORDER="1">
+										<mets:fptr>
+											<mets:area BETYPE="IDREF" FILEID="ALTO00011" BEGIN="P11_TB00027"/>
+										</mets:fptr>
+									</mets:div>
+									<mets:div ID="DIVL416" TYPE="PARAGRAPH" ORDER="2">
+										<mets:div ID="DIVL417" TYPE="TEXT">
+											<mets:fptr>
+												<mets:seq>
+													<mets:area BETYPE="IDREF" FILEID="ALTO00011" BEGIN="P11_TB00028"/>
+													<mets:area BETYPE="IDREF" FILEID="ALTO00011" BEGIN="P11_TB00029"/>
+													<mets:area BETYPE="IDREF" FILEID="ALTO00011" BEGIN="P11_TB00030"/>
+													<mets:area BETYPE="IDREF" FILEID="ALTO00011" BEGIN="P11_TB00031"/>
+												</mets:seq>
+											</mets:fptr>
+										</mets:div>
+									</mets:div>
+									<mets:div ID="DIVL418" TYPE="PARAGRAPH" ORDER="3">
+										<mets:div ID="DIVL419" TYPE="TEXT">
+											<mets:fptr>
+												<mets:area BETYPE="IDREF" FILEID="ALTO00011" BEGIN="P11_TB00032"/>
+											</mets:fptr>
+										</mets:div>
+									</mets:div>
+								</mets:div>
+								<mets:div ID="DIVL420" TYPE="ILLUSTRATION" ORDER="1" DMDID="modspict31" LABEL="KĀRTSLĒCĒJS Pauls Pujāts (att.). PUBLICITĀTES FOTO">
+									<mets:div ID="DIVL421" TYPE="IMAGE">
+										<mets:fptr>
+											<mets:area BETYPE="IDREF" FILEID="ALTO00011" BEGIN="P11_CB00006"/>
+										</mets:fptr>
+									</mets:div>
+									<mets:div ID="DIVL422" TYPE="CAPTION">
+										<mets:fptr>
+											<mets:area BETYPE="IDREF" FILEID="ALTO00011" BEGIN="P11_TB00033"/>
+										</mets:fptr>
+									</mets:div>
+								</mets:div>
+							</mets:div>
+						</mets:div>
+						<mets:div ID="DIVL423" TYPE="ARTICLE" ORDER="7" DMDID="modsarticle32" LABEL="SPORTS OTRDIEN">
+							<mets:div ID="DIVL424" TYPE="HEADING">
+								<mets:div ID="DIVL425" TYPE="TITLE">
+									<mets:fptr>
+										<mets:area BETYPE="IDREF" FILEID="ALTO00011" BEGIN="P11_TB00034"/>
+									</mets:fptr>
+								</mets:div>
+								<mets:div ID="DIVL426" TYPE="SUBHEADLINE">
+									<mets:fptr>
+										<mets:area BETYPE="IDREF" FILEID="ALTO00011" BEGIN="P11_TB00035"/>
+									</mets:fptr>
+								</mets:div>
+							</mets:div>
+							<mets:div ID="DIVL427" TYPE="BODY">
+								<mets:div ID="DIVL428" TYPE="BODY_CONTENT">
+									<mets:div ID="DIVL429" TYPE="PARAGRAPH" ORDER="1">
+										<mets:div ID="DIVL430" TYPE="TEXT">
+											<mets:fptr>
+												<mets:area BETYPE="IDREF" FILEID="ALTO00011" BEGIN="P11_TB00036"/>
+											</mets:fptr>
+										</mets:div>
+									</mets:div>
+									<mets:div ID="DIVL431" TYPE="PARAGRAPH" ORDER="2">
+										<mets:div ID="DIVL432" TYPE="TEXT">
+											<mets:fptr>
+												<mets:area BETYPE="IDREF" FILEID="ALTO00011" BEGIN="P11_TB00037"/>
+											</mets:fptr>
+										</mets:div>
+									</mets:div>
+								</mets:div>
+							</mets:div>
+						</mets:div>
+						<mets:div ID="DIVL433" TYPE="ARTICLE" ORDER="8" DMDID="modsarticle33" LABEL="Nepacietīgi gaida debiju">
+							<mets:div ID="DIVL434" TYPE="HEADING">
+								<mets:div ID="DIVL435" TYPE="TITLE">
+									<mets:fptr>
+										<mets:area BETYPE="IDREF" FILEID="ALTO00011" BEGIN="P11_TB00038"/>
+									</mets:fptr>
+								</mets:div>
+							</mets:div>
+							<mets:div ID="DIVL436" TYPE="BODY">
+								<mets:div ID="DIVL437" TYPE="BODY_CONTENT">
+									<mets:div ID="DIVL438" TYPE="PARAGRAPH" ORDER="1">
+										<mets:div ID="DIVL439" TYPE="TEXT">
+											<mets:fptr>
+												<mets:area BETYPE="IDREF" FILEID="ALTO00011" BEGIN="P11_TB00039"/>
+											</mets:fptr>
+										</mets:div>
+									</mets:div>
+									<mets:div ID="DIVL440" TYPE="AUTHOR" ORDER="2">
+										<mets:fptr>
+											<mets:area BETYPE="IDREF" FILEID="ALTO00011" BEGIN="P11_TB00040"/>
+										</mets:fptr>
+									</mets:div>
+									<mets:div ID="DIVL441" TYPE="PARAGRAPH" ORDER="3">
+										<mets:div ID="DIVL442" TYPE="TEXT">
+											<mets:fptr>
+												<mets:area BETYPE="IDREF" FILEID="ALTO00011" BEGIN="P11_TB00041"/>
+											</mets:fptr>
+										</mets:div>
+									</mets:div>
+									<mets:div ID="DIVL443" TYPE="PARAGRAPH" ORDER="4">
+										<mets:div ID="DIVL444" TYPE="TEXT">
+											<mets:fptr>
+												<mets:seq>
+													<mets:area BETYPE="IDREF" FILEID="ALTO00011" BEGIN="P11_TB00042"/>
+													<mets:area BETYPE="IDREF" FILEID="ALTO00011" BEGIN="P11_TB00043"/>
+													<mets:area BETYPE="IDREF" FILEID="ALTO00011" BEGIN="P11_TB00044"/>
+													<mets:area BETYPE="IDREF" FILEID="ALTO00011" BEGIN="P11_TB00045"/>
+												</mets:seq>
+											</mets:fptr>
+										</mets:div>
+									</mets:div>
+								</mets:div>
+								<mets:div ID="DIVL445" TYPE="ILLUSTRATION" ORDER="1" DMDID="modspict32" LABEL="▲ BRITS Džoljons Palmers (att.) jau pirmajā sezonā varētu iesaistīties cīņā par punktiem, kamēr pārējiem debitantiem sevi autosporta karaliskajā klasē vēl būs jāpierāda. FOTO – AFP/LETA">
+									<mets:div ID="DIVL446" TYPE="IMAGE">
+										<mets:fptr>
+											<mets:area BETYPE="IDREF" FILEID="ALTO00011" BEGIN="P11_CB00007"/>
+										</mets:fptr>
+									</mets:div>
+									<mets:div ID="DIVL447" TYPE="CAPTION">
+										<mets:fptr>
+											<mets:area BETYPE="IDREF" FILEID="ALTO00011" BEGIN="P11_TB00046"/>
+										</mets:fptr>
+									</mets:div>
+								</mets:div>
+							</mets:div>
+						</mets:div>
+						<mets:div ID="DIVL448" TYPE="ARTICLE" ORDER="9" DMDID="modsarticle34" LABEL="Cīņu par pusfinālu sāk Lietuvā un Igaunijā">
+							<mets:div ID="DIVL449" TYPE="HEADING">
+								<mets:div ID="DIVL450" TYPE="TITLE">
+									<mets:fptr>
+										<mets:area BETYPE="IDREF" FILEID="ALTO00011" BEGIN="P11_TB00047"/>
+									</mets:fptr>
+								</mets:div>
+							</mets:div>
+							<mets:div ID="DIVL451" TYPE="BODY">
+								<mets:div ID="DIVL452" TYPE="BODY_CONTENT">
+									<mets:div ID="DIVL453" TYPE="AUTHOR" ORDER="1">
+										<mets:fptr>
+											<mets:area BETYPE="IDREF" FILEID="ALTO00011" BEGIN="P11_TB00048"/>
+										</mets:fptr>
+									</mets:div>
+									<mets:div ID="DIVL454" TYPE="PARAGRAPH" ORDER="2">
+										<mets:div ID="DIVL455" TYPE="TEXT">
+											<mets:fptr>
+												<mets:seq>
+													<mets:area BETYPE="IDREF" FILEID="ALTO00011" BEGIN="P11_TB00049"/>
+													<mets:area BETYPE="IDREF" FILEID="ALTO00011" BEGIN="P11_TB00050"/>
+													<mets:area BETYPE="IDREF" FILEID="ALTO00011" BEGIN="P11_TB00051"/>
+													<mets:area BETYPE="IDREF" FILEID="ALTO00011" BEGIN="P11_TB00052"/>
+												</mets:seq>
+											</mets:fptr>
+										</mets:div>
+									</mets:div>
+									<mets:div ID="DIVL456" TYPE="PARAGRAPH" ORDER="3">
+										<mets:div ID="DIVL457" TYPE="TEXT">
+											<mets:fptr>
+												<mets:area BETYPE="IDREF" FILEID="ALTO00011" BEGIN="P11_TB00053"/>
+											</mets:fptr>
+										</mets:div>
+									</mets:div>
+								</mets:div>
+							</mets:div>
+						</mets:div>
+						<mets:div ID="DIVL458" TYPE="ARTICLE" ORDER="10" DMDID="modsarticle35" LABEL="ĶĒNIŅŠ TURPINA SAVU SĒRIJU">
+							<mets:div ID="DIVL459" TYPE="HEADING">
+								<mets:div ID="DIVL460" TYPE="TITLE">
+									<mets:fptr>
+										<mets:area BETYPE="IDREF" FILEID="ALTO00011" BEGIN="P11_TB00054"/>
+									</mets:fptr>
+								</mets:div>
+							</mets:div>
+							<mets:div ID="DIVL461" TYPE="BODY">
+								<mets:div ID="DIVL462" TYPE="BODY_CONTENT">
+									<mets:div ID="DIVL463" TYPE="PARAGRAPH" ORDER="1">
+										<mets:div ID="DIVL464" TYPE="TEXT">
+											<mets:fptr>
+												<mets:area BETYPE="IDREF" FILEID="ALTO00011" BEGIN="P11_TB00055"/>
+											</mets:fptr>
+										</mets:div>
+									</mets:div>
+								</mets:div>
+							</mets:div>
+						</mets:div>
+						<mets:div ID="DIVL465" TYPE="ARTICLE" ORDER="11" DMDID="modsarticle36" LABEL="TURĪNĀ SABER TRĪSPUNKTNIEKUS">
+							<mets:div ID="DIVL466" TYPE="HEADING">
+								<mets:div ID="DIVL467" TYPE="TITLE">
+									<mets:fptr>
+										<mets:area BETYPE="IDREF" FILEID="ALTO00011" BEGIN="P11_TB00056"/>
+									</mets:fptr>
+								</mets:div>
+							</mets:div>
+							<mets:div ID="DIVL468" TYPE="BODY">
+								<mets:div ID="DIVL469" TYPE="BODY_CONTENT">
+									<mets:div ID="DIVL470" TYPE="PARAGRAPH" ORDER="1">
+										<mets:div ID="DIVL471" TYPE="TEXT">
+											<mets:fptr>
+												<mets:area BETYPE="IDREF" FILEID="ALTO00011" BEGIN="P11_TB00057"/>
+											</mets:fptr>
+										</mets:div>
+									</mets:div>
+								</mets:div>
+							</mets:div>
+						</mets:div>
+						<mets:div ID="DIVL472" TYPE="ARTICLE" ORDER="12" DMDID="modsarticle37" LABEL="ABIEM BERTĀNIEM PA DEVIŅIEM">
+							<mets:div ID="DIVL473" TYPE="HEADING">
+								<mets:div ID="DIVL474" TYPE="TITLE">
+									<mets:fptr>
+										<mets:area BETYPE="IDREF" FILEID="ALTO00011" BEGIN="P11_TB00058"/>
+									</mets:fptr>
+								</mets:div>
+							</mets:div>
+							<mets:div ID="DIVL475" TYPE="BODY">
+								<mets:div ID="DIVL476" TYPE="BODY_CONTENT">
+									<mets:div ID="DIVL477" TYPE="PARAGRAPH" ORDER="1">
+										<mets:div ID="DIVL478" TYPE="TEXT">
+											<mets:fptr>
+												<mets:area BETYPE="IDREF" FILEID="ALTO00011" BEGIN="P11_TB00059"/>
+											</mets:fptr>
+										</mets:div>
+									</mets:div>
+								</mets:div>
+							</mets:div>
+						</mets:div>
+						<mets:div ID="DIVL479" TYPE="ARTICLE" ORDER="13" DMDID="modsarticle38" LABEL="MIČELU PADZEN, ATROD AIZSTĀJĒJU">
+							<mets:div ID="DIVL480" TYPE="HEADING">
+								<mets:div ID="DIVL481" TYPE="TITLE">
+									<mets:fptr>
+										<mets:area BETYPE="IDREF" FILEID="ALTO00011" BEGIN="P11_TB00060"/>
+									</mets:fptr>
+								</mets:div>
+							</mets:div>
+							<mets:div ID="DIVL482" TYPE="BODY">
+								<mets:div ID="DIVL483" TYPE="BODY_CONTENT">
+									<mets:div ID="DIVL484" TYPE="PARAGRAPH" ORDER="1">
+										<mets:div ID="DIVL485" TYPE="TEXT">
+											<mets:fptr>
+												<mets:area BETYPE="IDREF" FILEID="ALTO00011" BEGIN="P11_TB00061"/>
+											</mets:fptr>
+										</mets:div>
+									</mets:div>
+								</mets:div>
+							</mets:div>
+						</mets:div>
+						<mets:div ID="DIVL486" TYPE="ARTICLE" ORDER="14" DMDID="modsarticle39" LABEL="FRANCIJĀ IESĀK AR PANĀKUMU">
+							<mets:div ID="DIVL487" TYPE="HEADING">
+								<mets:div ID="DIVL488" TYPE="TITLE">
+									<mets:fptr>
+										<mets:area BETYPE="IDREF" FILEID="ALTO00011" BEGIN="P11_TB00062"/>
+									</mets:fptr>
+								</mets:div>
+							</mets:div>
+							<mets:div ID="DIVL489" TYPE="BODY">
+								<mets:div ID="DIVL490" TYPE="BODY_CONTENT">
+									<mets:div ID="DIVL491" TYPE="PARAGRAPH" ORDER="1">
+										<mets:div ID="DIVL492" TYPE="TEXT">
+											<mets:fptr>
+												<mets:area BETYPE="IDREF" FILEID="ALTO00011" BEGIN="P11_TB00063"/>
+											</mets:fptr>
+										</mets:div>
+									</mets:div>
+								</mets:div>
+							</mets:div>
+						</mets:div>
+					</mets:div>
+					<mets:div ID="DIVL493" TYPE="SECTION" DMDID="modssection9" LABEL="šodien">
+						<mets:div ID="DIVL494" TYPE="HEADING">
+							<mets:div ID="DIVL495" TYPE="TITLE">
+								<mets:fptr>
+									<mets:area BETYPE="IDREF" FILEID="ALTO00012" BEGIN="P12_TB00001"/>
+								</mets:fptr>
+							</mets:div>
+						</mets:div>
+						<mets:div ID="DIVL496" TYPE="ARTICLE" ORDER="1" DMDID="modsarticle40" LABEL="Terorisms, politika un sociālais absurds">
+							<mets:div ID="DIVL497" TYPE="HEADING">
+								<mets:div ID="DIVL498" TYPE="TITLE">
+									<mets:fptr>
+										<mets:area BETYPE="IDREF" FILEID="ALTO00012" BEGIN="P12_TB00002"/>
+									</mets:fptr>
+								</mets:div>
+							</mets:div>
+							<mets:div ID="DIVL499" TYPE="BODY">
+								<mets:div ID="DIVL500" TYPE="BODY_CONTENT">
+									<mets:div ID="DIVL501" TYPE="PARAGRAPH" ORDER="1">
+										<mets:div ID="DIVL502" TYPE="TEXT">
+											<mets:fptr>
+												<mets:area BETYPE="IDREF" FILEID="ALTO00012" BEGIN="P12_TB00003"/>
+											</mets:fptr>
+										</mets:div>
+									</mets:div>
+									<mets:div ID="DIVL503" TYPE="AUTHOR" ORDER="2">
+										<mets:fptr>
+											<mets:area BETYPE="IDREF" FILEID="ALTO00012" BEGIN="P12_TB00004"/>
+										</mets:fptr>
+									</mets:div>
+									<mets:div ID="DIVL504" TYPE="PARAGRAPH" ORDER="3">
+										<mets:div ID="DIVL505" TYPE="TEXT">
+											<mets:fptr>
+												<mets:seq>
+													<mets:area BETYPE="IDREF" FILEID="ALTO00012" BEGIN="P12_TB00005"/>
+													<mets:area BETYPE="IDREF" FILEID="ALTO00012" BEGIN="P12_TB00006"/>
+													<mets:area BETYPE="IDREF" FILEID="ALTO00012" BEGIN="P12_TB00007"/>
+													<mets:area BETYPE="IDREF" FILEID="ALTO00012" BEGIN="P12_TB00008"/>
+												</mets:seq>
+											</mets:fptr>
+										</mets:div>
+									</mets:div>
+								</mets:div>
+								<mets:div ID="DIVL506" TYPE="ILLUSTRATION" ORDER="1" DMDID="modspict33" LABEL="▲ «MANAS gleznas nav dekoratīvas, tā nav dzīvokļa sienām domāta māksla,» uzskata mākslinieks Juris Utāns un atzīstas, ka viņam patīk provokācijas un mudināt cilvēkus domāt par neērtiem jautājumiem. FOTO – KRISTAPS KALNS, DIENAS MEDIJI">
+									<mets:div ID="DIVL507" TYPE="IMAGE">
+										<mets:fptr>
+											<mets:area BETYPE="IDREF" FILEID="ALTO00012" BEGIN="P12_CB00001"/>
+										</mets:fptr>
+									</mets:div>
+									<mets:div ID="DIVL508" TYPE="CAPTION">
+										<mets:fptr>
+											<mets:area BETYPE="IDREF" FILEID="ALTO00012" BEGIN="P12_TB00009"/>
+										</mets:fptr>
+									</mets:div>
+								</mets:div>
+							</mets:div>
+						</mets:div>
+						<mets:div ID="DIVL509" TYPE="ARTICLE" ORDER="2" DMDID="modsarticle41" LABEL="BĒRNS APPLAUCĒJIES! KO DARĪT?">
+							<mets:div ID="DIVL510" TYPE="HEADING">
+								<mets:div ID="DIVL511" TYPE="TITLE">
+									<mets:fptr>
+										<mets:area BETYPE="IDREF" FILEID="ALTO00012" BEGIN="P12_TB00010"/>
+									</mets:fptr>
+								</mets:div>
+								<mets:div ID="DIVL512" TYPE="SUBHEADLINE">
+									<mets:fptr>
+										<mets:area BETYPE="IDREF" FILEID="ALTO00012" BEGIN="P12_TB00011"/>
+									</mets:fptr>
+								</mets:div>
+							</mets:div>
+							<mets:div ID="DIVL513" TYPE="BODY">
+								<mets:div ID="DIVL514" TYPE="BODY_CONTENT">
+									<mets:div ID="DIVL515" TYPE="PARAGRAPH" ORDER="1">
+										<mets:div ID="DIVL516" TYPE="TEXT">
+											<mets:fptr>
+												<mets:area BETYPE="IDREF" FILEID="ALTO00012" BEGIN="P12_TB00012"/>
+											</mets:fptr>
+										</mets:div>
+									</mets:div>
+									<mets:div ID="DIVL517" TYPE="PARAGRAPH" ORDER="2">
+										<mets:div ID="DIVL518" TYPE="TEXT">
+											<mets:fptr>
+												<mets:area BETYPE="IDREF" FILEID="ALTO00012" BEGIN="P12_TB00013"/>
+											</mets:fptr>
+										</mets:div>
+									</mets:div>
+								</mets:div>
+								<mets:div ID="DIVL519" TYPE="ILLUSTRATION" ORDER="1" DMDID="modspict34" LABEL="Untitled">
+									<mets:div ID="DIVL520" TYPE="IMAGE">
+										<mets:fptr>
+											<mets:area BETYPE="IDREF" FILEID="ALTO00012" BEGIN="P12_CB00002"/>
+										</mets:fptr>
+									</mets:div>
+								</mets:div>
+							</mets:div>
+						</mets:div>
+						<mets:div ID="DIVL521" TYPE="ARTICLE" ORDER="3" DMDID="modsarticle42" LABEL='Zirnis joko"'>
+							<mets:div ID="DIVL522" TYPE="HEADING">
+								<mets:div ID="DIVL523" TYPE="TITLE">
+									<mets:fptr>
+										<mets:area BETYPE="IDREF" FILEID="ALTO00012" BEGIN="P12_TB00014"/>
+									</mets:fptr>
+								</mets:div>
+							</mets:div>
+							<mets:div ID="DIVL524" TYPE="BODY">
+								<mets:div ID="DIVL525" TYPE="BODY_CONTENT">
+									<mets:div ID="DIVL526" TYPE="PARAGRAPH" ORDER="1">
+										<mets:div ID="DIVL527" TYPE="TEXT">
+											<mets:fptr>
+												<mets:area BETYPE="IDREF" FILEID="ALTO00012" BEGIN="P12_TB00015"/>
+											</mets:fptr>
+										</mets:div>
+									</mets:div>
+									<mets:div ID="DIVL528" TYPE="PARAGRAPH" ORDER="2">
+										<mets:div ID="DIVL529" TYPE="TEXT">
+											<mets:fptr>
+												<mets:area BETYPE="IDREF" FILEID="ALTO00012" BEGIN="P12_TB00016"/>
+											</mets:fptr>
+										</mets:div>
+									</mets:div>
+								</mets:div>
+								<mets:div ID="DIVL530" TYPE="ILLUSTRATION" ORDER="1" DMDID="modspict35" LABEL="Untitled">
+									<mets:div ID="DIVL531" TYPE="IMAGE">
+										<mets:fptr>
+											<mets:area BETYPE="IDREF" FILEID="ALTO00012" BEGIN="P12_CB00003"/>
+										</mets:fptr>
+									</mets:div>
+								</mets:div>
+							</mets:div>
+						</mets:div>
+						<mets:div ID="DIVL532" TYPE="ARTICLE" ORDER="4" DMDID="modsarticle43" LABEL="dienas izlase">
+							<mets:div ID="DIVL533" TYPE="HEADING">
+								<mets:div ID="DIVL534" TYPE="TITLE">
+									<mets:fptr>
+										<mets:area BETYPE="IDREF" FILEID="ALTO00012" BEGIN="P12_TB00017"/>
+									</mets:fptr>
+								</mets:div>
+							</mets:div>
+							<mets:div ID="DIVL535" TYPE="BODY">
+								<mets:div ID="DIVL536" TYPE="BODY_CONTENT">
+									<mets:div ID="DIVL537" TYPE="PARAGRAPH" ORDER="1">
+										<mets:div ID="DIVL538" TYPE="TEXT">
+											<mets:fptr>
+												<mets:area BETYPE="IDREF" FILEID="ALTO00012" BEGIN="P12_TB00018"/>
+											</mets:fptr>
+										</mets:div>
+									</mets:div>
+									<mets:div ID="DIVL539" TYPE="PARAGRAPH" ORDER="2">
+										<mets:div ID="DIVL540" TYPE="TEXT">
+											<mets:fptr>
+												<mets:area BETYPE="IDREF" FILEID="ALTO00012" BEGIN="P12_TB00019"/>
+											</mets:fptr>
+										</mets:div>
+									</mets:div>
+								</mets:div>
+							</mets:div>
+						</mets:div>
+						<mets:div ID="DIVL541" TYPE="ARTICLE" ORDER="5" DMDID="modsarticle44" LABEL="laika prognoze">
+							<mets:div ID="DIVL542" TYPE="HEADING">
+								<mets:div ID="DIVL543" TYPE="TITLE">
+									<mets:fptr>
+										<mets:area BETYPE="IDREF" FILEID="ALTO00012" BEGIN="P12_TB00020"/>
+									</mets:fptr>
+								</mets:div>
+							</mets:div>
+							<mets:div ID="DIVL544" TYPE="BODY">
+								<mets:div ID="DIVL545" TYPE="ILLUSTRATION" ORDER="1" DMDID="modspict36" LABEL="Avots: yr.no">
+									<mets:div ID="DIVL546" TYPE="IMAGE">
+										<mets:fptr>
+											<mets:area BETYPE="IDREF" FILEID="ALTO00012" BEGIN="P12_CB00004"/>
+										</mets:fptr>
+									</mets:div>
+									<mets:div ID="DIVL547" TYPE="CAPTION">
+										<mets:fptr>
+											<mets:area BETYPE="IDREF" FILEID="ALTO00012" BEGIN="P12_TB00021"/>
+										</mets:fptr>
+									</mets:div>
+								</mets:div>
+							</mets:div>
+						</mets:div>
+						<mets:div ID="DIVL548" TYPE="ARTICLE" ORDER="6" DMDID="modsarticle45" LABEL="horoskopi">
+							<mets:div ID="DIVL549" TYPE="HEADING">
+								<mets:div ID="DIVL550" TYPE="TITLE">
+									<mets:fptr>
+										<mets:area BETYPE="IDREF" FILEID="ALTO00012" BEGIN="P12_TB00022"/>
+									</mets:fptr>
+								</mets:div>
+							</mets:div>
+							<mets:div ID="DIVL551" TYPE="BODY">
+								<mets:div ID="DIVL552" TYPE="BODY_CONTENT">
+									<mets:div ID="DIVL553" TYPE="PARAGRAPH" ORDER="1">
+										<mets:div ID="DIVL554" TYPE="TEXT">
+											<mets:fptr>
+												<mets:area BETYPE="IDREF" FILEID="ALTO00012" BEGIN="P12_TB00023"/>
+											</mets:fptr>
+										</mets:div>
+									</mets:div>
+									<mets:div ID="DIVL555" TYPE="PARAGRAPH" ORDER="2">
+										<mets:div ID="DIVL556" TYPE="TEXT">
+											<mets:fptr>
+												<mets:area BETYPE="IDREF" FILEID="ALTO00012" BEGIN="P12_TB00024"/>
+											</mets:fptr>
+										</mets:div>
+									</mets:div>
+								</mets:div>
+							</mets:div>
+						</mets:div>
+						<mets:div ID="DIVL557" TYPE="ARTICLE" ORDER="7" DMDID="modsarticle46" LABEL="krustvārdu mīkla">
+							<mets:div ID="DIVL558" TYPE="HEADING">
+								<mets:div ID="DIVL559" TYPE="TITLE">
+									<mets:fptr>
+										<mets:area BETYPE="IDREF" FILEID="ALTO00012" BEGIN="P12_TB00025"/>
+									</mets:fptr>
+								</mets:div>
+							</mets:div>
+							<mets:div ID="DIVL560" TYPE="BODY">
+								<mets:div ID="DIVL561" TYPE="BODY_CONTENT">
+									<mets:div ID="DIVL562" TYPE="PARAGRAPH" ORDER="1">
+										<mets:div ID="DIVL563" TYPE="TEXT">
+											<mets:fptr>
+												<mets:seq>
+													<mets:area BETYPE="IDREF" FILEID="ALTO00012" BEGIN="P12_TB00026"/>
+													<mets:area BETYPE="IDREF" FILEID="ALTO00012" BEGIN="P12_TB00027"/>
+												</mets:seq>
+											</mets:fptr>
+										</mets:div>
+									</mets:div>
+								</mets:div>
+								<mets:div ID="DIVL564" TYPE="ILLUSTRATION" ORDER="1" DMDID="modspict37" LABEL="Untitled">
+									<mets:div ID="DIVL565" TYPE="IMAGE">
+										<mets:fptr>
+											<mets:area BETYPE="IDREF" FILEID="ALTO00012" BEGIN="P12_CB00005"/>
+										</mets:fptr>
+									</mets:div>
+								</mets:div>
+							</mets:div>
+						</mets:div>
+					</mets:div>
+					<mets:div ID="DIVL566" TYPE="SECTION" DMDID="modssection10">
+						<mets:div ID="DIVL567" TYPE="BODY">
+							<mets:div ID="DIVL568" TYPE="BODY_CONTENT">
+								<mets:div ID="DIVL569" TYPE="ADVERTISEMENT" ORDER="1" LABEL="Adv. 1 Page 1">
+									<mets:fptr>
+										<mets:area BETYPE="IDREF" FILEID="ALTO00001" BEGIN="P1_CB00002"/>
+									</mets:fptr>
+								</mets:div>
+								<mets:div ID="DIVL570" TYPE="ADVERTISEMENT" ORDER="2" LABEL="Adv. 2 Page 1">
+									<mets:fptr>
+										<mets:area BETYPE="IDREF" FILEID="ALTO00001" BEGIN="P1_CB00003"/>
+									</mets:fptr>
+								</mets:div>
+								<mets:div ID="DIVL571" TYPE="ADVERTISEMENT" ORDER="3" LABEL="Adv. 3 Page 1">
+									<mets:fptr>
+										<mets:area BETYPE="IDREF" FILEID="ALTO00001" BEGIN="P1_CB00004"/>
+									</mets:fptr>
+								</mets:div>
+								<mets:div ID="DIVL572" TYPE="ADVERTISEMENT" ORDER="4" LABEL="Adv. 4 Page 1">
+									<mets:fptr>
+										<mets:area BETYPE="IDREF" FILEID="ALTO00001" BEGIN="P1_CB00005"/>
+									</mets:fptr>
+								</mets:div>
+								<mets:div ID="DIVL573" TYPE="ADVERTISEMENT" ORDER="5" LABEL="Adv. 5 Page 1">
+									<mets:fptr>
+										<mets:area BETYPE="IDREF" FILEID="ALTO00001" BEGIN="P1_CB00006"/>
+									</mets:fptr>
+								</mets:div>
+								<mets:div ID="DIVL574" TYPE="ADVERTISEMENT" ORDER="6" LABEL="Adv. 6 Page 1">
+									<mets:fptr>
+										<mets:area BETYPE="IDREF" FILEID="ALTO00001" BEGIN="P1_CB00007"/>
+									</mets:fptr>
+								</mets:div>
+								<mets:div ID="DIVL575" TYPE="ADVERTISEMENT" ORDER="7" LABEL="Adv. 7 Page 1">
+									<mets:fptr>
+										<mets:area BETYPE="IDREF" FILEID="ALTO00001" BEGIN="P1_CB00008"/>
+									</mets:fptr>
+								</mets:div>
+								<mets:div ID="DIVL576" TYPE="ADVERTISEMENT" ORDER="8" LABEL="Adv. 8 Page 1">
+									<mets:fptr>
+										<mets:area BETYPE="IDREF" FILEID="ALTO00001" BEGIN="P1_CB00009"/>
+									</mets:fptr>
+								</mets:div>
+								<mets:div ID="DIVL577" TYPE="ADVERTISEMENT" ORDER="9" LABEL="Adv. 9 Page 1">
+									<mets:fptr>
+										<mets:area BETYPE="IDREF" FILEID="ALTO00001" BEGIN="P1_CB00010"/>
+									</mets:fptr>
+								</mets:div>
+								<mets:div ID="DIVL578" TYPE="ADVERTISEMENT" ORDER="10" LABEL="Adv. 10 Page 1">
+									<mets:fptr>
+										<mets:area BETYPE="IDREF" FILEID="ALTO00001" BEGIN="P1_CB00011"/>
+									</mets:fptr>
+								</mets:div>
+								<mets:div ID="DIVL579" TYPE="ADVERTISEMENT" ORDER="11" LABEL="Adv. 11 Page 2">
+									<mets:fptr>
+										<mets:area BETYPE="IDREF" FILEID="ALTO00002" BEGIN="P2_CB00004"/>
+									</mets:fptr>
+								</mets:div>
+								<mets:div ID="DIVL580" TYPE="ADVERTISEMENT" ORDER="12" LABEL="Adv. 12 Page 3">
+									<mets:fptr>
+										<mets:area BETYPE="IDREF" FILEID="ALTO00003" BEGIN="P3_CB00002"/>
+									</mets:fptr>
+								</mets:div>
+								<mets:div ID="DIVL581" TYPE="ADVERTISEMENT" ORDER="13" LABEL="Adv. 13 Page 5">
+									<mets:fptr>
+										<mets:area BETYPE="IDREF" FILEID="ALTO00005" BEGIN="P5_CB00001"/>
+									</mets:fptr>
+								</mets:div>
+								<mets:div ID="DIVL582" TYPE="ADVERTISEMENT" ORDER="14" LABEL="Adv. 14 Page 6">
+									<mets:fptr>
+										<mets:area BETYPE="IDREF" FILEID="ALTO00006" BEGIN="P6_CB00004"/>
+									</mets:fptr>
+								</mets:div>
+								<mets:div ID="DIVL583" TYPE="ADVERTISEMENT" ORDER="15" LABEL="Adv. 15 Page 6">
+									<mets:fptr>
+										<mets:area BETYPE="IDREF" FILEID="ALTO00006" BEGIN="P6_CB00005"/>
+									</mets:fptr>
+								</mets:div>
+								<mets:div ID="DIVL584" TYPE="ADVERTISEMENT" ORDER="16" LABEL="Adv. 16 Page 6">
+									<mets:fptr>
+										<mets:area BETYPE="IDREF" FILEID="ALTO00006" BEGIN="P6_CB00006"/>
+									</mets:fptr>
+								</mets:div>
+								<mets:div ID="DIVL585" TYPE="ADVERTISEMENT" ORDER="17" LABEL="Adv. 17 Page 6">
+									<mets:fptr>
+										<mets:area BETYPE="IDREF" FILEID="ALTO00006" BEGIN="P6_CB00007"/>
+									</mets:fptr>
+								</mets:div>
+								<mets:div ID="DIVL586" TYPE="ADVERTISEMENT" ORDER="18" LABEL="Adv. 18 Page 6">
+									<mets:fptr>
+										<mets:area BETYPE="IDREF" FILEID="ALTO00006" BEGIN="P6_CB00008"/>
+									</mets:fptr>
+								</mets:div>
+								<mets:div ID="DIVL587" TYPE="ADVERTISEMENT" ORDER="19" LABEL="Adv. 19 Page 6">
+									<mets:fptr>
+										<mets:area BETYPE="IDREF" FILEID="ALTO00006" BEGIN="P6_CB00009"/>
+									</mets:fptr>
+								</mets:div>
+								<mets:div ID="DIVL588" TYPE="ADVERTISEMENT" ORDER="20" LABEL="Adv. 20 Page 6">
+									<mets:fptr>
+										<mets:area BETYPE="IDREF" FILEID="ALTO00006" BEGIN="P6_CB00010"/>
+									</mets:fptr>
+								</mets:div>
+								<mets:div ID="DIVL589" TYPE="ADVERTISEMENT" ORDER="21" LABEL="Adv. 21 Page 6">
+									<mets:fptr>
+										<mets:area BETYPE="IDREF" FILEID="ALTO00006" BEGIN="P6_CB00011"/>
+									</mets:fptr>
+								</mets:div>
+								<mets:div ID="DIVL590" TYPE="ADVERTISEMENT" ORDER="22" LABEL="Adv. 22 Page 6">
+									<mets:fptr>
+										<mets:area BETYPE="IDREF" FILEID="ALTO00006" BEGIN="P6_CB00012"/>
+									</mets:fptr>
+								</mets:div>
+								<mets:div ID="DIVL591" TYPE="ADVERTISEMENT" ORDER="23" LABEL="Adv. 23 Page 8">
+									<mets:fptr>
+										<mets:area BETYPE="IDREF" FILEID="ALTO00008" BEGIN="P8_CB00006"/>
+									</mets:fptr>
+								</mets:div>
+								<mets:div ID="DIVL592" TYPE="ADVERTISEMENT" ORDER="24" LABEL="Adv. 24 Page 8">
+									<mets:fptr>
+										<mets:area BETYPE="IDREF" FILEID="ALTO00008" BEGIN="P8_CB00007"/>
+									</mets:fptr>
+								</mets:div>
+								<mets:div ID="DIVL593" TYPE="ADVERTISEMENT" ORDER="25" LABEL="Adv. 25 Page 8">
+									<mets:fptr>
+										<mets:area BETYPE="IDREF" FILEID="ALTO00008" BEGIN="P8_CB00008"/>
+									</mets:fptr>
+								</mets:div>
+								<mets:div ID="DIVL594" TYPE="ADVERTISEMENT" ORDER="26" LABEL="Adv. 26 Page 9">
+									<mets:fptr>
+										<mets:area BETYPE="IDREF" FILEID="ALTO00009" BEGIN="P9_CB00003"/>
+									</mets:fptr>
+								</mets:div>
+								<mets:div ID="DIVL595" TYPE="ADVERTISEMENT" ORDER="27" LABEL="Adv. 27 Page 10">
+									<mets:fptr>
+										<mets:area BETYPE="IDREF" FILEID="ALTO00010" BEGIN="P10_CB00003"/>
+									</mets:fptr>
+								</mets:div>
+								<mets:div ID="DIVL596" TYPE="ADVERTISEMENT" ORDER="28" LABEL="Adv. 28 Page 10">
+									<mets:fptr>
+										<mets:area BETYPE="IDREF" FILEID="ALTO00010" BEGIN="P10_CB00004"/>
+									</mets:fptr>
+								</mets:div>
+							</mets:div>
+						</mets:div>
+					</mets:div>
+				</mets:div>
+			</mets:div>
+		</mets:div>
+	</mets:structMap>
+</mets:mets>

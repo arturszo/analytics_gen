@@ -9,6 +9,7 @@
     </head>
 
     <body>
+        <button id="btnLoad">Ielādēt izdevumu</button>
         <div id="source_title"></div>
         <div id="source_date"></div>
         <div id="source_pages"></div>
@@ -16,64 +17,205 @@
         <div id="source_issn"></div>
 
         <div id="test_tree"></div>
+        <button id="btnExport">Eksportēt metadatus</button>
 
 
     <script>
-            var data = [
+
+        var P_TITLE;
+        var P_ISSN;
+        var P_DATE;
+        var P_NR;
+        var P_PAGES;
+
+        var xml_doc;
+
+
+        var data = [
                 { "id" : "root", "parent" : "#", "text" : "Izdevums" }]
 
         jQuery(function($){
                 $('#test_tree').jstree({
                     "core": {
-                        "data": data
+                        "data": data,
+                        "check_callback" : true
                     },
-                    "plugins" : ["checkbox"]});
+                    "plugins" : ["checkbox", "contextmenu"],
+                    "contextmenu":{
+                        "items": function($node){
+                            var tree = $('#test_tree').jstree(true)
+                            return {
+                                "create": {
+                                    "label": "Skatīt MARC",
+                                    "action": function (obj) {
+                                            $(xml_doc).find("mets\\:dmdSec").each(function(){
+                                              var id = $(this).attr("ID")
+                                              var marc_txt = ""
+                                              if (id == $node.id){
+
+                                                  //040
+                                                  marc_txt += "040 |a LV-RiVB" + '\n'
+
+                                                  //041
+                                                  marc_txt += "041 |a lav" + '\n'
+
+                                                  //100
+                                                  aut = ""
+                                                  $(this).find("mods\\:namePart").each(function(){
+                                                      author_txt = $(this).text()
+                                                      author_flip = author_txt.split(" ")
+                                                      author = author_flip[1] + " " + author_flip[0]
+                                                      aut += " |a " + author
+                                                  })
+                                                  if (aut != ""){
+                                                    marc_txt += "100" + aut
+                                                    marc_txt += " |4 aut" + '\n'
+                                                  }
+
+                                                  //245
+                                                  text_len = $node.text.length
+                                                  marc_txt += "245 |a " + $node.text.substr(0,1).toUpperCase() + $node.text.substr(1,text_len-1).toLowerCase()
+                                                  $(this).find("mods\\:namePart").each(function(){
+                                                      author_txt = $(this).text()
+                                                      marc_txt += " |c " + author_txt
+                                                  })
+                                                  marc_txt += '\n'
+
+
+                                                  //773
+                                                  marc_txt += "773 |t " + P_TITLE + " |x " + P_ISSN + " |g Nr. " + P_NR + " (" + P_DATE.substr(0,4) + ", "
+
+                                                  if (P_DATE.substr(6,1) == "0") marc_txt += P_DATE.substr(7,1); else marc_txt += P_DATE.substr(6,2)
+                                                  switch (P_DATE.substr(4,2)) {
+                                                      case "01": marc_txt += ".janv."; break;
+                                                      case "02": marc_txt += ".feb."; break;
+                                                      case "03": marc_txt += ".mar."; break;
+                                                      case "04": marc_txt += ".apr."; break;
+                                                      case "05": marc_txt += ".maij."; break;
+                                                      case "06": marc_txt += ".jūn."; break;
+                                                      case "07": marc_txt += ".jūl."; break;
+                                                      case "08": marc_txt += ".aug."; break;
+                                                      case "09": marc_txt += ".sept."; break;
+                                                      case "10": marc_txt += ".okt."; break;
+                                                      case "11": marc_txt += ".nov."; break;
+                                                      case "12": marc_txt += ".dec."; break;
+                                                  }
+
+                                                  //Raksta lappuses
+                                                  marc_txt += "), "
+                                                  var pages = new Array(255)
+                                                  for (var i = 0; i < pages.length; ++i) { pages[i] = false; }
+                                                  $(xml_doc).find("mets\\:div").each(function(){
+                                                        if ($(this).get(0).hasAttribute("DMDID")) {
+                                                            if ($(this).attr("DMDID") == $node.id){
+                                                                $(this).find("mets\\:area").each(function(){
+                                                                    file_id = $(this).attr("FILEID")
+                                                                    pos = file_id.length - 1
+                                                                    page_num = ""
+                                                                    while (file_id.substr(pos,1) != "0"){
+                                                                        page_num = file_id.substr(pos,1) + page_num
+                                                                        pos--
+                                                                    }
+                                                                    pages[parseInt(page_num)] = true
+                                                                    console.log(page_num)
+                                                                })
+                                                            }
+                                                        }
+                                                  })
+                                                  for (var i = 0; i < pages.length; ++i) {
+                                                      if (pages[i]) {
+                                                          pos = i
+                                                          break
+                                                      }
+                                                  }
+                                                  marc_txt += pos.toString()+ "."
+
+                                                  for (var i = pos+1; i < pages.length; ++i) {
+                                                      if (pages[i]) {
+                                                          if (pages[i-1] && !pages[i+1]) {
+                                                              marc_txt += "-" + i.toString() + "."
+                                                          } else {
+                                                              if (!pages[i-1]) marc_txt += "," + i.toString() + "."
+                                                          }
+
+                                                      }
+                                                  }
+
+                                                  marc_txt += "lpp" + '\n'
+
+                                                  //856
+                                                  marc_txt += "856 |u " + "http://periodika.lv/periodika2-viewer/view/index-dev.html#panel:pp|issue:/p_001_diea2016n042"
+
+                                                  alert(marc_txt)
+                                                  }
+                                            })
+                                         }
+                                }
+                            }
+                        }
+                    }
+                });
             })
 
             var tree_html = ""
 
-            $.ajax({
-                type: "GET",
-	            url: "data/diea2016n042_mets.xml",
-	            dataType: "xml",
-	            success: function(xml) {
-                    $(xml).find("mods\\:identifier").each(function(){
-                        document.getElementById("source_issn").innerHTML = "ISSN: " + $(this).text()
-                        })
-                    $(xml).find("mods\\:dateIssued").each(function(){
-                        document.getElementById("source_date").innerHTML = "Datums: " + $(this).text()
-                        })
-                    $(xml).find("mods\\:partNumber").each(function(){
-                        if ($(this).parent().attr("type") == "issue")
-                            document.getElementById("source_number").innerHTML = "Nr: " + $(this).text()
-                        if ($(this).parent().attr("type") == "pages")
-                            document.getElementById("source_pages").innerHTML = "Lpp: " + $(this).text()
-                        })
-                    $(xml).find("mods\\:title").each(function(){
-                        if ($(this).parent().parent().attr("type") == "host")
-                            document.getElementById("source_title").innerHTML = "Avots: " + $(this).text()
-                        })
+
+            $("#btnLoad").on("click",function() {
+                $.ajax({
+                    type: "GET",
+                    url: "data/diea2016n025_mets.xml",
+                    dataType: "xml",
+                    success: function(xml) {
+                        xml_doc = xml
+                        $(xml).find("mods\\:identifier").each(function(){
+                            document.getElementById("source_issn").innerHTML = "ISSN: " + $(this).text()
+                            P_ISSN = $(this).text()
+                            })
+                        $(xml).find("mods\\:dateIssued").each(function(){
+                            document.getElementById("source_date").innerHTML = "Datums: " + $(this).text()
+                            P_DATE = $(this).text()
+                            })
+                        $(xml).find("mods\\:partNumber").each(function(){
+                            if ($(this).parent().attr("type") == "issue"){
+                                document.getElementById("source_number").innerHTML = "Nr: " + $(this).text()
+                                P_NR = $(this).text()
+                            }
+                            if ($(this).parent().attr("type") == "pages"){
+                                document.getElementById("source_pages").innerHTML = "Lpp: " + $(this).text()
+                                P_PAGES = $(this).text()
+                            }
+                            })
+                        $(xml).find("mods\\:title").each(function(){
+                            if ($(this).parent().parent().attr("type") == "host") {
+                                document.getElementById("source_title").innerHTML = "Avots: " + $(this).text()
+                                P_TITLE = $(this).text()
+                                }
+                            })
 
 
-                    //////////////////////
-                    /// BUILD THE TREE ///
-                    //////////////////////
+                        //////////////////////
+                        /// BUILD THE TREE ///
+                        //////////////////////
 
 
-                    $(xml).find("mets\\:div").each(function(){
-                        if ($(this).get(0).hasAttribute("DMDID")) {
-                            if ($(this).attr("DMDID").substr(0,11) == "modssection"){
-                                //alert($(this).attr("DMDID"))
-                                //alert($(this).attr("LABEL"))
-                                $('#test_tree').jstree().create_node('root', {"id": "abc", "text":"def"}, "last")
+                        $(xml).find("mets\\:div").each(function(){
+                            if ($(this).get(0).hasAttribute("DMDID")) {
+                                if ($(this).attr("DMDID").substr(0,11) == "modssection"){
+                                    var dmdid = $(this).attr("DMDID")
+                                    $('#test_tree').jstree().create_node('root', {"id": $(this).attr("DMDID"), "text":$(this).attr("LABEL")}, "last")
+                                    $(this).children().each(function(){
+                                        if ($(this).get(0).hasAttribute("LABEL")){
+                                            $('#test_tree').jstree().create_node(dmdid, {"id": $(this).attr("DMDID"), "text":$(this).attr("LABEL")}, "last")
+                                            }
+                                        })
+                                    }
                                 }
                             }
-                        }
-                    )
-                    $('#test_tree').jstree().redraw()
+                        )
 
 
-                } //end of success
+                    } //end of success
+                })
             })
     </script>
     </body>

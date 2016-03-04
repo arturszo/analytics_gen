@@ -226,7 +226,24 @@
                           marc_txt += "lpp" + '\n'
 
                           //856
-                          marc_txt += "856 |u " + "http://periodika.lv/periodika2-viewer/view/index-dev.html#panel:pp|issue:/p_001_diea2016n042"
+                          file_name = document.getElementById("file_name").value
+                          file_name = file_name.substr(0,file_name.length-9)
+
+                          viewer_url = "http://periodika.lv/periodika2-viewer/view/index-dev.html#panel:pp|issue:/p_001_"+file_name
+
+                          var article_id;
+
+                          $(xml_doc).find("mets\\:div").each(function(){
+                            if ($(this).get(0).hasAttribute("DMDID")) {
+                                    if ($(this).attr("DMDID") == $node.id){
+                                        article_id = $(this).attr("ID")
+                                    }
+                                }
+                          })
+
+                          viewer_url += "|article:" + article_id
+
+                          marc_txt += "856 |u " + viewer_url
 
                           marc_field = document.createElementNS(null,"datafield")
                           marc_field.setAttribute("ind2","0")
@@ -235,7 +252,7 @@
 
                           marc_subfield = document.createElementNS(null, "subfield")
                           marc_subfield.setAttribute("code","u")
-                          marc_subfield.appendChild(document.createTextNode("http://periodika.lv/periodika2-viewer/view/index-dev.html#panel:pp|issue:/p_001_diea2016n042"))
+                          marc_subfield.appendChild(document.createTextNode(viewer_url))
                           marc_field.appendChild(marc_subfield)
                           marc_rec.appendChild(marc_field)
 
@@ -317,6 +334,8 @@
 
                         $(xml).find("mets\\:div").each(function(){
                             if ($(this).get(0).hasAttribute("DMDID")) {
+
+                                //For articles that are in sections
                                 if ($(this).attr("DMDID").substr(0,11) == "modssection"){
                                     var dmdid = $(this).attr("DMDID")
                                     $('#test_tree').jstree().create_node('root', {"id": $(this).attr("DMDID"), "text":$(this).attr("LABEL")}, "last")
@@ -326,8 +345,13 @@
                                             }
                                         })
                                     }
+
+                                //For articles that are NOT in sections
+                                if ($(this).attr("DMDID").substr(0,11) == "modsarticle" && !$(this).parent().get(0).hasAttribute("DMDID")){
+                                    $('#test_tree').jstree().create_node('root', {"id": $(this).attr("DMDID"), "text":$(this).attr("LABEL")}, "last")
                                 }
                             }
+                        }
                         )
 
 

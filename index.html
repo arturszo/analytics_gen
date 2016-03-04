@@ -9,6 +9,7 @@
     </head>
 
     <body>
+        Datnes nosaukums: <input id="file_name" type="text"/><br>
         <button id="btnLoad">Ielādēt izdevumu</button>
         <div id="source_title"></div>
         <div id="source_date"></div>
@@ -64,7 +65,7 @@
                                                   $(this).find("mods\\:namePart").each(function(){
                                                       author_txt = $(this).text()
                                                       author_flip = author_txt.split(" ")
-                                                      author = author_flip[1] + " " + author_flip[0]
+                                                      author = author_flip[1] + ", " + author_flip[0]
                                                       aut += " |a " + author
                                                   })
                                                   if (aut != ""){
@@ -159,35 +160,36 @@
 
             var tree_html = ""
 
+            document.getElementById("file_name").value = ""
 
             $("#btnLoad").on("click",function() {
                 $.ajax({
                     type: "GET",
-                    url: "data/diea2016n025_mets.xml",
+                    url: "data/" + document.getElementById("file_name").value,
                     dataType: "xml",
                     success: function(xml) {
                         xml_doc = xml
                         $(xml).find("mods\\:identifier").each(function(){
-                            document.getElementById("source_issn").innerHTML = "ISSN: " + $(this).text()
+                            //document.getElementById("source_issn").innerHTML = "ISSN: " + $(this).text()
                             P_ISSN = $(this).text()
                             })
                         $(xml).find("mods\\:dateIssued").each(function(){
-                            document.getElementById("source_date").innerHTML = "Datums: " + $(this).text()
+                            //document.getElementById("source_date").innerHTML = "Datums: " + $(this).text()
                             P_DATE = $(this).text()
                             })
                         $(xml).find("mods\\:partNumber").each(function(){
                             if ($(this).parent().attr("type") == "issue"){
-                                document.getElementById("source_number").innerHTML = "Nr: " + $(this).text()
+                                //document.getElementById("source_number").innerHTML = "Nr: " + $(this).text()
                                 P_NR = $(this).text()
                             }
                             if ($(this).parent().attr("type") == "pages"){
-                                document.getElementById("source_pages").innerHTML = "Lpp: " + $(this).text()
+                                //document.getElementById("source_pages").innerHTML = "Lpp: " + $(this).text()
                                 P_PAGES = $(this).text()
                             }
                             })
                         $(xml).find("mods\\:title").each(function(){
                             if ($(this).parent().parent().attr("type") == "host") {
-                                document.getElementById("source_title").innerHTML = "Avots: " + $(this).text()
+                                //document.getElementById("source_title").innerHTML = "Avots: " + $(this).text()
                                 P_TITLE = $(this).text()
                                 }
                             })
@@ -197,6 +199,8 @@
                         /// BUILD THE TREE ///
                         //////////////////////
 
+                        var root_title = P_TITLE + ", Nr. " + P_NR + " (" + P_DATE.substr(6,2) + "." + P_DATE.substr(4,2) + "."  + P_DATE.substr(0,4) + ".)"
+                        $('#test_tree').jstree('rename_node', 'root', root_title)
 
                         $(xml).find("mets\\:div").each(function(){
                             if ($(this).get(0).hasAttribute("DMDID")) {

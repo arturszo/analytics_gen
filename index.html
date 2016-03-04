@@ -33,6 +33,7 @@
         var xml_doc;
         var marc_doc;
 
+        const NS = "http://www.loc.gov/MARC21/slim";
 
         var data = [
                 { "id" : "root", "parent" : "#", "text" : "Izdevums" }]
@@ -40,7 +41,7 @@
         function generateMARC($node) {
 
                 var marc_txt = ""
-                var marc_rec = document.createElementNS(null, "record")
+                var marc_rec = document.createElementNS(NS, "record")
 
                 marc_doc.documentElement.appendChild(marc_rec)
 
@@ -53,12 +54,12 @@
 
                           //040
                           marc_txt += "040 |a LV-RiVB" + '\n'
-                          marc_field = document.createElementNS(null,"datafield")
+                          marc_field = document.createElementNS(NS,"datafield")
                           marc_field.setAttribute("ind2"," ")
                           marc_field.setAttribute("ind1"," ")
                           marc_field.setAttribute("tag","040")
 
-                          marc_subfield = document.createElementNS(null, "subfield")
+                          marc_subfield = document.createElementNS(NS, "subfield")
                           marc_subfield.setAttribute("code","a")
                           marc_subfield.appendChild(document.createTextNode("LV-RiVB"))
                           marc_field.appendChild(marc_subfield)
@@ -66,19 +67,19 @@
 
                           //041
                           marc_txt += "041 |a lav" + '\n'
-                          marc_field = document.createElementNS(null,"datafield")
+                          marc_field = document.createElementNS(NS,"datafield")
                           marc_field.setAttribute("ind2"," ")
                           marc_field.setAttribute("ind1"," ")
                           marc_field.setAttribute("tag","041")
 
-                          marc_subfield = document.createElementNS(null, "subfield")
+                          marc_subfield = document.createElementNS(NS, "subfield")
                           marc_subfield.setAttribute("code","a")
                           marc_subfield.appendChild(document.createTextNode("lav"))
                           marc_field.appendChild(marc_subfield)
                           marc_rec.appendChild(marc_field)
 
                           //100
-                          marc_field = document.createElementNS(null,"datafield")
+                          marc_field = document.createElementNS(NS,"datafield")
                           marc_field.setAttribute("ind2"," ")
                           marc_field.setAttribute("ind1","1")
                           marc_field.setAttribute("tag","100")
@@ -89,7 +90,7 @@
                               author_flip = author_txt.split(" ")
                               author = author_flip[1] + ", " + author_flip[0]
                               aut += " |a " + author
-                              marc_subfield = document.createElementNS(null, "subfield")
+                              marc_subfield = document.createElementNS(NS, "subfield")
                               marc_subfield.setAttribute("code","a")
                               marc_subfield.appendChild(document.createTextNode(author))
                               marc_field.appendChild(marc_subfield)
@@ -98,7 +99,7 @@
                             marc_txt += "100" + aut
                             marc_txt += " |4 aut" + '\n'
 
-                            marc_subfield = document.createElementNS(null, "subfield")
+                            marc_subfield = document.createElementNS(NS, "subfield")
                             marc_subfield.setAttribute("code","4")
                             marc_subfield.appendChild(document.createTextNode("aut"))
                             marc_field.appendChild(marc_subfield)
@@ -110,12 +111,12 @@
                           text_len = $node.text.length
                           marc_txt += "245 |a " + $node.text.substr(0,1).toUpperCase() + $node.text.substr(1,text_len-1).toLowerCase()
 
-                          marc_field = document.createElementNS(null,"datafield")
+                          marc_field = document.createElementNS(NS,"datafield")
                           marc_field.setAttribute("ind2","0")
                           marc_field.setAttribute("ind1","1")
                           marc_field.setAttribute("tag","245")
 
-                          marc_subfield = document.createElementNS(null, "subfield")
+                          marc_subfield = document.createElementNS(NS, "subfield")
                           marc_subfield.setAttribute("code","a")
                           marc_subfield.appendChild(document.createTextNode($node.text.substr(0,1).toUpperCase() + $node.text.substr(1,text_len-1).toLowerCase()))
                           marc_field.appendChild(marc_subfield)
@@ -123,7 +124,7 @@
                           $(this).find("mods\\:namePart").each(function(){
                               author_txt = $(this).text()
                               marc_txt += " |c " + author_txt
-                              marc_subfield = document.createElementNS(null, "subfield")
+                              marc_subfield = document.createElementNS(NS, "subfield")
                               marc_subfield.setAttribute("code","c")
                               marc_subfield.appendChild(document.createTextNode(author_txt))
                               marc_field.appendChild(marc_subfield)
@@ -134,17 +135,17 @@
 
                           //773
                           marc_txt += "773 |t " + P_TITLE + " |x " + P_ISSN + " |g Nr. " + P_NR + " (" + P_DATE.substr(0,4) + ", "
-                          marc_field = document.createElementNS(null,"datafield")
+                          marc_field = document.createElementNS(NS,"datafield")
                           marc_field.setAttribute("ind2"," ")
                           marc_field.setAttribute("ind1","0")
                           marc_field.setAttribute("tag","773")
 
-                          marc_subfield = document.createElementNS(null, "subfield")
+                          marc_subfield = document.createElementNS(NS, "subfield")
                           marc_subfield.setAttribute("code","t")
                           marc_subfield.appendChild(document.createTextNode(P_TITLE))
                           marc_field.appendChild(marc_subfield)
 
-                          marc_subfield = document.createElementNS(null, "subfield")
+                          marc_subfield = document.createElementNS(NS, "subfield")
                           marc_subfield.setAttribute("code","x")
                           marc_subfield.appendChild(document.createTextNode(P_ISSN))
                           marc_field.appendChild(marc_subfield)
@@ -177,7 +178,7 @@
 
                           date_str += "), XX.lpp"
 
-                          marc_subfield = document.createElementNS(null, "subfield")
+                          marc_subfield = document.createElementNS(NS, "subfield")
                           marc_subfield.setAttribute("code","g")
                           marc_subfield.appendChild(document.createTextNode("Nr. " + P_NR + " (" + date_str))
                           marc_field.appendChild(marc_subfield)
@@ -245,12 +246,12 @@
 
                           marc_txt += "856 |u " + viewer_url
 
-                          marc_field = document.createElementNS(null,"datafield")
+                          marc_field = document.createElementNS(NS,"datafield")
                           marc_field.setAttribute("ind2","0")
                           marc_field.setAttribute("ind1","4")
                           marc_field.setAttribute("tag","856")
 
-                          marc_subfield = document.createElementNS(null, "subfield")
+                          marc_subfield = document.createElementNS(NS, "subfield")
                           marc_subfield.setAttribute("code","u")
                           marc_subfield.appendChild(document.createTextNode(viewer_url))
                           marc_field.appendChild(marc_subfield)
@@ -361,7 +362,7 @@
 
 
             function createAndOpenFile(){
-                marc_doc = document.implementation.createDocument("http://www.loc.gov/MARC21/slim", "collection", null)
+                marc_doc = document.implementation.createDocument(NS, "collection", null)
                 var node_list = $('#test_tree').jstree('get_bottom_checked', 'full')
 
                 for (i=0; i<node_list.length;i++){

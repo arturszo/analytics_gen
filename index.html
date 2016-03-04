@@ -6,6 +6,7 @@
 
         <script src="https://code.jquery.com/jquery-1.12.1.min.js"></script>
         <script src="jstree.min.js"></script>
+        <script src="FileSaver.min.js"></script>
     </head>
 
     <body>
@@ -18,7 +19,7 @@
         <div id="source_issn"></div>
 
         <div id="test_tree"></div>
-        <button id="btnExport">Eksportēt metadatus</button>
+        <button id="btnExport" onclick="createAndOpenFile()">Eksportēt metadatus</button>
 
 
     <script>
@@ -30,10 +31,221 @@
         var P_PAGES;
 
         var xml_doc;
+        var marc_doc;
 
 
         var data = [
                 { "id" : "root", "parent" : "#", "text" : "Izdevums" }]
+
+        function generateMARC($node) {
+
+                var marc_txt = ""
+                var marc_rec = document.createElementNS(null, "record")
+
+                marc_doc.documentElement.appendChild(marc_rec)
+
+                var marc_field;
+                var marc_subfield;
+
+                $(xml_doc).find("mets\\:dmdSec").each(function(){
+                    var id = $(this).attr("ID")
+                    if (id == $node.id){
+
+                          //040
+                          marc_txt += "040 |a LV-RiVB" + '\n'
+                          marc_field = document.createElementNS(null,"datafield")
+                          marc_field.setAttribute("ind2"," ")
+                          marc_field.setAttribute("ind1"," ")
+                          marc_field.setAttribute("tag","040")
+
+                          marc_subfield = document.createElementNS(null, "subfield")
+                          marc_subfield.setAttribute("code","a")
+                          marc_subfield.appendChild(document.createTextNode("LV-RiVB"))
+                          marc_field.appendChild(marc_subfield)
+                          marc_rec.appendChild(marc_field)
+
+                          //041
+                          marc_txt += "041 |a lav" + '\n'
+                          marc_field = document.createElementNS(null,"datafield")
+                          marc_field.setAttribute("ind2"," ")
+                          marc_field.setAttribute("ind1"," ")
+                          marc_field.setAttribute("tag","041")
+
+                          marc_subfield = document.createElementNS(null, "subfield")
+                          marc_subfield.setAttribute("code","a")
+                          marc_subfield.appendChild(document.createTextNode("lav"))
+                          marc_field.appendChild(marc_subfield)
+                          marc_rec.appendChild(marc_field)
+
+                          //100
+                          marc_field = document.createElementNS(null,"datafield")
+                          marc_field.setAttribute("ind2"," ")
+                          marc_field.setAttribute("ind1","1")
+                          marc_field.setAttribute("tag","100")
+
+                          aut = ""
+                          $(this).find("mods\\:namePart").each(function(){
+                              author_txt = $(this).text()
+                              author_flip = author_txt.split(" ")
+                              author = author_flip[1] + ", " + author_flip[0]
+                              aut += " |a " + author
+                              marc_subfield = document.createElementNS(null, "subfield")
+                              marc_subfield.setAttribute("code","a")
+                              marc_subfield.appendChild(document.createTextNode(author))
+                              marc_field.appendChild(marc_subfield)
+                          })
+                          if (aut != ""){
+                            marc_txt += "100" + aut
+                            marc_txt += " |4 aut" + '\n'
+
+                            marc_subfield = document.createElementNS(null, "subfield")
+                            marc_subfield.setAttribute("code","4")
+                            marc_subfield.appendChild(document.createTextNode("aut"))
+                            marc_field.appendChild(marc_subfield)
+
+                            marc_rec.appendChild(marc_field)
+                          }
+
+                          //245
+                          text_len = $node.text.length
+                          marc_txt += "245 |a " + $node.text.substr(0,1).toUpperCase() + $node.text.substr(1,text_len-1).toLowerCase()
+
+                          marc_field = document.createElementNS(null,"datafield")
+                          marc_field.setAttribute("ind2","0")
+                          marc_field.setAttribute("ind1","1")
+                          marc_field.setAttribute("tag","245")
+
+                          marc_subfield = document.createElementNS(null, "subfield")
+                          marc_subfield.setAttribute("code","a")
+                          marc_subfield.appendChild(document.createTextNode($node.text.substr(0,1).toUpperCase() + $node.text.substr(1,text_len-1).toLowerCase()))
+                          marc_field.appendChild(marc_subfield)
+
+                          $(this).find("mods\\:namePart").each(function(){
+                              author_txt = $(this).text()
+                              marc_txt += " |c " + author_txt
+                              marc_subfield = document.createElementNS(null, "subfield")
+                              marc_subfield.setAttribute("code","c")
+                              marc_subfield.appendChild(document.createTextNode(author_txt))
+                              marc_field.appendChild(marc_subfield)
+                          })
+                          marc_rec.appendChild(marc_field)
+                          marc_txt += '\n'
+
+
+                          //773
+                          marc_txt += "773 |t " + P_TITLE + " |x " + P_ISSN + " |g Nr. " + P_NR + " (" + P_DATE.substr(0,4) + ", "
+                          marc_field = document.createElementNS(null,"datafield")
+                          marc_field.setAttribute("ind2"," ")
+                          marc_field.setAttribute("ind1","0")
+                          marc_field.setAttribute("tag","773")
+
+                          marc_subfield = document.createElementNS(null, "subfield")
+                          marc_subfield.setAttribute("code","t")
+                          marc_subfield.appendChild(document.createTextNode(P_TITLE))
+                          marc_field.appendChild(marc_subfield)
+
+                          marc_subfield = document.createElementNS(null, "subfield")
+                          marc_subfield.setAttribute("code","x")
+                          marc_subfield.appendChild(document.createTextNode(P_ISSN))
+                          marc_field.appendChild(marc_subfield)
+
+
+
+                          var date_str = P_DATE.substr(0,4) + ", "
+
+                          if (P_DATE.substr(6,1) == "0") {
+                             marc_txt += P_DATE.substr(7,1)
+                             date_str += P_DATE.substr(7,1)
+                              } else {
+                                  marc_txt += P_DATE.substr(6,2)
+                                  date_str += P_DATE.substr(6,2)
+                              }
+                          switch (P_DATE.substr(4,2)) {
+                              case "01": marc_txt += ".janv."; date_str += ".janv."; break;
+                              case "02": marc_txt += ".feb."; date_str += ".feb."; break;
+                              case "03": marc_txt += ".marts"; date_str += ".marts"; break;
+                              case "04": marc_txt += ".apr."; date_str += ".apr."; break;
+                              case "05": marc_txt += ".maijs"; date_str += ".maijs"; break;
+                              case "06": marc_txt += ".jūn."; date_str += ".jūn."; break;
+                              case "07": marc_txt += ".jūl."; date_str += ".jūl."; break;
+                              case "08": marc_txt += ".aug."; date_str += ".aug."; break;
+                              case "09": marc_txt += ".sept."; date_str += ".sept."; break;
+                              case "10": marc_txt += ".okt."; date_str += ".okt."; break;
+                              case "11": marc_txt += ".nov."; date_str += ".nov."; break;
+                              case "12": marc_txt += ".dec."; date_str += ".dec."; break;
+                          }
+
+                          date_str += "), XX.lpp"
+
+                          marc_subfield = document.createElementNS(null, "subfield")
+                          marc_subfield.setAttribute("code","g")
+                          marc_subfield.appendChild(document.createTextNode("Nr. " + P_NR + " (" + date_str))
+                          marc_field.appendChild(marc_subfield)
+                          marc_rec.appendChild(marc_field)
+
+
+                          //Raksta lappuses
+                          marc_txt += "), "
+                          var pages = new Array(255)
+                          for (var i = 0; i < pages.length; ++i) { pages[i] = false; }
+                          $(xml_doc).find("mets\\:div").each(function(){
+                                if ($(this).get(0).hasAttribute("DMDID")) {
+                                    if ($(this).attr("DMDID") == $node.id){
+                                        $(this).find("mets\\:area").each(function(){
+                                            file_id = $(this).attr("FILEID")
+                                            pos = file_id.length - 1
+                                            page_num = ""
+                                            while (file_id.substr(pos,1) != "0"){
+                                                page_num = file_id.substr(pos,1) + page_num
+                                                pos--
+                                            }
+                                            pages[parseInt(page_num)] = true
+                                            })
+                                    }
+                                }
+                          })
+                          for (var i = 0; i < pages.length; ++i) {
+                              if (pages[i]) {
+                                  pos = i
+                                  break
+                              }
+                          }
+                          marc_txt += pos.toString()+ "."
+
+                          for (var i = pos+1; i < pages.length; ++i) {
+                              if (pages[i]) {
+                                  if (pages[i-1] && !pages[i+1]) {
+                                      marc_txt += "-" + i.toString() + "."
+                                  } else {
+                                      if (!pages[i-1]) marc_txt += "," + i.toString() + "."
+                                  }
+
+                              }
+                          }
+
+                          marc_txt += "lpp" + '\n'
+
+                          //856
+                          marc_txt += "856 |u " + "http://periodika.lv/periodika2-viewer/view/index-dev.html#panel:pp|issue:/p_001_diea2016n042"
+
+                          marc_field = document.createElementNS(null,"datafield")
+                          marc_field.setAttribute("ind2","0")
+                          marc_field.setAttribute("ind1","4")
+                          marc_field.setAttribute("tag","856")
+
+                          marc_subfield = document.createElementNS(null, "subfield")
+                          marc_subfield.setAttribute("code","u")
+                          marc_subfield.appendChild(document.createTextNode("http://periodika.lv/periodika2-viewer/view/index-dev.html#panel:pp|issue:/p_001_diea2016n042"))
+                          marc_field.appendChild(marc_subfield)
+                          marc_rec.appendChild(marc_field)
+
+                          //alert(marc_txt)
+                          }
+                    })
+
+
+                return marc_txt;
+        }
 
         jQuery(function($){
                 $('#test_tree').jstree({
@@ -49,107 +261,8 @@
                                 "create": {
                                     "label": "Skatīt MARC",
                                     "action": function (obj) {
-                                            $(xml_doc).find("mets\\:dmdSec").each(function(){
-                                              var id = $(this).attr("ID")
-                                              var marc_txt = ""
-                                              if (id == $node.id){
-
-                                                  //040
-                                                  marc_txt += "040 |a LV-RiVB" + '\n'
-
-                                                  //041
-                                                  marc_txt += "041 |a lav" + '\n'
-
-                                                  //100
-                                                  aut = ""
-                                                  $(this).find("mods\\:namePart").each(function(){
-                                                      author_txt = $(this).text()
-                                                      author_flip = author_txt.split(" ")
-                                                      author = author_flip[1] + ", " + author_flip[0]
-                                                      aut += " |a " + author
-                                                  })
-                                                  if (aut != ""){
-                                                    marc_txt += "100" + aut
-                                                    marc_txt += " |4 aut" + '\n'
-                                                  }
-
-                                                  //245
-                                                  text_len = $node.text.length
-                                                  marc_txt += "245 |a " + $node.text.substr(0,1).toUpperCase() + $node.text.substr(1,text_len-1).toLowerCase()
-                                                  $(this).find("mods\\:namePart").each(function(){
-                                                      author_txt = $(this).text()
-                                                      marc_txt += " |c " + author_txt
-                                                  })
-                                                  marc_txt += '\n'
-
-
-                                                  //773
-                                                  marc_txt += "773 |t " + P_TITLE + " |x " + P_ISSN + " |g Nr. " + P_NR + " (" + P_DATE.substr(0,4) + ", "
-
-                                                  if (P_DATE.substr(6,1) == "0") marc_txt += P_DATE.substr(7,1); else marc_txt += P_DATE.substr(6,2)
-                                                  switch (P_DATE.substr(4,2)) {
-                                                      case "01": marc_txt += ".janv."; break;
-                                                      case "02": marc_txt += ".feb."; break;
-                                                      case "03": marc_txt += ".mar."; break;
-                                                      case "04": marc_txt += ".apr."; break;
-                                                      case "05": marc_txt += ".maij."; break;
-                                                      case "06": marc_txt += ".jūn."; break;
-                                                      case "07": marc_txt += ".jūl."; break;
-                                                      case "08": marc_txt += ".aug."; break;
-                                                      case "09": marc_txt += ".sept."; break;
-                                                      case "10": marc_txt += ".okt."; break;
-                                                      case "11": marc_txt += ".nov."; break;
-                                                      case "12": marc_txt += ".dec."; break;
-                                                  }
-
-                                                  //Raksta lappuses
-                                                  marc_txt += "), "
-                                                  var pages = new Array(255)
-                                                  for (var i = 0; i < pages.length; ++i) { pages[i] = false; }
-                                                  $(xml_doc).find("mets\\:div").each(function(){
-                                                        if ($(this).get(0).hasAttribute("DMDID")) {
-                                                            if ($(this).attr("DMDID") == $node.id){
-                                                                $(this).find("mets\\:area").each(function(){
-                                                                    file_id = $(this).attr("FILEID")
-                                                                    pos = file_id.length - 1
-                                                                    page_num = ""
-                                                                    while (file_id.substr(pos,1) != "0"){
-                                                                        page_num = file_id.substr(pos,1) + page_num
-                                                                        pos--
-                                                                    }
-                                                                    pages[parseInt(page_num)] = true
-                                                                    console.log(page_num)
-                                                                })
-                                                            }
-                                                        }
-                                                  })
-                                                  for (var i = 0; i < pages.length; ++i) {
-                                                      if (pages[i]) {
-                                                          pos = i
-                                                          break
-                                                      }
-                                                  }
-                                                  marc_txt += pos.toString()+ "."
-
-                                                  for (var i = pos+1; i < pages.length; ++i) {
-                                                      if (pages[i]) {
-                                                          if (pages[i-1] && !pages[i+1]) {
-                                                              marc_txt += "-" + i.toString() + "."
-                                                          } else {
-                                                              if (!pages[i-1]) marc_txt += "," + i.toString() + "."
-                                                          }
-
-                                                      }
-                                                  }
-
-                                                  marc_txt += "lpp" + '\n'
-
-                                                  //856
-                                                  marc_txt += "856 |u " + "http://periodika.lv/periodika2-viewer/view/index-dev.html#panel:pp|issue:/p_001_diea2016n042"
-
-                                                  alert(marc_txt)
-                                                  }
-                                            })
+                                            var m_text = generateMARC($node)
+                                            alert(m_text)
                                          }
                                 }
                             }
@@ -220,7 +333,23 @@
 
                     } //end of success
                 })
-            })
+            }) //end of import button
+
+
+            function createAndOpenFile(){
+                marc_doc = document.implementation.createDocument("http://www.loc.gov/MARC21/slim", "collection", null)
+                var node_list = $('#test_tree').jstree('get_bottom_checked', 'full')
+
+                for (i=0; i<node_list.length;i++){
+                    var m_text = generateMARC(node_list[i])
+                }
+
+                var xmlText = new XMLSerializer().serializeToString(marc_doc)
+
+                var blob = new Blob(['<?xml version="1.0" encoding="utf-8"?>'+xmlText], {type: "text/plain;charset=utf-8"});
+                saveAs(blob, "marc_metadata.xml");
+                }
+
     </script>
     </body>
 </html>

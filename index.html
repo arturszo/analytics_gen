@@ -145,12 +145,13 @@
                           marc_subfield.appendChild(document.createTextNode(P_TITLE))
                           marc_field.appendChild(marc_subfield)
 
-                          marc_subfield = document.createElementNS(NS, "subfield")
-                          marc_subfield.setAttribute("code","x")
-                          marc_subfield.appendChild(document.createTextNode(P_ISSN))
-                          marc_field.appendChild(marc_subfield)
 
-
+                          if (P_ISSN.length == 9) {
+                              marc_subfield = document.createElementNS(NS, "subfield")
+                              marc_subfield.setAttribute("code","x")
+                              marc_subfield.appendChild(document.createTextNode(P_ISSN))
+                              marc_field.appendChild(marc_subfield)
+                          }
 
                           var date_str = P_DATE.substr(0,4) + ", "
 
@@ -176,13 +177,8 @@
                               case "12": marc_txt += ".dec."; date_str += ".dec."; break;
                           }
 
-                          date_str += "), XX.lpp"
+                          date_str += "), "
 
-                          marc_subfield = document.createElementNS(NS, "subfield")
-                          marc_subfield.setAttribute("code","g")
-                          marc_subfield.appendChild(document.createTextNode("Nr. " + P_NR + " (" + date_str))
-                          marc_field.appendChild(marc_subfield)
-                          marc_rec.appendChild(marc_field)
 
 
                           //Raksta lappuses
@@ -194,12 +190,12 @@
                                     if ($(this).attr("DMDID") == $node.id){
                                         $(this).find("mets\\:area").each(function(){
                                             file_id = $(this).attr("FILEID")
-                                            pos = file_id.length - 1
-                                            page_num = ""
-                                            while (file_id.substr(pos,1) != "0"){
-                                                page_num = file_id.substr(pos,1) + page_num
-                                                pos--
+                                            pos = 4
+                                            while (file_id.substr(pos,1) == "0"){
+                                                pos++
                                             }
+
+                                            page_num = file_id.substr(pos,file_id.length - pos)
                                             pages[parseInt(page_num)] = true
                                             })
                                     }
@@ -212,17 +208,30 @@
                               }
                           }
                           marc_txt += pos.toString()+ "."
+                          date_str += pos.toString()+ "."
 
                           for (var i = pos+1; i < pages.length; ++i) {
                               if (pages[i]) {
                                   if (pages[i-1] && !pages[i+1]) {
                                       marc_txt += "-" + i.toString() + "."
+                                      date_str += "-" + i.toString() + "."
                                   } else {
-                                      if (!pages[i-1]) marc_txt += "," + i.toString() + "."
+                                      if (!pages[i-1]) {
+                                          marc_txt += "," + i.toString() + "."
+                                          date_str += "," + i.toString() + "."
+                                      }
                                   }
 
                               }
                           }
+
+                          date_str += " lpp."
+
+                          marc_subfield = document.createElementNS(NS, "subfield")
+                          marc_subfield.setAttribute("code","g")
+                          marc_subfield.appendChild(document.createTextNode("Nr. " + P_NR + " (" + date_str))
+                          marc_field.appendChild(marc_subfield)
+                          marc_rec.appendChild(marc_field)
 
                           marc_txt += "lpp" + '\n'
 
